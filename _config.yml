@@ -1,5 +1,6 @@
-name: Your New Jekyll Site
+name: Equivalent Ideas
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title/
 timezone: Australia/Sydney
+twitter: equivalentideas
