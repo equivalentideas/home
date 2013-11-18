@@ -1,0 +1,31 @@
+---
+layout: default
+title:  Random Quote Redirect
+date:   2013-11-14 08:06:00
+permalink: /quotes/random/
+---
+
+
+<html>
+        <head>
+                <script>
+                        var posts = [];
+                        {% for post in site.categories.quotes %}
+                        posts.push("{{ post.url }}");
+                        {% endfor %}
+
+                        document.write("<meta http-equiv=\"refresh\" content=\"1;url=");
+                        document.write(posts[Math.floor(Math.random() * posts.length)]);
+                        document.write("\">");
+                </script>
+        </head>
+
+        <body>
+                Redirecting to a
+                <script>
+                        document.write("<a href=\"");
+                                document.write(posts[Math.floor(Math.random() * posts.length)]);
+                                document.write("\">random quote from the archive.</a>...");
+                </script>
+        </body>
+</html>
