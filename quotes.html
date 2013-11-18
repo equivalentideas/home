@@ -1,0 +1,15 @@
+---
+layout: default
+title:  Quote index
+date:   2013-11-14 08:06:00
+permalink: /quotes/
+description: "An archive of useful quotes"
+---
+
+An archive of useful quotes
+
+<ul>
+    {% for post in site.categories.quotes  %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
