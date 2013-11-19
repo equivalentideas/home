@@ -1,7 +1,7 @@
 ---
 layout: quote
-title:  "The Time Machine, 1"
-date:   2013-07-19 12:00
+title:  "The Time Machine, 5"
+date:   2013-06-30 06:46
 categories: quotes
 cite_url: http://en.wikipedia.org/wiki/The_Time_Machine
 cite_author: H. G. Wells
