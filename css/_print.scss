@@ -1,0 +1,40 @@
+@media print {
+
+    pre,
+    blockquote,
+    figure,
+    li {
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+    	margin-top: 2cm;
+        margin-right: 0.5cm;
+        margin-bottom: 4cm;
+        margin-left: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        page-break-after: avoid !important;
+    }
+
+}

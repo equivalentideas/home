@@ -1,0 +1,85 @@
+// Rem calculator
+// http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+
+@function strip-unit($num) {
+    @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+    $max: length($values);
+    $pxValues: '';
+    $remValues: '';
+
+    @for $i from 1 through $max {
+        $value: strip-unit(nth($values, $i));
+        $pxValues: #{$pxValues + $value*16}px;
+
+        @if $i < $max {
+            $pxValues: #{$pxValues + " "};
+        }
+    }
+
+    @for $i from 1 through $max {
+        $value: strip-unit(nth($values, $i));
+        $remValues: #{$remValues + $value}rem;
+
+        @if $i < $max {
+            $remValues: #{$remValues + " "};
+        }
+    }
+
+    #{$property}: $pxValues;
+    #{$property}: $remValues;
+}
+
+
+//	MQ
+
+	$width-small:  30em;
+    $width-medium: 40em;
+    $width-wide:  48em;
+    $width-large: 80em;
+    @mixin responsive($width) {
+ 	   
+ 	    @if $width == small-screens {
+            @media only screen and (min-width: $width-small) {
+                @content; }
+        }
+              
+        @else if $width == medium-screens {
+            @media only screen and (min-width: $width-medium) {
+        	   @content; }
+     	}
+     	
+        @else if $width == wide-screens {
+            @media only screen and (min-width: $width-wide) {
+                @content; }
+        }
+
+        @else if $width == large-screens {
+            @media only screen and (min-width: $width-large) {
+                @content; }
+        }
+
+     	
+    }
+    
+//	Hide visually but show in screen-readers etc. */
+
+@mixin visuallyhidden {
+ 	position: absolute;
+ 	overflow: hidden;
+ 	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+
+//variables
+$module-width: 18;
+$gutter: 2;
+
+//mixin to create precentage-based width
+@mixin grid($col-num, $gutter-num) {
+	width: percentage((($module-width * $col-num)+($gutter * $gutter-num)));
+}

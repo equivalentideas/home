@@ -4,7 +4,7 @@ layout: default
 <!-- <h2>{{ page.title }}</h2> -->
 {% assign post-length = content | size %}
 
-<figure class="h-entry {% if post-length > 600 %}long-post{% elsif post-length > 300 %}medium-post{% else %}short-post{% endif %}">
+<figure class="h-entry {% if post-length > 600 %}long-post{% elsif post-length > 300 %}medium-post{% else %}short-post{% endif %} single-quote" role="main">
 
 	<blockquote class="e-content">
 			{{ content }}

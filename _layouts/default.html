@@ -1,25 +1,10 @@
 {% include html-header.html %}
-    <body>
+<body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+	{% include header.html %}
 
-                {{ content }}
+    {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/equivalentideas/">github.com/equivalentideas</a><br />
-                  <a href="http://twitter.com/equivalentideas/">twitter.com/equivalentideas</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
+	{% include footer.html %}
 
-    </body>
-</html>
+{% include html-footer.html %}
