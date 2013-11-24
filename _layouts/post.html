@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
+<div class="post" role="main">
+	<article class="h-entry reading journal-entry">
+		
+		<header>
+			<h1 class="p-name"><a href="{{page.url}}" class="u-url">{{ page.title }}</a></h1>
+			<time class="dt-published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>
+		</header>
+		
+		<section class="e-content">
+			{{ content }}
+		</section>
+		
+	</article>
 </div>
