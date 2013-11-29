@@ -106,29 +106,27 @@ h2, h3, h4, h5, h6 {
 
 
 p, ul, ol, dl, figure, blockquote {
-	margin: #{$scale-1}em 0 0;
+	@include rem-fallback( margin-top, $scale-0);
 }
 
+p {
 
-.reading {
+	+ p {
+		margin-top: 0;
+		@include rem-fallback( text-indent, $scale-0);
+		
 		@include responsive(medium-screens) {
-			font-size: #{$scale-1}em;
+			@include rem-fallback( text-indent, $scale-2);
 		}
-		
-		@include responsive(wide-screens) {
-			font-size: #{$scale-0}em;
-		}
-		
-		@include responsive(large-screens) {
-			font-size: #{$scale-1}em;
-		}
-		
+					
 	}
+	
+}
 
-.journal .e-content > :last-child::after {
+.journal-entry .e-content p::last-of-type::after {
 	content: "\25FC";
 	padding-left: .2em;
-	font-size: #{$scale-1}em;
+	@include rem-fallback( font-size, $scale-2);
 	vertical-align: middle;
 	font-style: normal;
 }
@@ -171,6 +169,14 @@ ul, ol {
 
 ul {
 	list-style-type: disc;
+	
+	ul {
+		list-style-type: circle;
+	}
+	
+	blockquote & {
+		list-style-type: circle;		
+	}
 }
 
 .dt-published {
