@@ -69,9 +69,36 @@ body {
 	font-weight: normal;
 	font-size: #{$scale-0}em;
 	line-height: 1.6;
+	
+	@include responsive(medium-screens) {
+		@include rem-fallback( font-size, $scale-05);
+	}
+	
+/*
+	@include responsive(wide-screens) {
+		@include rem-fallback( font-size, $scale-0);
+	}
+*/
+	
+	@include responsive(large-screens) {
+		@include rem-fallback( font-size, $scale-1);
+	}
+		
 }
 
 h1 {
+	@include rem-fallback( font-size, $scale-3);
+	@include rem-fallback( line-height, $scale-3 + $scale-n2);
+	font-weight: normal;
+
+	@include responsive(medium-screens) {
+		@include rem-fallback( font-size, $scale-5);
+		@include rem-fallback( line-height, $scale-5 + $scale-0);
+	}
+
+	@include responsive(full-large-screens) {
+	}
+
 }
 
 h2, h3, h4, h5, h6 {
