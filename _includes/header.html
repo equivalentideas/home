@@ -1,3 +1,7 @@
 <header class="site-header">
-	<a href="/">{{ site.name }}</a>
+	
+	<p class="banner" role="banner">
+		<a href="/" rel="home">{{ site.name }}</a>{% if layout == "scrap" %}, <a href="/scrapbook">Scrapbook</a>{% endif %}
+	</p>
+
 </header>
