@@ -151,6 +151,18 @@ blockquote {
 	    
     }
     
+    + footer cite {
+    	
+    	text-align: right;
+		display: block;
+		
+		@include rem-fallback( margin, $scale-0, 0, 0);
+    	
+    	&:before {
+    		content:"\2014";
+		}
+	}
+    
 }
 
 ul, ol {
