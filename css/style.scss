@@ -234,34 +234,56 @@ a {
 	
 }
 
-input, textarea {
-	color: darken($color-main, 25%);
-	border-color: lighten($color-main, 50%);
-	background-color: #fff;
 
-	&:focus {
-		border-color: lighten($color-main, 25%);
-	}
-}
-
-input[type="submit"] {
-	border-color: $color-primary;
-	background-color: $color-primary-lighter;
-	color: $color-main;
-
-	&:focus {
-		background-color: lighten($color-primary-darker, 5%);
-	}
-}
-
-
-.e-content > :last-child::after {
-	color: $color-complimentary;
-}
-
-
-/* @/color
+/* /@type
 -------------------------------------------------------------------------------*/
+
+// @forms
+// -------------------------------------------------------------------------------*/
+//
+//
+// Mozilla dosen't style place holders by default */
+// input:-moz-placeholder {
+// 	color: $color-discreet;
+// }
+// textarea:-moz-placeholder {
+// 	color: $color-discreet;
+// }
+// 
+// input, textarea {
+// 	color: darken($color-main, 25%);
+// 	border-color: lighten($color-main, 50%);
+// 	background-color: #fff;
+// 
+// 	&:focus {
+// 		border-color: lighten($color-main, 25%);
+// 	}
+// }
+// 
+// input[type="submit"] {
+// 	border-color: $color-primary;
+// 	background-color: $color-primary-lighter;
+// 	color: $color-main;
+// 
+// 	&:focus {
+// 		background-color: lighten($color-primary-darker, 5%);
+// 	}
+// }
+
+
+/* Remove text-shadow from section */
+/*
+::-moz-selection {
+	background: $color-primary-lighter;
+	color: #000; text-shadow: none;
+}
+
+::selection {
+	background: $color-primary-lighter;
+	color: #000;
+	text-shadow: none;
+}
+*/
 
 /* @scrapbook
 -------------------------------------------------------------------------------*/
