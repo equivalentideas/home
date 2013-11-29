@@ -38,7 +38,9 @@
 	$width-small:  30em;
     $width-medium: 40em;
     $width-wide:  48em;
-    $width-large: 80em;
+    $width-large: 60em;
+    $width-full-large: 80em;
+
     @mixin responsive($width) {
  	   
  	    @if $width == small-screens {
@@ -58,6 +60,11 @@
 
         @else if $width == large-screens {
             @media only screen and (min-width: $width-large) {
+                @content; }
+        }
+
+        @else if $width == full-large-screens {
+            @media only screen and (min-width: $width-full-large) {
                 @content; }
         }
 
