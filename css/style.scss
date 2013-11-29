@@ -147,12 +147,13 @@ p {
 	
 }
 
-.journal-entry .e-content p::last-of-type::after {
+.journal-entry .e-content > p:last-child:after {
 	content: "\25FC";
 	padding-left: .2em;
 	@include rem-fallback( font-size, $scale-2);
 	vertical-align: middle;
 	font-style: normal;
+	color: $color-complimentary;
 }
 
 
