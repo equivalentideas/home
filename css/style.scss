@@ -108,13 +108,16 @@ body, select, input, textarea {
 }
 
 h1 {
-	@include rem-fallback( font-size, $scale-3);
-	@include rem-fallback( line-height, $scale-3 + $scale-n2);
+	@include rem-fallback( font-size, $scale-1);
+	@include rem-fallback( line-height, $scale-3);
 	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-bottom: 1px $color-main solid;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback( font-size, $scale-5);
-		@include rem-fallback( line-height, $scale-5 + $scale-0);
+		@include rem-fallback( font-size, $scale-2);
+		@include rem-fallback( line-height, $scale-3);
 	}
 
 	@include responsive(full-large-screens) {
