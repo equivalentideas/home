@@ -109,8 +109,14 @@ p, ul, ol, dl, figure, blockquote {
 
 blockquote {
     font-style: italic;
-    padding: 0 #{$scale-1}em;
-    
+	@include rem-fallback( padding, 0, $scale-0);
+	font-family: $font-sans;
+
+	@include responsive(medium-screens) {
+		@include rem-fallback( padding, 0, $scale-2);
+	}
+	
+        
     .single-quote & {
 
 	    font-style: normal;
@@ -285,6 +291,103 @@ body {
 	@include responsive(large-screens) {
 		padding: 0 10%;
 	}
+
+	@include responsive(full-large-screens) {
+		padding: 0 $margin-seven;
+	}
+}
+
+.journal-entry header,
+.journal-entry .e-content > * {
+		
+		@include responsive(wide-screens) {
+				margin-left: auto;
+				margin-right: auto;
+				@include grid-five(4, 3);
+		}
+
+}
+
+.journal-entry header {
+
+		@include responsive(wide-screens) {
+			@include rem-fallback( margin-top, $scale-2);
+		}
+
+		@include responsive(full-large-screens) {
+			@include grid-five(3, 4);
+			margin-left: percentage($column-width-five / $layout-width);
+			@include rem-fallback( margin-bottom, $scale-5);
+	}	
+
+}
+
+
+.journal-entry .e-content > * {
+
+		@include responsive(large-screens) {
+			@include grid-seven(3, 2);
+	}	
+
+}
+
+.column-container {
+	position: fixed;
+	top: 0;
+	z-index: -99;
+	opacity: .1;	
+	@include grid-two(2, 1);
+
+	@include responsive(wide-screens) {
+			@include grid-five(5, 4);	
+	}
+
+
+	@include responsive(large-screens) {
+		width: 100%;
+	}
+	
+
+}
+
+.column-tester {
+	@include grid-two(1, 0);
+ 	display: block;
+	float: left;
+	background-color: $color-primary;
+	height: 4000px;
+
+	@include responsive(wide-screens) {
+			@include grid-five(1, 0);	
+	}
+
+
+	@include responsive(large-screens) {
+//			width: 14.27%
+			@include grid-seven(1, 0);	
+	}
+
+/*
+	+ .column-tester {
+		display: none;
+	}
+*/
+	
+		+ .column-tester {
+			margin: 0 0 0 $gutter-two;	
+ 			display: block; 
+
+			@include responsive(wide-screens) {
+				margin: 0 0 0 $gutter-five;	
+			}
+
+			@include responsive(large-screens) {
+				margin: 0 0 0 percentage($gutter-seven/$layout-width);	
+			}
+
+		}
+
+	
 }
 
 
