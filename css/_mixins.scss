@@ -82,11 +82,88 @@
 }
 
 
-//variables
-$module-width: 18;
-$gutter: 2;
+// Grid http://cognition.happycog.com/article/a-simple-grid-mixin-explained
 
-//mixin to create precentage-based width
-@mixin grid($col-num, $gutter-num) {
-	width: percentage((($module-width * $col-num)+($gutter * $gutter-num)));
-}
+	// 2 column grid, with 4% gutters.
+	// 
+
+	//variables
+	$layout-width: 100;
+
+	$column-width-two: 47.5;
+	$gutter-width-two: 5;
+	$gutter-two: percentage($gutter-width-two/$layout-width);
+
+	//mixin to create precentage-based width
+	@mixin grid-two($col-num, $gutter-num) { width: percentage((($column-width-two * $col-num)+($gutter-width-two * $gutter-num))/$layout-width); }
+
+
+	// 5 column grid, with 4% gutters.
+	// 
+
+	//variables
+	
+	$column-width-five: 16;
+	$gutter-width-five: 5;
+	$gutter-five: percentage($gutter-width-five/$layout-width);
+
+	//mixin to create precentage-based width
+	@mixin grid-five($col-num, $gutter-num) { width: percentage((($column-width-five * $col-num)+($gutter-width-five * $gutter-num))/$layout-width); }
+
+	// 7 column grid, with 4% gutters.
+	// 
+
+	//variables
+	
+	
+//	$column-width-seven: 11.71428571;
+//	$gutter-width-seven: 3;
+//	$gutter-seven: percentage($gutter-width-seven/$layout-width);
+//	$margin-seven: percentage(($gutter-width-seven + $column-width-seven)/$layout-width);
+
+	//mixin to create precentage-based width
+//	@mixin grid-seven($col-num, $gutter-num) { width: percentage((($column-width-seven * $col-num)+($gutter-width-seven * $gutter-num))/$layout-width); }
+
+	// 9 col + margin (C + G)
+	// C = 10
+	// G = 5
+	
+	$c: 12.85714286;
+	$g: 1;
+	$m: ($c + $g);
+
+
+	$margin-seven: percentage($m/$layout-width);
+
+	$column-width-seven: (($c/($layout-width - $m - $m)) * 100);
+	
+	$gutter-seven: (($g/($layout-width - $m - $m))*100);
+	
+	$content-width: ($layout-width - $m - $m);
+	
+
+	@mixin grid-seven($col-num, $gutter-num) { width: percentage((($column-width-seven * $col-num)+($gutter-seven * $gutter-num))/$layout-width); }
+
+// Modern micro clearfix provides an easy way to contain floats without adding additional markup.
+//
+// Acknowledgements
+// Beat *that* clearfix: [Thierry Koblentz](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
+
+// Example usage:
+//
+// // Contain all floats within .wrapper
+// .wrapper {
+// @include clearfix;
+// .content,
+// .sidebar {
+// float : left;
+// }
+// }
+
+	@mixin clearfix {
+	  &:after {
+	    content:"";
+	    display:table;
+	    clear:both;
+	  }
+	}
