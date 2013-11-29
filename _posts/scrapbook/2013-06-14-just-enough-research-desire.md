@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  "Just Enough Research, 1"
+layout: scrap
+title:  "Just Enough Research, Desire"
 date:   2013-09-23 23:38
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://www.abookapart.com/products/just-enough-research
 cite_author: Erika Hall
 cite_date: 2013-09-10

@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  "Commons-based Peer Production, 3"
+layout: scrap
+title:  "Commons-based Peer Production, Variability"
 date:   2013-06-19
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://pages.uoregon.edu/koopman/courses_readings/phil123-net/knowledge/benkler_nissenbaum_commons.pdf
 cite_author: Yochai Benkler & Helen Nissenbaum
 cite_date: 2006-11-03

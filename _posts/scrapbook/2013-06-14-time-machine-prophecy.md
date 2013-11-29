@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  "The Time Machine, 6"
+layout: scrap
+title:  "The Time Machine, Prophecy"
 date:   2013-07-07 12:44
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://en.wikipedia.org/wiki/The_Time_Machine
 cite_author: H. G. Wells
 cite_date: 1895-05-07 

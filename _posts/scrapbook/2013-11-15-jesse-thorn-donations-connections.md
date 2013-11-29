@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  "Jesse Thorn"
+layout: scrap
+title:  "Jesse Thorn, Donations & Connection"
 date:   2012-09-04
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://www.niemanlab.org/2011/04/jesse-thorn-on-making-your-own-thing-in-public-radio-while-still-being-able-to-feed-your-family/
 cite_author: Jesse Thorn
 cite_date: 2011-04-27

@@ -1,8 +1,9 @@
 ---
-layout: quote
+layout: scrap
 title:  "White, 3"
 date:   2013-06-08 13:24
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://www.lars-mueller-publishers.com/en/personen/authors/hara-kenya/weiss
 cite_author: Kenya Hara
 cite_date: 2009-11-25

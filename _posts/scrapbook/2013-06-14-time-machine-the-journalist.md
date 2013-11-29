@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  "The Time Machine, 2"
+layout: scrap
+title:  "The Time Machine, The Journalist"
 date:   2013-06-27 10:51
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://en.wikipedia.org/wiki/The_Time_Machine
 cite_author: H. G. Wells
 cite_date: 1895-05-07 

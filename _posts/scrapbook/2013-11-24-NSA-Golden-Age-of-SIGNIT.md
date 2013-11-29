@@ -1,8 +1,9 @@
 ---
-layout: quote
+layout: scrap
 title:  “USA National Security Agency, Golden Age of Signet”
 date:   2013-11-24 12:36
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://www.nytimes.com/interactive/2013/11/23/us/politics/23nsa-sigint-strategy-document.html
 cite_author: US National Securities Agency
 cite_date: 2012-02-23

@@ -1,8 +1,9 @@
 ---
-layout: quote
-title:  “Design For The Real World, 1”
+layout: scrap
+title:  “Victor Papanek,  survival through design”
 date:   2013-11-20 12:28
-categories: quotes
+categories: scrapbook
+scrap-type: quote
 cite_url: http://en.wikipedia.org/wiki/The_Time_Machine
 cite_author: Victor Papanek
 cite_date: 1972
