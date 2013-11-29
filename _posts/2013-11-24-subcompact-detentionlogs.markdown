@@ -7,7 +7,7 @@ categories: journal
 
 Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concrete Playground](http://sydney.concreteplayground.com.au/), noticed the mention of Craig Mod’s [Subcompact Publishing Manifesto](http://craigmod.com/journal/subcompact_publishing/#sub_manifesto) on [Detention Logs’ Principles page](http://detentionlogs.com.au/principles "Principles that inform Detention Logs’ journalistic, design and technology choices."). Rosen was surprised to see the reference and asked [Detention Logs](http://detentionlogs.com.au) to comment on why we chose the ‘subcompact’ approach, for a piece on subcompact publishing in Australia and the launch of a new digital version of  [The Lifted Brow](http://theliftedbrow.com/).
 
-[Subcompact Publishing](http://craigmod.com/journal/subcompact_publishing/), it’s full of simple ideas for digitally native publishing. Here’s a grab of the manifesto section where Mod lays out specifics:
+[Subcompact Publishing](http://craigmod.com/journal/subcompact_publishing/), is full of useful ideas for digitally native publishing. Here’s a grab of the manifesto section where Mod lays out specifics:
 
 <figure>
 	<blockquote>
