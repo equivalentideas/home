@@ -392,10 +392,11 @@ body {
 
 .site-header,
 .site-footer,
-[role="main"] {
+[role="main"],
+.column-container {
 	width: 100%;
 	clear: both;
-	padding: 0 5%;
+	padding: 0 #{$scale-n1}em;
 
 	@include responsive(small-screens) {
 		padding: 0 10%;
