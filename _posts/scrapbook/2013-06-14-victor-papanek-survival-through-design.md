@@ -1,6 +1,6 @@
 ---
 layout: scrap
-title:  “Victor Papanek,  survival through design”
+title:  Victor Papanek,  survival through design
 date:   2013-11-20 12:28
 categories: scrapbook
 scrap-type: quote
