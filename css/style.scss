@@ -2,25 +2,17 @@
 -------------------------------------------------------------------------------*/
 @import "mixins";
 
+/* Variables
+-------------------------------------------------------------------------------*/
+@import "variables";
+
+/* Grids
+-------------------------------------------------------------------------------*/
+@import "grids";
+
 /* HTML5 Reset
 -------------------------------------------------------------------------------*/
 @import "reset";
-
-/* Collagraph stylesheet
--------------------------------------------------------------------------------*/
-
-/* Natural box layout */
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.chromeframe {
-	position: absolute; top: 0;
-}
-
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /* @webfonts
 -------------------------------------------------------------------------------*/
@@ -29,503 +21,58 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 /* /@webfonts
 -------------------------------------------------------------------------------*/
 
-/* @color */
-
-$color-main: #191924;
-$color-discreet: #666;
-$color-contrast: #dedede;
-
-$color-background: #f9f9ff;
-
-$color-primary: #283369;
-$color-primary-lighter: #bbb;
-$color-primary-darker: #444;
-
-$color-complimentary: #7f5d51;
-$color-complimentary-light: #bbb;
-
-
-/* modular scale
-
-	http://modularscale.com/scale/?px1=17&px2=14&ra1=1.667&ra2=0
-
-	17px @ 1:1.667
-	14px @ 1:1.667
-*/
-
-$scale-n5	: 0.0625;		/* 1px	0.0625rem	1px			*/
-$scale-n4	: 0.315;		/* n4	0.315rem	5.038px		*/
-$scale-n3	: 0.382;		/* n3	0.382rem	6.118px		*/
-$scale-n2	: 0.637;		/* n2	0.637rem	10.198px	*/
-$scale-n1	: 0.875;		/* n1	0.875rem	14px		*/
-$scale-0	: 1.0625;		/* base	1.0625rem	17px		*/
-$scale-05	: 1.1875;		/* 05 	1.1875rem	19px		*/
-$scale-1	: 1.459;		/* 1	1.459rem	23.338px	*/
-$scale-2 	: 1.771;		/* LH	1.771rem	28.339px	*/
-$scale-3	: 2.432;		/* 3	2.432rem	38.904px	*/
-$scale-4	: 4.053;		/* 4	4.053rem	64.853px	*/
-$scale-5 	: 4.922;		/* 5    4.922rem    78.751px	*/
-$scale-7 	: 6.757;		/* 7    6.757rem    108.110px	*/
-$scale-16	: 31.301;		/* 16	31.301rem	500.808px	*/
-$scale-17	: 38.008;		/* 17 	38.008rem   608.132px   */
-
-/* /@type-scale
+/* @typebase
 -------------------------------------------------------------------------------*/
 
-/* @type
+@import "typebase";
+
+/* /@typebase
 -------------------------------------------------------------------------------*/
-
-$font-sans: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif ;
-$font-serif:  "ff-meta-serif-web-pro", georgia, serif;
-
-
-body {
-	font-family: $font-serif;
-	text-rendering: optimizeLegibility;
-	font-weight: normal;
-	font-size: #{$scale-0}em;
-	line-height: 1.6;
-	background-color: $color-background;
-	
-	@include responsive(medium-screens) {
-		@include rem-fallback( font-size, $scale-05);
-	}
-
-body, select, input, textarea {
-	color: $color-main;
-}
-
-/*
-	@include responsive(wide-screens) {
-		@include rem-fallback( font-size, $scale-0);
-	}
-*/
-	
-	@include responsive(large-screens) {
-		@include rem-fallback( font-size, $scale-1);
-	}
-		
-}
-
-h1 {
-	@include rem-fallback( font-size, $scale-1);
-	@include rem-fallback( line-height, $scale-3);
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	border-bottom: 1px $color-main solid;
-
-	@include responsive(medium-screens) {
-		@include rem-fallback( font-size, $scale-2);
-		@include rem-fallback( line-height, $scale-3);
-	}
-
-	@include responsive(full-large-screens) {
-	}
-
-}
-
-h2, h3, h4, h5, h6 {
-}
-
-
-p, ul, ol, dl, figure, blockquote {
-	@include rem-fallback( margin-top, $scale-0);
-}
-
-p {
-
-	+ p {
-		margin-top: 0;
-		@include rem-fallback( text-indent, $scale-0);
-		
-		@include responsive(medium-screens) {
-			@include rem-fallback( text-indent, $scale-2);
-		}
-					
-	}
-	
-}
-
-.journal-entry .e-content > p:last-child:after {
-	content: "\25FC";
-	padding-left: .2em;
-	@include rem-fallback( font-size, $scale-2);
-	vertical-align: middle;
-	font-style: normal;
-	color: $color-complimentary;
-}
-
-
-blockquote {
-    font-style: italic;
-	@include rem-fallback( padding, 0, $scale-0);
-	font-family: $font-sans;
-
-	@include responsive(medium-screens) {
-		@include rem-fallback( padding, 0, $scale-2);
-	}
-	
-        
-    .single-quote & {
-
-	    font-style: normal;
-	    padding: 0;
-	    
-    }
-    
-    + footer cite {
-    	
-    	text-align: right;
-		display: block;
-		
-		@include rem-fallback( margin, $scale-0, 0, 0);
-    	
-    	&:before {
-    		content:"\2014";
-		}
-	}
-    
-}
-
-ul, ol {
-	list-style-position: outside;
-}
-
-ul {
-	list-style-type: disc;
-	
-	ul {
-		list-style-type: circle;
-	}
-	
-	blockquote & {
-		list-style-type: circle;		
-	}
-}
-
-.dt-published {
-	font-family: $font-sans;
-	/* make lining figures */
-}
-
-a {
-    color: $color-primary;
-    text-decoration: none;
-
-	&:link {
-		-webkit-tap-highlight-color: $color-primary-lighter;
-	}
-
-	&:hover,
-	&:focus {
-	    color: $color-complimentary;
-        text-decoration: underline;
-	}
-
-	&:active {
-	    color: $color-main;
-	}
-	
-	.h-entry .p-name & {
-		color: $color-main;
-		text-decoration: none;
-	}
-	
-}
-
-
-/* /@type
--------------------------------------------------------------------------------*/
-
-// @forms
-// -------------------------------------------------------------------------------*/
-//
-//
-// Mozilla dosen't style place holders by default */
-// input:-moz-placeholder {
-// 	color: $color-discreet;
-// }
-// textarea:-moz-placeholder {
-// 	color: $color-discreet;
-// }
-// 
-// input, textarea {
-// 	color: darken($color-main, 25%);
-// 	border-color: lighten($color-main, 50%);
-// 	background-color: #fff;
-// 
-// 	&:focus {
-// 		border-color: lighten($color-main, 25%);
-// 	}
-// }
-// 
-// input[type="submit"] {
-// 	border-color: $color-primary;
-// 	background-color: $color-primary-lighter;
-// 	color: $color-main;
-// 
-// 	&:focus {
-// 		background-color: lighten($color-primary-darker, 5%);
-// 	}
-// }
-
-
-/* Remove text-shadow from section */
-/*
-::-moz-selection {
-	background: $color-primary-lighter;
-	color: #000; text-shadow: none;
-}
-
-::selection {
-	background: $color-primary-lighter;
-	color: #000;
-	text-shadow: none;
-}
-*/
 
 /* @scrapbook
 -------------------------------------------------------------------------------*/
 
-.scrap {
-	
-	@include clearfix;
-	
-	.short-post {
-		@include rem-fallback( font-size, $scale-05);
-	}
-	
-	.medium-post {
-		
-	}
-
-	.long-post {
-		
-	}
-	
-	.e-content {
-		
-		@include responsive(wide-screens) {
-				@include grid-five(3, 2);
-				margin: 0 $gutter-five 0 0;
-				padding: 0;
-				float: left;
-				clear: left;
-		}
-	}
-	
-	blockquote {
-
-		font-family: $font-serif;
-
-		quotes: "\201C" "\201D";
-//		&:before { content: open-quote; 
-//		}
-//
-//		&:after  { content: close-quote }
-	}
-	
-	h1 {
-		@include rem-fallback( font-size, $scale-05);
-		@include rem-fallback( line-height, $scale-2);
-	}
-	
-	cite {
-    	text-align: left;
-    	display: inline;
-    	&:before {
-	    	content: none;
-    	}
-	}
-	
-	.p-author {
-		&:before {
-    		content:"\2014";
-    	}
-	}
-	
-	.cite-text {
-		display: block;
-	}
-	
-	figcaption {
-		margin: #{$scale-0}em 0 0;
-		font-family: $font-sans;
-		
-		time {
-			display: inline-block;
-		}
-		
-	}
-	
-	footer,
-	figcaption,
-	nav {
-		
-		@include responsive(wide-screens) {
-				@include grid-five(2, 1);
-				float: right;
-				clear: right;
-		}
-		
-	}
-	
-	
-	
-}
+@import "scrapbook";
 
 /* /@scrapbook
+-------------------------------------------------------------------------------*/
+
+/* @home
+-------------------------------------------------------------------------------*/
+
+@import "home";
+
+/* /@home
+-------------------------------------------------------------------------------*/
+
+/* @header
+-------------------------------------------------------------------------------*/
+
+@import "header";
+
+/* /@header
+-------------------------------------------------------------------------------*/
+
+/* @footer
+-------------------------------------------------------------------------------*/
+
+@import "footer";
+
+/* /@footer
 -------------------------------------------------------------------------------*/
 
 /* @navigation
 -------------------------------------------------------------------------------*/
 
-nav ul, nav ol, .profile-links {
-	list-style-type: none;
-	padding: 0;
+@import "navigation";
 
-	li {
-	}
-
-	a {
-
-		&:hover, &:focus {
-		}
-	}
-}
-
-/* @/navigation
+/* /@navigation
 -------------------------------------------------------------------------------*/
 
 /* @layout
 -------------------------------------------------------------------------------*/
 
-body {
-	margin: 0 auto;
-}
-
-.site-header,
-.site-footer,
-[role="main"],
-.column-container {
-	width: 100%;
-	clear: both;
-	padding: 0 #{$scale-n1}em;
-
-	@include responsive(small-screens) {
-		padding: 0 10%;
-	}
-	@include responsive(medium-screens) {
-		padding: 0 10%;
-	}
-
-	@include responsive(wide-screens) {
-		padding: 0 5%;
-	}
-
-	@include responsive(large-screens) {
-		padding: 0 10%;
-	}
-
-	@include responsive(full-large-screens) {
-		padding: 0 $margin-seven;
-	}
-}
-
-.journal-entry header,
-.journal-entry .e-content > * {
-		
-		@include responsive(wide-screens) {
-				margin-left: auto;
-				margin-right: auto;
-				@include grid-five(4, 3);
-		}
-
-}
-
-.journal-entry header {
-
-		@include responsive(wide-screens) {
-			@include rem-fallback( margin-top, $scale-2);
-		}
-
-		@include responsive(full-large-screens) {
-			@include grid-five(3, 4);
-			margin-left: percentage($column-width-five / $layout-width);
-			@include rem-fallback( margin-bottom, $scale-5);
-	}	
-
-}
-
-
-.journal-entry .e-content > * {
-
-		@include responsive(large-screens) {
-			@include grid-seven(3, 2);
-	}	
-
-}
-
-.column-container {
-	display: none;
-	position: fixed;
-	top: 0;
-	z-index: -99;
-	opacity: .1;	
-	@include grid-two(2, 1);
-
-	@include responsive(wide-screens) {
-			@include grid-five(5, 4);	
-	}
-
-
-	@include responsive(large-screens) {
-		width: 100%;
-	}
-	
-
-}
-
-.column-tester {
-	@include grid-two(1, 0);
- 	display: block;
-	float: left;
-	background-color: $color-primary;
-	height: 4000px;
-
-	@include responsive(wide-screens) {
-			@include grid-five(1, 0);	
-	}
-
-
-	@include responsive(large-screens) {
-//			width: 14.27%
-			@include grid-seven(1, 0);	
-	}
-
-/*
-	+ .column-tester {
-		display: none;
-	}
-*/
-	
-		+ .column-tester {
-			margin: 0 0 0 $gutter-two;	
- 			display: block; 
-
-			@include responsive(wide-screens) {
-				margin: 0 0 0 $gutter-five;	
-			}
-
-			@include responsive(large-screens) {
-				margin: 0 0 0 percentage($gutter-seven/$layout-width);	
-			}
-
-		}
-
-	
-}
+@import "layout";
 
 
 /* @/layout
@@ -534,26 +81,7 @@ body {
 /* @tools
 -------------------------------------------------------------------------------*/
 
-/* 	 filamentgroup / jQuery-Collapsible-Content
-	https://github.com/filamentgroup/jQuery-Collapsible-Content
-*/
-.collapsible-header {
-	cursor: pointer;
-}
-
-.collapsible-header::after {
-	content: " [-]";
-	@include rem-fallback( font-size, $scale-n1);
-	vertical-align: top;
-}
-
-.collapsible-collapsed .collapsible-header::after {
-	content: " [+]";
-}
-
-.collapsible-collapsed .collapsible-content {
-	display: none;
-}
+@import "tools";
 
 /* @/tools
 -------------------------------------------------------------------------------*/

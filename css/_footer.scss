@@ -1,0 +1,32 @@
+.site-footer {
+	font-family: $font-sans;
+
+	a {
+		display: block;
+		border-top: 1px $color-fade solid;
+		@include rem-fallback(padding, $scale-n2, $scale-n4, $scale-0);
+		transition: all .4s ease;
+
+		&:hover,
+		&:focus {
+			background: $color-primary;
+			color: $color-background;
+			text-decoration: none;
+		}
+	}
+}
+	
+.service-links {
+	@include rem-fallback(margin-top, $scale-n2);
+	@include clearfix;
+
+	li {
+		float: left;
+		display: block;
+		@include grid-two(1, 0);
+
+		&:nth-child(2n+2) {
+			margin-left: $gutter-two;
+		}
+	}
+}

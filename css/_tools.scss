@@ -1,0 +1,20 @@
+/* 	 filamentgroup / jQuery-Collapsible-Content
+	https://github.com/filamentgroup/jQuery-Collapsible-Content
+*/
+.collapsible-header {
+	cursor: pointer;
+}
+
+.collapsible-header::after {
+	content: " [-]";
+	@include rem-fallback( font-size, $scale-n1);
+	vertical-align: top;
+}
+
+.collapsible-collapsed .collapsible-header::after {
+	content: " [+]";
+}
+
+.collapsible-collapsed .collapsible-content {
+	display: none;
+}

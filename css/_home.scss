@@ -1,0 +1,29 @@
+.site-intro {
+	h1 {
+		display: inline;
+		text-transform: none;
+		border: none;
+		letter-spacing: 0;
+		@include basetype;
+	}
+	
+	p {
+		display: inline;		
+		@include rem-fallback(font-size, $scale-1);
+	}
+}
+
+.posts-list {
+	list-style: none;
+	
+	.h-entry {
+		display: block;
+		@include rem-fallback(padding, 0, 0, $scale-2);
+		
+		+ h-entry {
+			border-top: 1px $color-fade solid;
+		}
+		
+	}
+	
+}

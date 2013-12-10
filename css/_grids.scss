@@ -1,0 +1,121 @@
+/* SASS Grid idea from http://cognition.happycog.com/article/a-simple-grid-mixin-explained */
+
+	$layout-width: 100;
+
+/* @twocolumngrid // 2 column grid, with 3% gutters.
+-------------------------------------------------------------------------------*/
+
+	$c-two: 45.5;
+	$g-two: 3;
+	$m-two: ($g-two);
+
+	$margin-two: percentage($m-two/$layout-width);
+
+	$column-width-two: (($c-two/($layout-width - $m-two - $m-two)) * 100);
+	
+	$gutter-two-v: (($g-two/($layout-width - $m-two - $m-two))*100);
+	$gutter-two: percentage($g-two/($layout-width - $m-two - $m-two));
+	
+	$content-width-two: ($layout-width - $m-two - $m-two);
+	
+	@mixin grid-two($col-num, $gutter-num) {
+	
+		width: percentage((($column-width-two * $col-num)+($gutter-two-v * $gutter-num))/$layout-width);
+	
+	}
+
+
+/* /@twocolumngrid
+-------------------------------------------------------------------------------*/
+
+/* @fivecolumngrid // 5 column grid, with 5% gutters.
+-------------------------------------------------------------------------------*/
+	
+	$column-width-five: 13.6;
+	$gutter-width-five: 8;
+	$gutter-five: percentage($gutter-width-five/$layout-width);
+
+	@mixin grid-five($col-num, $gutter-num) {
+	
+		width: percentage((($column-width-five * $col-num)+($gutter-width-five * $gutter-num))/$layout-width);
+	
+	}
+
+
+/* /@fivecolumngrid
+-------------------------------------------------------------------------------*/
+
+/* @fivecolumngridequal // 5 column grid, with 3% gutters. Site margins = c + g.
+-------------------------------------------------------------------------------*/
+	
+	$c-five: 12.28571429;
+	$g-five: 2;
+	$m-five: ($c-five + $g-five);
+
+	$margin-five-equal: percentage($m-five/$layout-width);
+
+	$column-width-five-equal: (($c-five/($layout-width - $m-five - $m-five)) * 100);
+	
+	$gutter-five-equal-v: (($g-five/($layout-width - $m-five - $m-five))*100);
+	$gutter-five-equal: percentage($g-five/($layout-width - $m-five - $m-five));
+	
+	$content-width-five: ($layout-width - $m-five - $m-five);
+	
+	@mixin grid-five-equal($col-num, $gutter-num) {
+	
+		width: percentage((($column-width-five-equal * $col-num)+($gutter-five-equal-v * $gutter-num))/$layout-width);
+	
+	}
+
+/* /@sevencolumngrid
+-------------------------------------------------------------------------------*/
+
+/* @5col-B // 5 column grid, with 3% gutters. Site margins = c + g.
+-------------------------------------------------------------------------------*/
+	
+	$c-five-b: 13.42857143;
+	$g-five-b: 1;
+	$m-five-b: ($c-five-b + $g-five-b);
+
+	$margin-five-b: percentage($m-five-b/$layout-width);
+
+	$column-width-five-b: (($c-five-b/($layout-width - $m-five-b - $m-five-b)) * 100);
+	
+	$gutter-five-b-v: (($g-five-b/($layout-width - $m-five-b - $m-five-b))*100);
+	$gutter-five-b: percentage($g-five-b/($layout-width - $m-five-b - $m-five-b));
+	
+	$content-width-five-b: ($layout-width - $m-five-b - $m-five-b);
+	
+	@mixin grid-five-b($col-num, $gutter-num) {
+	
+		width: percentage((($column-width-five-b * $col-num)+($gutter-five-b-v * $gutter-num))/$layout-width);
+	
+	}
+
+/* /@sevencolumngrid
+-------------------------------------------------------------------------------*/
+
+
+/* @sevencolumngrid // 7 column grid, with 1% gutters. Site margins = c + g.
+-------------------------------------------------------------------------------*/
+	
+	$c-seven: 12.85714286;
+	$g-seven: 1;
+	$m-seven: ($c-seven + $g-seven);
+
+	$margin-seven: percentage($m-seven/$layout-width);
+
+	$column-width-seven: (($c-seven/($layout-width - $m-seven - $m-seven)) * 100);
+	
+	$gutter-seven: (($g-seven/($layout-width - $m-seven - $m-seven))*100);
+	
+	$content-width: ($layout-width - $m-seven - $m-seven);
+	
+	@mixin grid-seven($col-num, $gutter-num) {
+	
+		width: percentage((($column-width-seven * $col-num)+($gutter-seven * $gutter-num))/$layout-width);
+	
+	}
+
+/* /@sevencolumngrid
+-------------------------------------------------------------------------------*/

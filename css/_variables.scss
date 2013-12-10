@@ -1,0 +1,103 @@
+/* @mediaqueries
+-------------------------------------------------------------------------------*/
+
+$width-small:  30em;
+$width-medium: 40em;
+$width-medium-two: 47em;
+$width-wide:  55em;
+$width-large: 60em;
+$width-full-large: 85em;
+
+@mixin responsive($width) {
+	   
+	    @if $width == small-screens {
+        @media only screen and (min-width: $width-small) {
+            @content; }
+    }
+          
+    @else if $width == medium-screens {
+        @media only screen and (min-width: $width-medium) {
+    	   @content; }
+ 	}
+
+    @else if $width == medium-screens-two {
+        @media only screen and (min-width: $width-medium-two) {
+    	   @content; }
+ 	}
+ 	
+    @else if $width == wide-screens {
+        @media only screen and (min-width: $width-wide) {
+            @content; }
+    }
+
+    @else if $width == large-screens {
+        @media only screen and (min-width: $width-large) {
+            @content; }
+    }
+
+    @else if $width == full-large-screens {
+        @media only screen and (min-width: $width-full-large) {
+            @content; }
+    }
+
+ 	
+}
+
+/* /@mediaqueries
+-------------------------------------------------------------------------------*/
+
+/* @colours
+-------------------------------------------------------------------------------*/
+
+$color-main: #030408;
+$color-background: #FDFDFC;
+
+$color-discreet: #2F3437;
+$color-fade: #DEDEE3;
+
+$color-primary: #1F5289;
+$color-primary-lighter: #bbb;
+$color-primary-darker: #444;
+
+$color-complimentary: #7f5d51;
+$color-complimentary-light: #bbb;
+
+/* /@colours
+-------------------------------------------------------------------------------*/
+
+/* @typescale
+-------------------------------------------------------------------------------*/
+
+/* 
+	http://modularscale.com/scale/?px1=17&px2=14&ra1=1.667&ra2=0
+	17px @ 1:1.667
+	14px @ 1:1.667
+*/
+
+$scale-n5	: 0.0625;		/* 1px	0.0625rem	1px			*/
+$scale-n4	: 0.315;		/* n4	0.315rem	5.038px		*/
+$scale-n3	: 0.382;		/* n3	0.382rem	6.118px		*/
+$scale-n2	: 0.637;		/* n2	0.637rem	10.198px	*/
+$scale-n1	: 0.875;		/* n1	0.875rem	14px		*/
+$scale-0	: 1.125;		/* base	1.125rem	18px		*/
+$scale-05	: 1.1875;		/* 05 	1.1875rem	19px		*/
+$scale-1	: 1.25;		/* 1	1.459rem	23.338px	*/
+$scale-2 	: 1.771;		/* LH	1.771rem	28.339px	*/
+$scale-3	: 2.432;		/* 3	2.432rem	38.904px	*/
+$scale-4	: 4.053;		/* 4	4.053rem	64.853px	*/
+$scale-5 	: 4.922;		/* 5    4.922rem    78.751px	*/
+$scale-7 	: 6.757;		/* 7    6.757rem    108.110px	*/
+$scale-16	: 31.301;		/* 16	31.301rem	500.808px	*/
+$scale-17	: 38.008;		/* 17 	38.008rem   608.132px   */
+
+/* /@type-scale
+-------------------------------------------------------------------------------*/
+
+/* @typestacks
+-------------------------------------------------------------------------------*/
+
+$font-sans: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif ;
+$font-serif: "ff-meta-serif-web-pro", georgia, serif;
+
+/* @/typestacks
+-------------------------------------------------------------------------------*/

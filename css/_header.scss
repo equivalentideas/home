@@ -1,0 +1,9 @@
+.site-header {
+	border-bottom: 1px $color-fade solid;
+	
+}
+
+.banner {
+	@include rem-fallback(margin, $scale-n1, 0, $scale-n4);
+	display: inline-block;
+}

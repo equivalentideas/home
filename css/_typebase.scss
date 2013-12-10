@@ -1,0 +1,200 @@
+@mixin basetype {
+	font-family: $font-serif;
+	font-weight: normal;
+	font-size: 1.125em;
+	line-height: 1.6;
+	color: $color-main;
+}
+
+@mixin supporting {
+	font-family: $font-sans;
+	font-weight: normal;
+	@include rem-fallback(font-size, $scale-n1);
+}
+
+body {
+	@include basetype;
+	text-rendering: optimizeLegibility;
+	background-color: $color-background;
+	
+	@include responsive(medium-screens) {
+		@include rem-fallback( font-size, $scale-05);
+	}
+
+	@include responsive(large-screens) {
+		@include rem-fallback( font-size, $scale-1);
+	}
+
+	
+select, input, textarea {
+	color: $color-main;
+}
+
+/*
+	@include responsive(wide-screens) {
+		@include rem-fallback( font-size, $scale-0);
+	}
+*/
+	
+	@include responsive(large-screens) {
+		@include rem-fallback( font-size, $scale-1);
+	}
+		
+}
+
+h1 {
+	@include rem-fallback( font-size, $scale-1);
+	@include rem-fallback( line-height, $scale-3);
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-bottom: 1px $color-main solid;
+/* 	font-family: $font-sans; */
+
+	@include responsive(medium-screens) {
+		@include rem-fallback( font-size, $scale-2);
+		@include rem-fallback( line-height, $scale-3);
+	}
+
+	@include responsive(full-large-screens) {
+	}
+}
+
+h2 {
+	@include rem-fallback(margin, $scale-3, 0, 0);
+	@include rem-fallback(font-size, $scale-1);
+	font-family: $font-sans;
+	font-weight: bold;
+
+	@include responsive(medium-screens) {
+		@include rem-fallback(font-size, $scale-2);		
+	}
+
+}
+
+h3 {
+	@include rem-fallback(margin, $scale-2, 0, 0);
+	font-family: $font-sans;
+	font-style: italic;
+	font-weight: normal;
+}
+
+h4, h5, h6 {
+}
+
+
+p, ul, ol, dl, figure, blockquote {
+	@include rem-fallback( margin-top, $scale-0);
+}
+
+p {
+	+ p {
+		margin-top: 0;
+		@include rem-fallback( text-indent, $scale-1);
+		
+		@include responsive(medium-screens) {
+			@include rem-fallback( text-indent, $scale-2);
+		}				
+	}
+}
+
+/*
+.journal-entry .e-content > p:last-child:after {
+	content: "\25FC";
+	padding-left: .2em;
+	@include rem-fallback( font-size, $scale-2);
+	vertical-align: middle;
+	font-style: normal;
+	color: $color-complimentary;
+}
+*/
+
+blockquote {
+    font-style: italic;
+	@include rem-fallback( padding, 0, $scale-0);
+	font-family: $font-sans;
+
+	@include responsive(medium-screens) {
+		@include rem-fallback( padding, 0, $scale-2);
+	}
+	    
+    .single-quote & {
+	    font-style: normal;
+	    padding: 0;
+    }
+    
+    + footer cite {
+    	text-align: right;
+		display: block;
+		@include rem-fallback( margin, $scale-0, 0, 0);
+
+    	&:before {
+    		content:"\2014";
+		}
+	}    
+}
+
+ul, ol {
+	list-style-position: outside;
+}
+
+ul {
+	list-style-type: disc;
+	
+	ul {
+		list-style-type: circle;
+	}
+	
+	blockquote & {
+		list-style-type: circle;		
+	}
+}
+
+.dt-published {
+	font-family: $font-sans;
+	/* make lining figures */
+    font-style: italic;
+	@include rem-fallback(font-size, $scale-0);
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+
+	&:link {
+		-webkit-tap-highlight-color: $color-primary;
+	}
+
+	&:hover,
+	&:focus {
+	    color: $color-primary;
+        text-decoration: underline;
+	}
+
+	&:active {
+	    color: $color-main;
+	}
+	
+	.h-entry .p-name & {
+		color: $color-main;
+		text-decoration: none;
+	}
+}
+
+.journal-entry .e-content {
+
+	&:after {
+		content: "* * *";
+		text-align: center;
+		width: 100%;
+		display: block;
+		@include rem-fallback(font-size, $scale-2);
+		@include rem-fallback(padding-top, $scale-n1);
+	}
+
+}
+
+figcaption,
+.license {
+		@include supporting;
+}

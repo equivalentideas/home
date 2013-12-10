@@ -186,17 +186,16 @@ button {
 	filter: expression(document.execCommand("BackgroundImageCache", false, true));
 }
 
-// Let's clear some floats
-.clearfix:before, .clearfix:after {
-	content: "\0020";
-	display: block;
-	height: 0;
-	overflow: hidden;
+
+/* Natural box layout */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.clearfix:after {
-	clear: both;
+.chromeframe {
+	position: absolute; top: 0;
 }
-.clearfix {
-	zoom: 1;
-}
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
