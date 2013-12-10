@@ -9,7 +9,7 @@ Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concre
 
 [Subcompact Publishing](http://craigmod.com/journal/subcompact_publishing/), is full of useful ideas for digitally native publishing. Here’s a grab of the manifesto section where Mod lays out specifics:
 
-<figure>
+<figure class="quote">
 	<blockquote>
 		<p>I propose Subcompact Publishing tools and editorial ethos begin (but not end) with the following qualities:</p>
 	
