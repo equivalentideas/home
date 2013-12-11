@@ -3,7 +3,7 @@ layout: post
 title:  "Subcompact Publishing & Detention Logs"
 date:   2013-11-24 19:25:00
 categories: journal
-description: "Thoughts on Craig Mod's Subcompact Publishing manifesto and how it influenced Detention Logs."
+description: "Thoughts on Craig Mod's Subcompact Publishing manifesto and how it has influenced Detention Logs."
 comments: true
 ---
 
