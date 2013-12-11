@@ -15,17 +15,11 @@
 
 	    <meta name="description" content="{{ page.description }}" />
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon.png">
-
-        <!-- Mobile viewport fix -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Robots -->
         <meta name="robots" content="follow,index">
 
-        <!-- Twitter -->
-
+        <!-- Twitter Card -->
         <meta name="twitter:card" content="content">
         <meta name="twitter:site" content="{{ site.twitter }}">
         <meta name="twitter:title" content="{% if layout == home %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}">
