@@ -1,9 +1,7 @@
 <!doctype html>
 
 <html class="no-js" lang="en-AU" prefix="og: http://ogp.me/ns#">
-
     <head>
-
         <meta charset="UTF-8">
 
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
@@ -14,7 +12,7 @@
         <title>{% if layout == "home" %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
 
         <meta name="author" content="{{ site.author}}" />
-        
+
 	    <meta name="description" content="{{ page.description }}" />
 
         <!-- Favicon -->
@@ -31,16 +29,13 @@
         <meta name="twitter:card" content="content">
         <meta name="twitter:site" content="{{ site.twitter }}">
         <meta name="twitter:title" content="{% if layout == home %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}">
-		<meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:description" content="{{ page.description }}">
         <meta name="twitter:domain" content="{{ site.url }}{{ page.url }}">
-
 
         <!--[if lt IE 9]>
         <script src="{{ site.url }}/js/html5shiv.min.js"></script>
         <![endif]-->
-        <!-- tell iphones not to interpret numbers as phone numbers -->
 
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="{{ site.url }}/css/style.css" type="text/css" />
-        
+        <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
 	</head>
