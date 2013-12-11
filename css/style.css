@@ -813,14 +813,16 @@ body {
 }
 
 @media only screen and (min-width: 55em) {
-  .reading-width, .home #journal, #disqus_thread {
+  .reading-width, .home #journal, #disqus_thread,
+  .author-bio {
     margin-left: auto;
     margin-right: auto;
     width: 56%;
   }
 }
 @media only screen and (min-width: 60em) {
-  .reading-width, .home #journal, #disqus_thread {
+  .reading-width, .home #journal, #disqus_thread,
+  .author-bio {
     width: 54%;
   }
 }
