@@ -1,7 +1,13 @@
 .site-footer {
 	font-family: $font-sans;
+	@include rem-fallback(padding-bottom, $scale-3);
+	
+	@include responsive(medium-screens) {
+		@include rem-fallback(padding-top, $scale-4);
+	}
 
-	a {
+	nav a,
+	.service-links a {
 		display: block;
 		border-top: 1px $color-fade solid;
 		@include rem-fallback(padding, $scale-n2, $scale-n4, $scale-0);
@@ -28,5 +34,31 @@
 		&:nth-child(2n+2) {
 			margin-left: $gutter-two;
 		}
+	}
+	
+	.username {
+	
+		display: none;
+	
+		@include responsive(small-screens) {
+			display: inline-block;
+			color: darken($color-fade, 15%);
+			vertical-align: middle;
+			@include rem-fallback(padding, 0, 0, $scale-n2 - $scale-n4, $scale-n4);
+		}
+		
+	}
+	
+}
+
+.license {
+	@include rem-fallback(margin-top, $scale-2);
+
+	@include responsive(medium-screens-two) {
+		text-align: center;
+	}
+	
+	img {
+		width: auto;
 	}
 }

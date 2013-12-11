@@ -1,6 +1,9 @@
 name: Equivalent Ideas
+description: The online home of Luke Bacon.
 markdown: redcarpet
+author: Luke Bacon
 pygments: true
 permalink: /:categories/:title/
 timezone: Australia/Sydney
-twitter: equivalentideas
+twitter: "equivalentideas"
+site.url: "http://equivalentideas.com"

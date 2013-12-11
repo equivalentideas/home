@@ -1,13 +1,27 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: home
+title: Equivalent Ideas, the online home of Luke Bacon.
+description: Luke Bacon is a design at Collagraph, Co-Founder of Detention Logs and is based in Sydney, Australia.
 ---
 
-<div id="home" role="main">
-  <h1>Blog Posts</h1>
-  <ul class="posts-list xoxo">
-	{% for post in site.categories.journal  %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<header class="site-intro h-card">
+	<h1><a href="http://equivalentideas.com" class="u-url">Equivalent Ideas</a> is the evolving online home of <span class="p-name">Luke Bacon</span></h1><span class="roles">, designer at <a href="http://collagraph.com.au" title="Web design partnership based in Sydney, Australia." class="u-url">Collagraph</a>, co-founder of <a href="http://detentionlogs.com.au" title=" We publish data, documents and investigations that reveal new perspectives on conditions and events inside immigration detention." class="u-url">Detention Logs</a>.</span>
+</header>
+
+<section id="journal">
+	<h2>Journal</h2>
+	
+	<ul class="posts-list xoxo">
+		{% for post in site.categories.journal  %}
+		<li>
+			<article class="h-entry">
+				<h3><a href="{{ post.url }}" title="See {{ post.title }}" class="u-url p-name">{{ post.title }}</a></h3>
+				<time class="dt-published" datetime="{{ post.date }}">{% include date-format.html %}</time>
+				{% if post.description %}
+				<p class="p-summary">{{ post.description }} <a href="{{ post.url }}" title="See {{ post.title }}" class="arrow">&sect;</a></p>
+				{% endif %}
+			</article>
+		</li>
+	    {% endfor %}
+	</ul>
+</section>

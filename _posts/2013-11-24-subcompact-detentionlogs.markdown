@@ -3,6 +3,8 @@ layout: post
 title:  "Subcompact Publishing & Detention Logs"
 date:   2013-11-24 19:25:00
 categories: journal
+description: "Thoughts on Craig Mod's Subcompact Publishing manifesto and how it influenced Detention Logs."
+comments: true
 ---
 
 Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concrete Playground](http://sydney.concreteplayground.com.au/), noticed the mention of Craig Mod’s [Subcompact Publishing Manifesto](http://craigmod.com/journal/subcompact_publishing/#sub_manifesto) on [Detention Logs’ Principles page](http://detentionlogs.com.au/principles "Principles that inform Detention Logs’ journalistic, design and technology choices."). Zacha was surprised to see the reference and asked [Detention Logs](http://detentionlogs.com.au) to comment on how Mod’s ideas fit into our approach for a piece on the launch of a new digital version of [The Lifted Brow](http://theliftedbrow.com/).

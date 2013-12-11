@@ -1,9 +1,15 @@
 .site-header {
 	border-bottom: 1px $color-fade solid;
-	
+	@include clearfix;
 }
 
 .banner {
 	@include rem-fallback(margin, $scale-n1, 0, $scale-n4);
+	display: inline-block;
+}
+
+.twitter-link {
+	float: right;
+	clear: right;
 	display: inline-block;
 }

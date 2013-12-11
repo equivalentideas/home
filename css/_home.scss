@@ -1,16 +1,69 @@
 .site-intro {
+	@include rem-fallback(margin-top, $scale-2);
+
+	@include responsive(medium-screens) {
+		@include rem-fallback(margin-top, $scale-4);
+	}
+
+	@include responsive(wide-screens) {
+		@include rem-fallback( margin-top, $scale-4);
+		padding-right: $margin-five-b;
+		padding-left: $margin-five-b;
+	}
+
+	@include responsive(full-large-screens) {
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: auto;
+		margin-left: auto;
+		@include rem-fallback(max-width, 57.1875);
+	}
+
 	h1 {
-		display: inline;
 		text-transform: none;
 		border: none;
 		letter-spacing: 0;
 		@include basetype;
-	}
-	
-	p {
-		display: inline;		
 		@include rem-fallback(font-size, $scale-1);
+		margin-top: 0;
+		
+		.u-url {
+			color: $color-main;
+		}
+		
+		.p-name {
+			display: inline-block;	
+		}
+				
 	}
+		
+	h1,
+	.roles {
+		display: inline;
+		@include rem-fallback(font-size, $scale-1);
+		
+		@include responsive(medium-screens) {
+			@include rem-fallback(font-size, $scale-2);			
+		}
+
+		@include responsive(wide-screens) {
+			@include rem-fallback(font-size, $scale-3);			
+		}
+		
+		@include responsive(full-large-screens) {
+			@include rem-fallback(font-size, $scale-4);			
+		}
+	}
+}
+
+.home #journal {
+	@extend .reading-width;
+
+	@include responsive(medium-screens) {
+		@include rem-fallback(margin-top, $scale-4);			
+	}
+
+
 }
 
 .posts-list {
@@ -18,12 +71,22 @@
 	
 	.h-entry {
 		display: block;
-		@include rem-fallback(padding, 0, 0, $scale-2);
-		
-		+ h-entry {
-			border-top: 1px $color-fade solid;
-		}
-		
+		@include rem-fallback(padding, 0, 0, $scale-2);		
 	}
+	
+	.p-name {
+		font-weight: bold;
+	}
+	
+	time,
+	.p-summary {
+		color: lighten($color-discreet, 10%);
+	}
+	
+/*
+	li + li {
+		border-top: 1px $color-fade solid;
+	}
+*/
 	
 }

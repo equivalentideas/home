@@ -43,20 +43,26 @@ select, input, textarea {
 }
 
 h1 {
-	@include rem-fallback( font-size, $scale-1);
-	@include rem-fallback( line-height, $scale-3);
+	@include rem-fallback(margin-top, $scale-0);
+	@include rem-fallback(font-size, $scale-2);
+	line-height: 1.6;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	border-bottom: 1px $color-main solid;
+	border-bottom: 1px $color-discreet solid;
 /* 	font-family: $font-sans; */
 
 	@include responsive(medium-screens) {
-		@include rem-fallback( font-size, $scale-2);
-		@include rem-fallback( line-height, $scale-3);
+		@include rem-fallback(margin-top, $scale-4);
+		@include rem-fallback(font-size, $scale-2);
+		@include rem-fallback(line-height, $scale-3);
+		border-bottom: none;
 	}
 
-	@include responsive(full-large-screens) {
+	@include responsive(large-screens) {
+		@include rem-fallback(margin-top, $scale-5);
+		@include rem-fallback(font-size, $scale-3);
+		@include rem-fallback(line-height, $scale-3 + $scale-n1);
 	}
 }
 
@@ -127,7 +133,14 @@ blockquote {
     	text-align: right;
 		display: block;
 		@include rem-fallback( margin, $scale-0, 0, 0);
-
+		@include rem-fallback(font-size, $scale-0);
+		opacity: .9;
+		
+		&:hover,
+		&:focus {
+			opacity: 1;			
+		}
+		
     	&:before {
     		content:"\2014";
 		}
@@ -155,6 +168,12 @@ ul {
 	/* make lining figures */
     font-style: italic;
 	@include rem-fallback(font-size, $scale-0);
+	
+	h1 + & {
+		display: block;
+		@include rem-fallback(margin-top, $scale-n4);
+	}
+	
 }
 
 a {
@@ -183,6 +202,16 @@ a {
 
 .journal-entry .e-content {
 
+/*
+	> p:first-child::first-letter {
+		display: inline-block;
+	    float: left;
+		@include rem-fallback(font-size, $scale-5);
+		@include rem-fallback(padding, 0, $scale-n3, 0, 0);
+		margin: 0;
+	}
+*/
+
 	&:after {
 		content: "* * *";
 		text-align: center;
@@ -195,6 +224,11 @@ a {
 }
 
 figcaption,
-.license {
+.license,
+.service-links .username {
 		@include supporting;
+}
+
+.notice {
+	font-style: italic;
 }
