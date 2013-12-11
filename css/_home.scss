@@ -40,7 +40,7 @@
 	h1,
 	.roles {
 		display: inline;
-		@include rem-fallback(font-size, $scale-1);
+		@include rem-fallback(font-size, $scale-2);
 		
 		@include responsive(medium-screens) {
 			@include rem-fallback(font-size, $scale-2);			

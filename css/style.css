@@ -590,8 +590,8 @@ figcaption,
 .site-intro h1,
 .site-intro .roles {
   display: inline;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 28.336px;
+  font-size: 1.771rem;
 }
 @media only screen and (min-width: 40em) {
   .site-intro h1,
