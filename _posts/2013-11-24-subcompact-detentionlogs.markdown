@@ -7,9 +7,9 @@ description: "Thoughts on Craig Mod's Subcompact Publishing manifesto and how it
 comments: true
 ---
 
-Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concrete Playground](http://sydney.concreteplayground.com.au/), noticed the mention of Craig Mod’s [Subcompact Publishing Manifesto](http://craigmod.com/journal/subcompact_publishing/#sub_manifesto) on [Detention Logs’ Principles page](http://detentionlogs.com.au/principles "Principles that inform Detention Logs’ journalistic, design and technology choices."). Zacha was surprised to see the reference and asked [Detention Logs](http://detentionlogs.com.au) to comment on how Mod’s ideas fit into our approach for a piece on the launch of a new digital version of [The Lifted Brow](http://theliftedbrow.com/).
+Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concrete Playground](http://sydney.concreteplayground.com.au/), asked Detention Logs to comment on the reference to Craig Mod’s <cite><a href="http://craigmod.com/journal/subcompact_publishing/#sub-manifesto" title="Simple tools and systems for digital publishing">Subcompact Publishing Manifesto</a></cite> on our [Principles page](http://detentionlogs.com.au/principles "Principles that inform Detention Logs’ journalistic, design and technology choices."). He was surprised to see it there because the Mod's piece mostly talks about approaches for publishing longer prose writing in periodical or magazine like formats.
 
-<cite><a href="http://craigmod.com/journal/subcompact_publishing/" title="Simple tools and systems for digital publishing">Subcompact Publishing</a></cite>, is full of useful ideas for digitally native publishing. Here’s a grab of the manifesto section where Mod lays out specifics:
+<cite><a href="http://craigmod.com/journal/subcompact_publishing/" title="Simple tools and systems for digital publishing">Subcompact Publishing</a></cite>, is full of useful ideas for digital publishing. Here’s a grab of the manifesto section where Mod lays out specifics:
 
 <figure class="quote">
 	<blockquote>
