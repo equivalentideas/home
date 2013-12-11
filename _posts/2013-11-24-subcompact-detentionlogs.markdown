@@ -33,7 +33,7 @@ Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concre
 
 One of the main attractions for the Detention Logs team is the way these ideas cross from interface design to editorial decisions—design decisions are *not* arbitrary, but embody editorial values.
 
-Only a small part of my answer ended up in Rosen’s final piece, [The Lifted Brow Goes Subcompact on Your Ass](http://sydney.concreteplayground.com.au/news/145583/the-lifted-brow-goes-subcompact-on-your-ass.htm), so thought I’d put the whole thing up here:
+Only a small part of my answer ended up in Rosen’s final piece, <cite><a href="http://sydney.concreteplayground.com.au/news/145583/the-lifted-brow-goes-subcompact-on-your-ass.htm">The Lifted Brow Goes Subcompact on Your Ass</a></cite>, so thought I’d put the whole thing up here:
 
 > I think the subcompact publishing ideas are a strong expression of what we see as basic contemporary best practices for independent information publishing online, and web/information design more generally. Like most best practices they are political, opinionated and debatable. In Detention Logs we’re taking our pick from Craig Mod’s manifesto and applying it at different scales through our work.
 
