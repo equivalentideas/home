@@ -27,7 +27,7 @@ Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concre
 		</ul>
 	</blockquote>
 	<footer>
-		<cite><a href="http://craigmod.com/journal/subcompact_publishing/" title="Simple tools and systems for digital publishing.">Craig Mod, Subcompact Publishing, 2012</a></cite>
+		<cite><a href="http://craigmod.com/journal/subcompact_publishing/" title="Simple tools and systems for digital publishing.">Craig Mod, 2012, Subcompact Publishing</a></cite>
 	</footer>
 </figure>
 
