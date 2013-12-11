@@ -5,5 +5,5 @@ author: Luke Bacon
 pygments: true
 permalink: /:categories/:title/
 timezone: Australia/Sydney
-twitter: "equivalentideas"
-site.url: "http://equivalentideas.com"
+twitter: equivalentideas
+url: http://equivalentideas.com
