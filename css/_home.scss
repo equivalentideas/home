@@ -53,6 +53,10 @@
 		@include responsive(full-large-screens) {
 			@include rem-fallback(font-size, $scale-4);			
 		}
+		
+		.role {
+			display: inline-block;
+		}
 	}
 }
 
