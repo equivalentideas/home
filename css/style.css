@@ -747,6 +747,7 @@ nav ol,
 
 body {
   margin: 0 auto;
+  max-width: 105em;
 }
 
 .site-header,
