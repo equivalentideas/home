@@ -41,6 +41,14 @@
 			s.parentNode.insertBefore(g,s)}(document,"script"));
 		</script>
 
+		{% if page.fitvids %}
+        <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("figure.media").fitVids();
+			});
+		</script>
+		{% endif %}
 
     </body>
 </html>
