@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Against a narrowing circle: Secrecy in the TPP Negotiations"
-date:   2013-12-12 12:25:00
+date:   2013-12-13 00:57:00
 categories: journal
 description: "Why is the TPP negotiated in secret? This post looks at the work of Joseph Stiglitz and recent develops to call for public access to public policy development."
 comments: true
