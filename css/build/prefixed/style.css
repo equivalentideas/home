@@ -1186,8 +1186,8 @@ figure.wide figcaption,
   figure.wide,
   .js figure.media {
     width: 100% !important;
-    margin-right: -21%;
-    margin-left: -21%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   figure.wide figcaption,

@@ -992,8 +992,8 @@ figure.wide figcaption, .js figure.media figcaption {
 @media only screen and (min-width: 55em) {
   figure.wide, .js figure.media {
     width: 100% !important;
-    margin-right: -21%;
-    margin-left: -21%;
+    margin-right: auto;
+    margin-left: auto;
   }
   figure.wide figcaption, .js figure.media figcaption {
     padding: 0;
