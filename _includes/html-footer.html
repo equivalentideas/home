@@ -3,7 +3,7 @@
         <!-- Fallback if CDN fails -->
         <script type="text/javascript">
 	        if (typeof jQuery == 'undefined') {
-	            document.write(unescape('%3Cscript type="text/javascript" src="{{ site.url }}/js/jquery.min.js"%3E%3C/script%3E'));
+	            document.write(unescape('%3Cscript type="text/javascript" src="{{ site.url }}/js/libs/jquery.min.js"%3E%3C/script%3E'));
 	        }
         </script>
         <!-- Include respond.js for < IE 9 -->
@@ -23,16 +23,11 @@
 		</script>
 
 		
-        <script src="{{ site.url }}/js/jquery.widowFix-1.3.2.min.js"></script>
-		<script>
-		    $(document).ready(function() {
-		    //all heading 1s
-		        $('.journal-entry p, .journal-entry h1, .site-intro, .p-name').widowFix();
-		
-		    });
-		</script>		
+        <script src="{{ site.url }}/js/libs/jquery.widowFix-1.3.2.min.js"></script>
+        
+        <script src="{{ site.url }}/js/libs/jquery.fitvids.js"></script>
 
-		<script src="{{ site.url }}/js/functions.js"></script>
+		<script src="{{ site.url }}/js/global.js"></script>
 
 		<script>
 			var _gaq=[["_setAccount","UA-16188388-7"],["_trackPageview"]];
@@ -40,15 +35,5 @@
 			g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 			s.parentNode.insertBefore(g,s)}(document,"script"));
 		</script>
-
-		{% if page.fitvids %}
-        <script src="{{ site.url }}/js/jquery.fitvids.js"></script>
-		<script>
-			$(document).ready(function(){
-				$("figure.media").fitVids();
-			});
-		</script>
-		{% endif %}
-
     </body>
 </html>
