@@ -88,7 +88,7 @@ module.exports = function(grunt) {
         }
       },
       images: {
-        files: ['assets/**/*.{png,jpg,gif}', 'assets/*.{png,jpg,gif}'],
+        files: ['assets/*.{png,jpg,gif}', 'assets/*.{png,jpg,gif}'],
         tasks: ['imagemin'],
         options: {
           spawn: false,
