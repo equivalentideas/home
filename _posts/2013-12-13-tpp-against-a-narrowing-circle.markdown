@@ -119,3 +119,7 @@ Already, a range of groups and individuals are speaking out against the contempt
 There are groups organising demonstrations against the negotiations, there have already been actions in most capital cities. A new website, <cite><a href="https://againstthetpp.com.au/#whatdo" >Australians Against The TPP</a></cite> has launched with suggestions for [what you can do](https://againstthetpp.com.au/#whatdo).
 
 Everybody has a role in opposing this attack on the public interest, even something small broadens the group involved. Support the work of whistleblowers who risk everything so that we can know what’s going on; demand a say in the direction our laws drive us. Already the public outcry has prompted someone brave on the inside to pass out the crucial draft chapter.
+
+* * *
+
+<aside class="notice">[An adapted version of this piece was published in New Matilda on December 13th 2013.](https://newmatilda.com/2013/12/13/why-you-should-be-outraged-about-tpp 'Why You Should Be Outraged About The TPP')</aside>
