@@ -12,19 +12,21 @@
         <title>{% if page.layout == "home" %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
 
         <meta name="author" content="{{ site.author}}" />
-
 	    <meta name="description" content="{{ page.description }}" />
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <meta name="robots" content="follow,index">
 
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="content">
-        <meta name="twitter:site" content="{{ site.twitter }}">
-        <meta name="twitter:title" content="{% if page.layout == home %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}">
-        <meta name="twitter:description" content="{{ page.description }}">
-        <meta name="twitter:domain" content="{{ site.url }}{{ page.url }}">
+        {% include twitter-card.html %}
+
+         <!-- Facebook -->
+        <meta property="og:type" content="article">
+        <meta property="og:url"	content="{{ site.url }}{{ page.url }}">
+        <meta property="og:site_name" content="{{ page.title }}{% if page.layout == "default" %} | {{ site.title }} : {{ include.report_number }}{% endif %}">
+        {% if include.report_number == "Part 1" %}<meta property="og:image" content="{{ site.url }}/images/social-part-1.jpg">{% else %}<meta property="og:image" content="{{ site.url }}/images/social-part-2.jpg">{% endif %}
+        <meta property="og:title" content="{{ page.title }}">
+        {% if page.description %}<meta property="og:description" content="{{ page.description }}">{% else %}<meta property="og:description" content="{{ site.description }}">{% endif %}
+        <meta property="article:author" content="{{ site.name }}">
+        <meta property="article:tag" content="{{ site.keywords }}">
 
         <!--[if lt IE 9]>
         <script src="{{ site.url }}/js/html5shiv.min.js"></script>
