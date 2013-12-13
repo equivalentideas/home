@@ -39,7 +39,7 @@ Transparency is a foundational principle of functional, participatory democracy 
 
 ## Used car sales
 
-A tightly guarded trickle of information for the purpose of political control has become normal government practice. According to Nobel laureate economist Joseph Stieglitz, in a transaction, if one side holds more information than the other, the concept of [a market price based on supply and demand](http://en.wikipedia.org/wiki/Economic_equilibrium) breaks down. When a supplier has more knowledge they can set higher prices above what would otherwise be market price—the customer doesn’t know they’re getting ripped off. Stieglitz calls this ‘[information asymmetry](https://readmill.com/Equivalentideas/reads/information-and-the-change-in-the-paradigm-in-economics/highlights/6-6uma)’.
+A tightly guarded trickle of information for the purpose of political control has become normal government practice. According to Nobel laureate economist Joseph Stiglitz, in a transaction, if one side holds more information than the other, the concept of [a market price based on supply and demand](http://en.wikipedia.org/wiki/Economic_equilibrium) breaks down. When a supplier has more knowledge they can set higher prices above what would otherwise be market price—the customer doesn’t know they’re getting ripped off. Stiglitz calls this ‘[information asymmetry](https://readmill.com/Equivalentideas/reads/information-and-the-change-in-the-paradigm-in-economics/highlights/6-6uma)’.
 
 If you’re buying a used car, but don’t know that previous owner Jim drove it into a lake last year, it’s difficult for you to get a good deal. You need detailed information on what’s being negotiated to get value for money.
 
