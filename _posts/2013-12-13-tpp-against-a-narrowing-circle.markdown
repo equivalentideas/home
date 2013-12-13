@@ -5,7 +5,7 @@ date:   2013-12-13 00:57:00
 categories: journal
 description: "Why is the TPP negotiated in secret? This post looks at the work of Joseph Stiglitz and recent develops to call for public access to public policy development."
 comments: true
-fitvids: true
+thumbnail: /assets/build/2010-tpp-leaders-crop.jpg
 ---
 
 As governments and corporations push to finalise negotiations for The Trans-Pacific Partnership Agreement (TPP), people who support wide participation in policy development are increasing the pressure for open discussion. This is not a special interest issue.
