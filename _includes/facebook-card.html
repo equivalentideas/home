@@ -1,7 +1,8 @@
- <!-- Facebook -->
-<meta property="og:type" content="article">
-<meta property="og:url"	content="{% if page.layout == 'home' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
-<meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
-<meta property="og:description" content="{{ page.description }}">
-<meta property="article:author" content="{{ site.author }}">        <meta property="og:title" content="{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}">
+<!-- Facebook -->
+        <meta property="og:type" content="article">
+        <meta property="og:url"	content="{{ site.url }}{{ page.url }}">
+        <meta property="og:site_name" content="{{ site.name }}">
+        {% if page.thumbnail %}<meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">{% endif %}
+        <meta property="og:title" content="{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="article:author" content="{{ site.author }}">
