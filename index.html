@@ -15,11 +15,11 @@ thumbnail: /assets/build/lukebacon.jpg
 	<ul class="posts-list xoxo">
 		{% for post in site.categories.journal  %}
 		<li>
-			<article class="h-entry">
-				<h3><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="u-url p-name">{{ post.title }}</a></h3>
-				<time class="dt-published" datetime="{{ post.date }}">{% include date-format.html %}</time>
+			<article class="h-entry hentry">
+				<h3><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="u-url p-name bookmark entry-title">{{ post.title }}</a></h3>
+				<time class="dt-published published" datetime="{{ post.date | date: "%Y-%m-%-d" }}">{% include date-format.html %}</time>
 				{% if post.description %}
-				<p class="p-summary">{{ post.description }}</p><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="to-section">&sect;</a>
+				<p class="p-summary entry-summary">{{ post.description }}</p><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="to-section">&sect;</a>
 				{% endif %}
 			</article>
 		</li>
