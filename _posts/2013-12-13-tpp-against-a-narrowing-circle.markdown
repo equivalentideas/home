@@ -6,6 +6,7 @@ categories: journal
 description: "Why is the TPP negotiated in secret? What does it mean for this strategy to be validated?"
 comments: true
 thumbnail: /assets/build/2010-tpp-leaders-crop.jpg
+short-title: "Against a narrowing circle: Secrecy and the TPP"
 ---
 
 As governments and corporations push to finalise negotiations for The Trans-Pacific Partnership Agreement (TPP), people who support wide participation in policy development are increasing the pressure for open discussion. This is not a special interest issue.

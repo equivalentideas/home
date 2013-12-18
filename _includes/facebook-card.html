@@ -3,6 +3,5 @@
 <meta property="og:url"	content="{% if page.layout == 'home' %}{{ site.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
-<meta property="og:title" content="{% if page.layout == 'home' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}">
 <meta property="og:description" content="{{ page.description }}">
-<meta property="article:author" content="{{ site.author }}">
+<meta property="article:author" content="{{ site.author }}">        <meta property="og:title" content="{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}">
