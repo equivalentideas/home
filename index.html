@@ -17,7 +17,7 @@ thumbnail: /assets/build/lukebacon.jpg
 		<li>
 			<article class="h-entry hentry">
 				<h3><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="u-url p-name bookmark entry-title">{{ post.title }}</a></h3>
-				<time class="dt-published published" datetime="{{ post.date | date: "%Y-%m-%-d" }}">{% include date-format.html %}</time>
+				<time class="dt-published published" datetime="{{ post.date | date: '%Y-%m-%-d' }}">{% include date-format.html %}</time>
 				{% if post.description %}
 				<p class="p-summary entry-summary">{{ post.description }}</p><a href="{{ site.url }}{{ post.url }}" title="See {{ post.title }}" class="to-section">&sect;</a>
 				{% endif %}
