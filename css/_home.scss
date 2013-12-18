@@ -26,34 +26,34 @@
 		@include basetype;
 		@include rem-fallback(font-size, $scale-1);
 		margin-top: 0;
-		
+
 		.u-url {
 			color: $color-main;
 		}
-		
+
 		.p-name {
-			display: inline-block;	
+			display: inline-block;
 		}
-				
+
 	}
-		
+
 	h1,
 	.roles {
 		display: inline;
 		@include rem-fallback(font-size, $scale-2);
-		
+
 		@include responsive(medium-screens) {
-			@include rem-fallback(font-size, $scale-2);			
+			@include rem-fallback(font-size, $scale-2);
 		}
 
 		@include responsive(wide-screens) {
-			@include rem-fallback(font-size, $scale-3);			
+			@include rem-fallback(font-size, $scale-3);
 		}
-		
+
 		@include responsive(full-large-screens) {
-			@include rem-fallback(font-size, $scale-4);			
+			@include rem-fallback(font-size, $scale-4);
 		}
-		
+
 		.role {
 			display: inline-block;
 		}
@@ -64,33 +64,38 @@
 	@extend .reading-width;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(margin-top, $scale-4);			
+		@include rem-fallback(margin-top, $scale-4);
 	}
-
-
 }
 
 .posts-list {
 	list-style: none;
-	
+
 	.h-entry {
 		display: block;
-		@include rem-fallback(padding, 0, 0, $scale-2);		
+		@include rem-fallback(padding, 0, 0, $scale-2);
 	}
-	
+
 	.p-name {
 		font-weight: bold;
 	}
-	
+
 	time,
 	.p-summary {
 		color: lighten($color-discreet, 10%);
 	}
-	
-/*
-	li + li {
-		border-top: 1px $color-fade solid;
+
+	time {
+		display: block;
+		@include rem-fallback(margin-bottom, $scale-1);
 	}
-*/
-	
+
+	.p-summary {
+		display: inline;
+	}
+
+	.to-section {
+		display: inline-block;
+		@include rem-fallback(padding-left, $scale-n4);
+	}
 }

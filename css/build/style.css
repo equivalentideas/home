@@ -625,11 +625,6 @@ figcaption,
 
 .posts-list {
   list-style: none;
-  /*
-  	li + li {
-  		border-top: 1px $color-fade solid;
-  	}
-  */
 }
 .posts-list .h-entry {
   display: block;
@@ -642,6 +637,19 @@ figcaption,
 .posts-list time,
 .posts-list .p-summary {
   color: #474e52;
+}
+.posts-list time {
+  display: block;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+.posts-list .p-summary {
+  display: inline;
+}
+.posts-list .to-section {
+  display: inline-block;
+  padding-left: 5.04px;
+  padding-left: 0.315rem;
 }
 
 .site-header {
