@@ -21,8 +21,9 @@
 
         {% include twitter-card.html %}
 
+        {% if page.layout != 'home' %}
         {% include facebook-card.html %}
-
+        {% endif %}
 
         <link rel="stylesheet" href="/css/build/minified/style.css" type="text/css" />
 
