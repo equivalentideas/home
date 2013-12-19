@@ -21,7 +21,7 @@ body {
 		padding-right:  $margin-five-equal;
 		padding-left: $margin-five-equal;
 	}
-	
+
 	@include responsive(medium-screens-two) {
 		padding-right: $margin-five-b;
 		padding-left: $margin-five-b;
@@ -54,11 +54,11 @@ body {
 	}
 	@include responsive(large-screens) {
 		width: 54%;
-	}	
+	}
 }
 
 .title-width {
-	
+
 	@include responsive(full-large-screens) {
 		@include grid-five(3, 4);
 		margin-left: auto;
@@ -69,33 +69,33 @@ body {
 
 	}
 }
-	
+
 .journal-entry {
 	header,
-	.e-content > * {		
+	.e-content > * {
 		@include responsive(wide-screens) {
 			margin-left: auto;
 			margin-right: auto;
 			width: 56%;
 		}
 	}
-	
+
 	header {
 		@include responsive(wide-screens) {
 			@include rem-fallback( margin-top, $scale-2);
 		}
-	
+
 		@include responsive(full-large-screens) {
 			@include grid-five(3, 4);
 			margin-left: percentage($column-width-five / $layout-width);
 			@include rem-fallback( margin-bottom, $scale-5);
 		}
 	}
-	
+
 	.e-content > * {
 		@include responsive(large-screens) {
 			width: 54%;
-		}	
+		}
 	}
 
 	.post-info {
@@ -104,25 +104,29 @@ body {
 }
 
 #disqus_thread,
-.author-bio,
+.post-meta,
 .social-share {
 	@extend .reading-width;
 }
 
+.author-bio {
+	@include rem-fallback(margin-top, $scale-4);
+}
+
 .column-container {
-   	display: none;   
+   	display: none;
 	position: fixed;
 	top: 0;
 	z-index: -99;
-	opacity: .1;	
+	opacity: .1;
 /* 	width: $content-width-two; */
 
 	@include responsive(medium-screens) {
 /* 		@include grid-five-equal(5, 4); */
 	}
-	
+
 	@include responsive(wide-screens) {
-		@include grid-five-b(5, 4);	
+		@include grid-five-b(5, 4);
 	}
 
 	@include responsive(large-screens) {
@@ -138,17 +142,17 @@ body {
 	height: 4000px;
 
 	@include responsive(medium-screens) {
-			@include grid-five-equal(1, 0);	
+			@include grid-five-equal(1, 0);
 	}
 
 
 	@include responsive(wide-screens) {
-			@include grid-five-b(1, 0);	
+			@include grid-five-b(1, 0);
 	}
 
 	@include responsive(large-screens) {
 //			width: 14.27%
-			@include grid-seven(1, 0);	
+			@include grid-seven(1, 0);
 	}
 
 /*
@@ -157,19 +161,19 @@ body {
 	}
 */
 	+ .column-tester {
-		margin: 0 0 0 $gutter-two;	
-			display: block; 
+		margin: 0 0 0 $gutter-two;
+			display: block;
 
 		@include responsive(meduim-screens) {
-			margin: 0 0 0 $margin-five-equal;	
+			margin: 0 0 0 $margin-five-equal;
 		}
 
 		@include responsive(wide-screens) {
-			margin: 0 0 0 $gutter-five-b;	
+			margin: 0 0 0 $gutter-five-b;
 		}
 
 		@include responsive(large-screens) {
-			margin: 0 0 0 percentage($gutter-seven/$layout-width);	
+			margin: 0 0 0 percentage($gutter-seven/$layout-width);
 		}
 	}
 }
@@ -177,7 +181,7 @@ body {
 img,
 iframe,
 video {
-	width: 100%;	
+	width: 100%;
 }
 
 figure {
@@ -190,54 +194,54 @@ figure {
 	.js &.media {
 		margin-right: -$gutter-two;
 		margin-left: -$gutter-two;
-		
+
 		figcaption {
 			padding-right: $gutter-two;
 			padding-left: $gutter-two;
 		}
-		
+
 		@include responsive(small-screens) {
 			margin-right: -7%;
 			margin-left: -7%;
-					
+
 			figcaption {
 				padding-right: ($gutter-two * 2 );
 				padding-left: ($gutter-two * 2 );
 			}
 		}
-		
+
 		@include responsive(medium-screens) {
 			@include rem-fallback(margin-top, $scale-2);
 			margin-right: -20%;
 			@include rem-fallback(margin-bottom, $scale-2);
 			margin-left: -20%;
-					
+
 			figcaption {
 				padding-right: $margin-five-equal;
 				padding-left: $margin-five-equal;
 			}
 		}
-	
+
 		@include responsive(medium-screens-two) {
 			@include rem-fallback(margin-top, $scale-3);
 			margin-right: -21%;
 			margin-left: -21%;
-					
+
 			figcaption {
 				padding-right: ($gutter-two * 2 );
 				padding-left: ($gutter-two * 2 );
 			}
 		}
-		
+
 		@include responsive(wide-screens) {
 			width: 100% !important;
 			margin-right: auto;
 			margin-left: auto;
-					
+
 			figcaption {
-				padding: 0;			
+				padding: 0;
 			}
-			
+
 			&.central figcaption {
 				text-align: center;
 			}
