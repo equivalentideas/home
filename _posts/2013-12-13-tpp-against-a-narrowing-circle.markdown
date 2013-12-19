@@ -96,7 +96,7 @@ Since the leak Australia’s Trade Minister Andrew Robb has said “the Governme
 
 In these negotiations—where the biggest economy in the world is playing hard-ball—how does it help our bargaining power for all negotiations to be secret? If you were standing for the public interest, wouldn’t you want the public there to back you up?
 
-The contents of the leaked chapter has been called a ‘[corporate wish list](www.afr.com/p/technology/trans_pacific_partnership_corporate_WSTBzAePjogdBfeitCOcfP)’—what would you expect from closed negotiations between a handful of politicians and an amy of corporate lobbyists? Is it possible for an agreement of the wide scope of the TPP to have an outcome in the public interest if public access is prohibited? Is this a good model for policy development?
+The contents of the leaked chapter has been called a ‘[corporate wish list](http://www.afr.com/p/technology/trans_pacific_partnership_corporate_WSTBzAePjogdBfeitCOcfP)’—what would you expect from closed negotiations between a handful of politicians and an amy of corporate lobbyists? Is it possible for an agreement of the wide scope of the TPP to have an outcome in the public interest if public access is prohibited? Is this a good model for policy development?
 
 It is not only the details of policy outcomes that is crucial for wide participation. The details of negotiations, of what alternatives were considered, is crucial to make an assessment. Often this information is made especially inaccessible. In Australia, cabinet discussions are exempt from freedom of information requests. Major changes in public programs often seem to come out of thin air. We can only guess policy makers’ motivations and what alternatives were discussed.
 
