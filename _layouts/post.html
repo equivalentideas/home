@@ -5,16 +5,16 @@
     {% include header.html %}
 
     <div role="main">
-        <article class="h-entry reading journal-entry">
+        <article class="h-entry reading journal-entry hentry">
             <header>
-                <h1 class="p-name"><a href="{{page.url}}" class="u-url" xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }}</a></h1>
+                <h1 class="p-name"><a href="{{page.url}}" class="u-url entry-title bookmark" xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ page.title }}</a></h1>
 
-                <time class="dt-published" datetime="{{ page.date | date: '%Y-%m-%-d' }}">
+                <time class="dt-published published" datetime="{{ page.date | date: '%Y-%m-%-d' }}">
                     {% assign d = page.date | date: "%-d" %} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {{ page.date | date: "%B" }} {{ page.date | date: "%Y" }}
                 </time>
             </header>
 
-            <section class="e-content">
+            <section class="e-content entry-content">
                 {{ content }}
             </section>
         </article>
@@ -24,7 +24,7 @@
             {% include comments.html %}
         {% endif %}
 
-        <aside class="author-bio">
+        <aside class="author-bio author vcard">
             <p>{% include short-about.html %}</p>
         </aside>
     </div>
