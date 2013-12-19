@@ -7,3 +7,4 @@ permalink: /:categories/:title/
 timezone: Australia/Sydney
 twitter: equivalentideas
 url: http://equivalentideas.com
+exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'README.md', '*.scss']
