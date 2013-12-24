@@ -593,6 +593,18 @@ figcaption,
   font-style: italic;
 }
 
+.feed-links {
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.feed-links a {
+  color: #7f5d51;
+}
+
 .scrap:after {
   content: "";
   display: table;
@@ -993,7 +1005,7 @@ body {
   .reading-width,
   .home #journal,
   #disqus_thread,
-  .author-bio,
+  .post-meta,
   .social-share {
     margin-left: auto;
     margin-right: auto;
@@ -1005,7 +1017,7 @@ body {
   .reading-width,
   .home #journal,
   #disqus_thread,
-  .author-bio,
+  .post-meta,
   .social-share {
     width: 54%;
   }
@@ -1057,6 +1069,11 @@ body {
 .journal-entry .post-info {
   padding-bottom: 28.336px;
   padding-bottom: 1.771rem;
+}
+
+.author-bio {
+  margin-top: 64.848px;
+  margin-top: 4.053rem;
 }
 
 .column-container {
@@ -1483,8 +1500,6 @@ figure.wide figcaption,
 
 .social-share {
   text-align: center;
-  margin-bottom: 64.848px;
-  margin-bottom: 4.053rem;
 }
 
 /* @print

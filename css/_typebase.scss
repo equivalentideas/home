@@ -16,7 +16,7 @@ body {
 	@include basetype;
 	text-rendering: optimizeLegibility;
 	background-color: $color-background;
-	
+
 	@include responsive(medium-screens) {
 		@include rem-fallback( font-size, $scale-05);
 	}
@@ -25,7 +25,7 @@ body {
 		@include rem-fallback( font-size, $scale-1);
 	}
 
-	
+
 select, input, textarea {
 	color: $color-main;
 }
@@ -35,11 +35,11 @@ select, input, textarea {
 		@include rem-fallback( font-size, $scale-0);
 	}
 */
-	
+
 	@include responsive(large-screens) {
 		@include rem-fallback( font-size, $scale-1);
 	}
-		
+
 }
 
 h1 {
@@ -73,7 +73,7 @@ h2 {
 	font-weight: bold;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(font-size, $scale-2);		
+		@include rem-fallback(font-size, $scale-2);
 	}
 
 }
@@ -97,10 +97,10 @@ p {
 	+ p {
 		margin-top: 0;
 		@include rem-fallback( text-indent, $scale-1);
-		
+
 		@include responsive(medium-screens) {
 			@include rem-fallback( text-indent, $scale-2);
-		}				
+		}
 	}
 }
 
@@ -123,28 +123,28 @@ blockquote {
 	@include responsive(medium-screens) {
 		@include rem-fallback( padding, 0, $scale-2);
 	}
-	    
+
     .single-quote & {
 	    font-style: normal;
 	    padding: 0;
     }
-    
+
     + footer cite {
     	text-align: right;
 		display: block;
 		@include rem-fallback( margin, $scale-0, 0, 0);
 		@include rem-fallback(font-size, $scale-0);
 		opacity: .9;
-		
+
 		&:hover,
 		&:focus {
-			opacity: 1;			
+			opacity: 1;
 		}
-		
+
     	&:before {
     		content:"\2014";
 		}
-	}    
+	}
 }
 
 ul, ol {
@@ -153,13 +153,13 @@ ul, ol {
 
 ul {
 	list-style-type: disc;
-	
+
 	ul {
 		list-style-type: circle;
 	}
-	
+
 	blockquote & {
-		list-style-type: circle;		
+		list-style-type: circle;
 	}
 }
 
@@ -168,12 +168,12 @@ ul {
 	/* make lining figures */
     font-style: italic;
 	@include rem-fallback(font-size, $scale-0);
-	
+
 	h1 + & {
 		display: block;
 		@include rem-fallback(margin-top, $scale-n4);
 	}
-	
+
 }
 
 a {
@@ -192,7 +192,7 @@ a {
 	&:active {
 	    color: $color-main;
 	}
-	
+
 	.h-entry .p-name & {
 		color: $color-main;
 		text-decoration: none;
@@ -230,4 +230,16 @@ figcaption,
 
 .notice {
 	font-style: italic;
+}
+
+.feed-links {
+	list-style: none;
+	// font-family: $font-sans;
+	text-align: right;
+	margin: 0;
+	@include rem-fallback(font-size, $scale-n1);
+
+	a {
+		color: $color-complimentary;
+	}
 }

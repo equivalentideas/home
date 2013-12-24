@@ -1,6 +1,6 @@
 {% include html-header.html %}
 
-<body class="post hentry">
+<body class="post">
 
     {% include header.html %}
 
@@ -19,14 +19,18 @@
             </section>
         </article>
 
-        {% include social.html %}
-        {% if page.comments %}
-            {% include comments.html %}
-        {% endif %}
+        <footer class="post-meta">
 
-        <aside class="author-bio author vcard">
-            <p>{% include short-about.html %}</p>
-        </aside>
+            {% include social.html %}
+
+            <p class="author-bio author vcard">{% include short-about.html %}</p>
+
+            <ul class="feed-links">
+                <li>
+                    <a href="{{ site.url }}/rss.xml" title="Subscribe to a feed of these articles via RSS.">RSS</a>
+                </li>
+            </ul>
+        </footer>
     </div>
 
     {% include footer.html %}
