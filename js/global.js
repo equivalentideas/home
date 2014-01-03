@@ -1,9 +1,7 @@
-// WidowFix
 $(document).ready(function() {
-    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name').widowFix();
-});
+    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name').widowFix(); // WidowFix
 
-// FitVids
-$(document).ready(function(){
-	$("figure.media").fitVids();
+    $("figure.media").fitVids(); // Fitvids
+
+    $('.article-audio-heading').collapsible(); //Collapsible
 });

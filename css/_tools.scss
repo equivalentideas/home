@@ -3,3 +3,21 @@
 .social-share {
     text-align: center;
 }
+
+.collapsible-heading {
+    cursor:pointer;
+    @include clearfix;
+}
+
+.collapsible-heading-status {
+    position: absolute;
+    right: 9999em;
+}
+
+.collapsible-content {
+    overflow:hidden;
+}
+
+.collapsible-content-collapsed {
+    display:none;
+}

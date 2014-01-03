@@ -1,19 +1,18 @@
-<section class="audio-v-wrapper">
-    <h2>Audio Version</h2>
+    <a class="article-audio-heading">Audio Version</a>
 
-    <p>Listen to a reading of this article the author, Luke Bacon.</p>
+    <figure class="article-audio reading">
+        <p>Listen to a reading of this article by the author, Luke Bacon.</p>
 
-    <audio>
-       <source src="{{ page.audio-mp3 }}" type='audio/mpeg; codecs="mp3"'>
-       <source src="{{ page.audio-ogg }}" type='audio/ogg; codecs="vorbis"'>
-    </audio>
+        <audio controls="controls">
+           <source src="{{ page.audio-mp3 }}" type='audio/mpeg; codecs="mp3"'>
+           <source src="{{ page.audio-ogg }}" type='audio/ogg; codecs="vorbis"'>
+        </audio>
 
-    <a href="{{ page.audio-mp3 }}" title="Download {{ page.title }} as an mp3" class="download">Download .mp3</a>
+        <p>
+            <a href="{{ page.audio-mp3 }}" title="Download {{ page.title }} as an mp3" class="download">Download mp3 {% if page.audio-mp3-size %}[{{ page.audio-mp3-size }}]{% endif %}</a>
+        </p>
 
-    <footer>
-        <p><a href="http://creativecommons.org/licenses/by-nc/4.0/" title="More information about the Creative Commons license on this recording.">CC BY NC 4.0</a></p>
-        <p class="audio-feeds">Subscribe to the audio feed through <a href="http://equivalentideas.com/journal/audio.xml" title="The RSS podcast feed of the audio versions for journal articles">RSS</a> or <a href="" title="The iTunes podcast feed of the audio versions for journal articles">iTunes</a>.</p>
-
-    </footer>
-
-</section>
+        <footer>
+            <p class="audio-feeds">Subscribe to the audio feed of readings through <a href="http://equivalentideas.com/journal/audio.xml" title="The RSS podcast feed of the audio versions for journal articles">RSS</a> or <a href="" title="The iTunes podcast feed of the audio versions for journal articles">iTunes</a>.</p>
+        </footer>
+    </figure>

@@ -5,6 +5,9 @@ date:   2013-11-24 19:25:00
 categories: journal
 description: "Thoughts on Craig Mod's Subcompact Publishing manifesto and how it has influenced Detention Logs."
 comments: true
+audio-mp3: "https://archive.org/download/AustralianCentreForIndependentJournalismPodcast1/acijpodcast_01_reportingrefugees.mp3"
+audio-ogg: "https://archive.org/download/AustralianCentreForIndependentJournalismPodcast1/acijpodcast_01_reportingrefugees.ogg"
+audio-mp3-size: 41.3MB
 ---
 
 Earlier this year, [Zacha Rosen](http://zacharosen.com/), Arts Editor of [Concrete Playground](http://sydney.concreteplayground.com.au/), contacted Detention Logs to comment on the reference to Craig Mod’s <cite><a href="http://craigmod.com/journal/subcompact_publishing/#sub-manifesto" title="Simple tools and systems for digital publishing">Subcompact Publishing Manifesto</a></cite> on our [Principles page](http://detentionlogs.com.au/principles "Principles that inform Detention Logs’ journalistic, design and technology choices."). Rosen was surprised to see it there because Mod's piece mostly talks about approaches for publishing longer prose writing in periodical or magazine like formats.

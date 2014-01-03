@@ -1,7 +1,7 @@
 /* @typescale
 -------------------------------------------------------------------------------*/
 
-/* 
+/*
 	http://modularscale.com/scale/?px1=17&px2=14&ra1=1.667&ra2=0
 	17px @ 1:1.667
 	14px @ 1:1.667
@@ -460,7 +460,8 @@ ul,
 ol,
 dl,
 figure,
-blockquote {
+blockquote,
+audio {
   margin-top: 18px;
   margin-top: 1.125rem;
 }
@@ -533,20 +534,6 @@ blockquote ul {
   list-style-type: circle;
 }
 
-.dt-published {
-  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
-  /* make lining figures */
-  font-style: italic;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-
-h1 + .dt-published {
-  display: block;
-  margin-top: 5.04px;
-  margin-top: 0.315rem;
-}
-
 a {
   color: #1f5289;
   text-decoration: none;
@@ -565,6 +552,50 @@ a:active {
 .h-entry .p-name a {
   color: #030408;
   text-decoration: none;
+}
+
+audio {
+  background-color: #1f5289;
+}
+
+.dt-published {
+  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  /* make lining figures */
+  font-style: italic;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.journal-entry header .dt-published {
+  float: left;
+  clear: left;
+  display: block;
+  margin-top: 5.04px;
+  margin-top: 0.315rem;
+}
+
+.article-audio-heading {
+  float: right;
+  clear: right;
+  padding: 10.192px;
+  padding: 0.637rem;
+  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+  background-color: #e0edfa;
+  -webkit-transition: .4s ease all;
+  transition: .4s ease all;
+}
+
+.article-audio-heading.collapsible-heading-collapsed {
+  background-color: transparent;
+}
+
+.article-audio {
+  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #2f3437;
+  background-color: #e0edfa;
 }
 
 
@@ -941,6 +972,7 @@ body {
   clear: both;
   padding-right: 3%;
   padding-left: 3%;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 30em) {
@@ -1044,6 +1076,12 @@ body {
   }
 }
 
+.journal-entry header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (min-width: 55em) {
   .journal-entry header {
     margin-top: 28.336px;
@@ -1132,6 +1170,12 @@ body {
 .column-tester + .column-tester {
   margin: 0 0 0 3.19149%;
   display: block;
+}
+
+@media only screen and (min-width: 40em) {
+  .column-tester + .column-tester {
+    margin: 0 0 0 14.28571%;
+  }
 }
 
 @media only screen and (min-width: 55em) {
@@ -1233,6 +1277,37 @@ figure.wide figcaption,
   figure.wide.central figcaption,
   .js figure.media.central figcaption {
     text-align: center;
+  }
+}
+
+.article-audio {
+  float: none;
+  clear: both;
+  margin-right: -3.19149%;
+  margin-left: -3.19149%;
+  padding-top: 6.112px;
+  padding-top: 0.382rem;
+  padding-right: 3.19149%;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+  padding-left: 3.19149%;
+}
+
+@media only screen and (min-width: 30em) {
+  .article-audio {
+    margin-right: -7%;
+    margin-left: -7%;
+    padding-right: 6.38298%;
+    padding-left: 6.38298%;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .article-audio {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3.19149%;
+    padding-left: 3.19149%;
   }
 }
 
@@ -1500,6 +1575,29 @@ figure.wide figcaption,
 
 .social-share {
   text-align: center;
+}
+
+.collapsible-heading {
+  cursor: pointer;
+}
+
+.collapsible-heading:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.collapsible-heading-status {
+  position: absolute;
+  right: 9999em;
+}
+
+.collapsible-content {
+  overflow: hidden;
+}
+
+.collapsible-content-collapsed {
+  display: none;
 }
 
 /* @print

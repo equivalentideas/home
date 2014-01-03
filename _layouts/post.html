@@ -12,6 +12,10 @@
                 <time class="dt-published published" datetime="{{ page.date | date: '%Y-%m-%-d' }}">
                     {% assign d = page.date | date: "%-d" %} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {{ page.date | date: "%B" }} {{ page.date | date: "%Y" }}
                 </time>
+
+                {{ if page.audio-mp3 }}
+                {% include article-audio.html %}
+                {{ endif }}
             </header>
 
             <section class="e-content entry-content">
@@ -27,7 +31,7 @@
 
             <ul class="feed-links">
                 <li>
-                    <a href="{{ site.url }}/rss.xml" title="Subscribe to a feed of these articles via RSS.">RSS</a>
+                    <a href="{{ site.url }}/journal/rss.xml" title="Subscribe to a feed of these articles via RSS.">RSS</a>
                 </li>
             </ul>
         </footer>

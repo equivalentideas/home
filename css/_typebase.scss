@@ -39,7 +39,6 @@ select, input, textarea {
 	@include responsive(large-screens) {
 		@include rem-fallback( font-size, $scale-1);
 	}
-
 }
 
 h1 {
@@ -75,7 +74,6 @@ h2 {
 	@include responsive(medium-screens) {
 		@include rem-fallback(font-size, $scale-2);
 	}
-
 }
 
 h3 {
@@ -89,7 +87,7 @@ h4, h5, h6 {
 }
 
 
-p, ul, ol, dl, figure, blockquote {
+p, ul, ol, dl, figure, blockquote, audio {
 	@include rem-fallback( margin-top, $scale-0);
 }
 
@@ -163,19 +161,6 @@ ul {
 	}
 }
 
-.dt-published {
-	font-family: $font-sans;
-	/* make lining figures */
-    font-style: italic;
-	@include rem-fallback(font-size, $scale-0);
-
-	h1 + & {
-		display: block;
-		@include rem-fallback(margin-top, $scale-n4);
-	}
-
-}
-
 a {
     color: $color-primary;
     text-decoration: none;
@@ -199,6 +184,44 @@ a {
 	}
 }
 
+audio {
+	background-color: $color-primary;
+}
+
+.dt-published {
+	font-family: $font-sans;
+	/* make lining figures */
+    font-style: italic;
+	@include rem-fallback(font-size, $scale-0);
+
+	.journal-entry header & {
+		float: left;
+		clear: left;
+		display: block;
+		@include rem-fallback(margin-top, $scale-n4);
+	}
+}
+
+.article-audio-heading {
+	float: right;
+	clear: right;
+	@include rem-fallback(padding, $scale-n2);
+	@include supporting;
+	background-color: $color-primary-lighter;
+	transition: .4s ease all;
+
+	&.collapsible-heading-collapsed {
+		background-color: transparent;
+	}
+
+}
+
+.article-audio {
+	font-family: $font-sans;
+	border-bottom: 1px solid $color-discreet;
+	background-color: $color-primary-lighter;
+}
+
 .journal-entry .e-content {
 
 /*
@@ -219,7 +242,6 @@ a {
 		@include rem-fallback(font-size, $scale-2);
 		@include rem-fallback(padding-top, $scale-n1);
 	}
-
 }
 
 figcaption,
