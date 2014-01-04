@@ -845,7 +845,7 @@ figcaption,
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background: url("/assets/build/Twitter_logo_white.png") center center no-repeat;
+  background: url("/assets/build/Twitter_logo.png") center center no-repeat;
   background-size: 100%;
   -webkit-transition: .3s ease opacity;
   transition: .3s ease opacity;
