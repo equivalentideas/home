@@ -1,12 +1,12 @@
 .site-intro {
-	@include rem-fallback(margin-top, $scale-2);
+	@include rem(margin-top, $scale-2);
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(margin-top, $scale-4);
+		@include rem(margin-top, $scale-4);
 	}
 
 	@include responsive(wide-screens) {
-		@include rem-fallback( margin-top, $scale-4);
+		@include rem( margin-top, $scale-4);
 		padding-right: $margin-five-b;
 		padding-left: $margin-five-b;
 	}
@@ -16,7 +16,7 @@
 		padding-left: 0;
 		margin-right: auto;
 		margin-left: auto;
-		@include rem-fallback(max-width, 57.1875);
+		@include rem(max-width, 57.1875);
 	}
 
 	h1 {
@@ -24,7 +24,7 @@
 		border: none;
 		letter-spacing: 0;
 		@include basetype;
-		@include rem-fallback(font-size, $scale-1);
+		@include rem(font-size, $scale-1);
 		margin-top: 0;
 
 		.u-url {
@@ -40,18 +40,18 @@
 	h1,
 	.roles {
 		display: inline;
-		@include rem-fallback(font-size, $scale-2);
+		@include rem(font-size, $scale-2);
 
 		@include responsive(medium-screens) {
-			@include rem-fallback(font-size, $scale-2);
+			@include rem(font-size, $scale-2);
 		}
 
 		@include responsive(wide-screens) {
-			@include rem-fallback(font-size, $scale-3);
+			@include rem(font-size, $scale-3);
 		}
 
 		@include responsive(full-large-screens) {
-			@include rem-fallback(font-size, $scale-4);
+			@include rem(font-size, $scale-4);
 		}
 
 		.role {
@@ -64,7 +64,7 @@
 	@extend .reading-width;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(margin-top, $scale-4);
+		@include rem(margin-top, $scale-4);
 	}
 }
 
@@ -73,7 +73,7 @@
 
 	.h-entry {
 		display: block;
-		@include rem-fallback(padding, 0, 0, $scale-2);
+		@include rem(padding, 0, 0, $scale-2);
 	}
 
 	.p-name {
@@ -87,7 +87,7 @@
 
 	time {
 		display: block;
-		@include rem-fallback(margin-bottom, $scale-1);
+		@include rem(margin-bottom, $scale-1);
 	}
 
 	.p-summary {
@@ -96,6 +96,6 @@
 
 	.to-section {
 		display: inline-block;
-		@include rem-fallback(padding-left, $scale-n4);
+		@include rem(padding-left, $scale-n4);
 	}
 }

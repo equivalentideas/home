@@ -4,12 +4,30 @@
 }
 
 .banner {
-	@include rem-fallback(margin, $scale-n1, 0, $scale-n4);
+	@include rem(margin, $scale-n1, 0, $scale-n4);
 	display: inline-block;
 }
 
 .twitter-link {
 	float: right;
 	clear: right;
-	display: inline-block;
+	display: block;
+    @include rem(padding, $scale-1, 0, 0);
+    @include rem(width, $scale-2);
+    opacity: .6;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url('/assets/build/Twitter_logo_white.png') center center no-repeat;
+    background-size: 100%;
+    transition: .3s ease opacity;
+
+    &:hover,
+    &:focus {
+        opacity: .9;
+    }
+
+    .no-js & {
+        display: none;
+    }
 }

@@ -1,6 +1,6 @@
 /* @typescale
 -------------------------------------------------------------------------------*/
-/* 
+/*
 	http://modularscale.com/scale/?px1=17&px2=14&ra1=1.667&ra2=0
 	17px @ 1:1.667
 	14px @ 1:1.667
@@ -249,7 +249,7 @@ body {
   background-color: #fdfdfc;
   /*
   	@include responsive(wide-screens) {
-  		@include rem-fallback( font-size, $scale-0);
+  		@include rem( font-size, $scale-0);
   	}
   */
 }
@@ -353,7 +353,7 @@ p + p {
 .journal-entry .e-content > p:last-child:after {
 	content: "\25FC";
 	padding-left: .2em;
-	@include rem-fallback( font-size, $scale-2);
+	@include rem( font-size, $scale-2);
 	vertical-align: middle;
 	font-style: normal;
 	color: $color-complimentary;
@@ -439,8 +439,8 @@ a:active {
   	> p:first-child::first-letter {
   		display: inline-block;
   	    float: left;
-  		@include rem-fallback(font-size, $scale-5);
-  		@include rem-fallback(padding, 0, $scale-n3, 0, 0);
+  		@include rem(font-size, $scale-5);
+  		@include rem(padding, 0, $scale-n3, 0, 0);
   		margin: 0;
   	}
   */

@@ -1,16 +1,16 @@
 .site-footer {
 	font-family: $font-sans;
-	@include rem-fallback(padding-bottom, $scale-3);
-	
+	@include rem(padding-bottom, $scale-3);
+
 	@include responsive(medium-screens) {
-		@include rem-fallback(padding-top, $scale-4);
+		@include rem(padding-top, $scale-4);
 	}
 
 	nav a,
 	.service-links a {
 		display: block;
 		border-top: 1px $color-fade solid;
-		@include rem-fallback(padding, $scale-n2, $scale-n4, $scale-0);
+		@include rem(padding, $scale-n2, $scale-n4, $scale-0);
 		transition: all .4s ease;
 
 		&:hover,
@@ -21,9 +21,9 @@
 		}
 	}
 }
-	
+
 .service-links {
-	@include rem-fallback(margin-top, $scale-n2);
+	@include rem(margin-top, $scale-n2);
 	@include clearfix;
 
 	li {
@@ -35,29 +35,29 @@
 			margin-left: $gutter-two;
 		}
 	}
-	
+
 	.username {
-	
+
 		display: none;
-	
+
 		@include responsive(small-screens) {
 			display: inline-block;
 			color: darken($color-fade, 15%);
 			vertical-align: middle;
-			@include rem-fallback(padding, 0, 0, $scale-n2 - $scale-n4, $scale-n4);
+			@include rem(padding, 0, 0, $scale-n2 - $scale-n4, $scale-n4);
 		}
-		
+
 	}
-	
+
 }
 
 .license {
-	@include rem-fallback(margin-top, $scale-2);
+	@include rem(margin-top, $scale-2);
 
 	@include responsive(medium-screens-two) {
 		text-align: center;
 	}
-	
+
 	img {
 		width: auto;
 	}

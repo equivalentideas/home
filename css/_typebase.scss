@@ -9,7 +9,7 @@
 @mixin supporting {
 	font-family: $font-sans;
 	font-weight: normal;
-	@include rem-fallback(font-size, $scale-n1);
+	@include rem(font-size, $scale-n1);
 }
 
 body {
@@ -18,11 +18,11 @@ body {
 	background-color: $color-background;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback( font-size, $scale-05);
+		@include rem( font-size, $scale-05);
 	}
 
 	@include responsive(large-screens) {
-		@include rem-fallback( font-size, $scale-1);
+		@include rem( font-size, $scale-1);
 	}
 
 
@@ -32,19 +32,19 @@ select, input, textarea {
 
 /*
 	@include responsive(wide-screens) {
-		@include rem-fallback( font-size, $scale-0);
+		@include rem( font-size, $scale-0);
 	}
 */
 
 	@include responsive(large-screens) {
-		@include rem-fallback( font-size, $scale-1);
+		@include rem( font-size, $scale-1);
 	}
 
 }
 
 h1 {
-	@include rem-fallback(margin-top, $scale-0);
-	@include rem-fallback(font-size, $scale-2);
+	@include rem(margin-top, $scale-0);
+	@include rem(font-size, $scale-2);
 	line-height: 1.6;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -53,33 +53,33 @@ h1 {
 /* 	font-family: $font-sans; */
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(margin-top, $scale-4);
-		@include rem-fallback(font-size, $scale-2);
-		@include rem-fallback(line-height, $scale-3);
+		@include rem(margin-top, $scale-4);
+		@include rem(font-size, $scale-2);
+		@include rem(line-height, $scale-3);
 		border-bottom: none;
 	}
 
 	@include responsive(large-screens) {
-		@include rem-fallback(margin-top, $scale-5);
-		@include rem-fallback(font-size, $scale-3);
-		@include rem-fallback(line-height, $scale-3 + $scale-n1);
+		@include rem(margin-top, $scale-5);
+		@include rem(font-size, $scale-3);
+		@include rem(line-height, $scale-3 + $scale-n1);
 	}
 }
 
 h2 {
-	@include rem-fallback(margin, $scale-3, 0, 0);
-	@include rem-fallback(font-size, $scale-1);
+	@include rem(margin, $scale-3, 0, 0);
+	@include rem(font-size, $scale-1);
 	font-family: $font-sans;
 	font-weight: bold;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback(font-size, $scale-2);
+		@include rem(font-size, $scale-2);
 	}
 
 }
 
 h3 {
-	@include rem-fallback(margin, $scale-2, 0, 0);
+	@include rem(margin, $scale-2, 0, 0);
 	font-family: $font-sans;
 	font-style: italic;
 	font-weight: normal;
@@ -90,16 +90,16 @@ h4, h5, h6 {
 
 
 p, ul, ol, dl, figure, blockquote {
-	@include rem-fallback( margin-top, $scale-0);
+	@include rem( margin-top, $scale-0);
 }
 
 p {
 	+ p {
 		margin-top: 0;
-		@include rem-fallback( text-indent, $scale-1);
+		@include rem( text-indent, $scale-1);
 
 		@include responsive(medium-screens) {
-			@include rem-fallback( text-indent, $scale-2);
+			@include rem( text-indent, $scale-2);
 		}
 	}
 }
@@ -108,7 +108,7 @@ p {
 .journal-entry .e-content > p:last-child:after {
 	content: "\25FC";
 	padding-left: .2em;
-	@include rem-fallback( font-size, $scale-2);
+	@include rem( font-size, $scale-2);
 	vertical-align: middle;
 	font-style: normal;
 	color: $color-complimentary;
@@ -117,11 +117,11 @@ p {
 
 blockquote {
     font-style: italic;
-	@include rem-fallback( padding, 0, $scale-0);
+	@include rem( padding, 0, $scale-0);
 	font-family: $font-sans;
 
 	@include responsive(medium-screens) {
-		@include rem-fallback( padding, 0, $scale-2);
+		@include rem( padding, 0, $scale-2);
 	}
 
     .single-quote & {
@@ -132,8 +132,8 @@ blockquote {
     + footer cite {
     	text-align: right;
 		display: block;
-		@include rem-fallback( margin, $scale-0, 0, 0);
-		@include rem-fallback(font-size, $scale-0);
+		@include rem( margin, $scale-0, 0, 0);
+		@include rem(font-size, $scale-0);
 		opacity: .9;
 
 		&:hover,
@@ -167,11 +167,11 @@ ul {
 	font-family: $font-sans;
 	/* make lining figures */
     font-style: italic;
-	@include rem-fallback(font-size, $scale-0);
+	@include rem(font-size, $scale-0);
 
 	h1 + & {
 		display: block;
-		@include rem-fallback(margin-top, $scale-n4);
+		@include rem(margin-top, $scale-n4);
 	}
 
 }
@@ -205,8 +205,8 @@ a {
 	> p:first-child::first-letter {
 		display: inline-block;
 	    float: left;
-		@include rem-fallback(font-size, $scale-5);
-		@include rem-fallback(padding, 0, $scale-n3, 0, 0);
+		@include rem(font-size, $scale-5);
+		@include rem(padding, 0, $scale-n3, 0, 0);
 		margin: 0;
 	}
 */
@@ -216,8 +216,8 @@ a {
 		text-align: center;
 		width: 100%;
 		display: block;
-		@include rem-fallback(font-size, $scale-2);
-		@include rem-fallback(padding-top, $scale-n1);
+		@include rem(font-size, $scale-2);
+		@include rem(padding-top, $scale-n1);
 	}
 
 }
@@ -237,7 +237,7 @@ figcaption,
 	// font-family: $font-sans;
 	text-align: right;
 	margin: 0;
-	@include rem-fallback(font-size, $scale-n1);
+	@include rem(font-size, $scale-n1);
 
 	a {
 		color: $color-complimentary;

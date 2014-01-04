@@ -63,7 +63,7 @@ body {
 		@include grid-five(3, 4);
 		margin-left: auto;
 		margin-right: auto;
-		@include rem-fallback( margin-bottom, $scale-5);
+		@include rem( margin-bottom, $scale-5);
 		padding-right: 0;
 		padding-left: 0;
 
@@ -82,13 +82,13 @@ body {
 
 	header {
 		@include responsive(wide-screens) {
-			@include rem-fallback( margin-top, $scale-2);
+			@include rem( margin-top, $scale-2);
 		}
 
 		@include responsive(full-large-screens) {
 			@include grid-five(3, 4);
 			margin-left: percentage($column-width-five / $layout-width);
-			@include rem-fallback( margin-bottom, $scale-5);
+			@include rem( margin-bottom, $scale-5);
 		}
 	}
 
@@ -99,7 +99,7 @@ body {
 	}
 
 	.post-info {
-		@include rem-fallback(padding-bottom, $scale-2);
+		@include rem(padding-bottom, $scale-2);
 	}
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .author-bio {
-	@include rem-fallback(margin-top, $scale-4);
+	@include rem(margin-top, $scale-4);
 }
 
 .column-container {
@@ -187,7 +187,7 @@ video {
 figure {
 
 	&.tweet {
-			@include rem-fallback(margin-bottom, $scale-1);
+			@include rem(margin-bottom, $scale-1);
 	}
 
 	&.wide,
@@ -211,9 +211,9 @@ figure {
 		}
 
 		@include responsive(medium-screens) {
-			@include rem-fallback(margin-top, $scale-2);
+			@include rem(margin-top, $scale-2);
 			margin-right: -20%;
-			@include rem-fallback(margin-bottom, $scale-2);
+			@include rem(margin-bottom, $scale-2);
 			margin-left: -20%;
 
 			figcaption {
@@ -223,7 +223,7 @@ figure {
 		}
 
 		@include responsive(medium-screens-two) {
-			@include rem-fallback(margin-top, $scale-3);
+			@include rem(margin-top, $scale-3);
 			margin-right: -21%;
 			margin-left: -21%;
 

@@ -249,7 +249,7 @@ body {
   background-color: #fdfdfc;
   /*
   	@include responsive(wide-screens) {
-  		@include rem-fallback( font-size, $scale-0);
+  		@include rem( font-size, $scale-0);
   	}
   */
 }
@@ -353,7 +353,7 @@ p + p {
 .journal-entry .e-content > p:last-child:after {
 	content: "\25FC";
 	padding-left: .2em;
-	@include rem-fallback( font-size, $scale-2);
+	@include rem( font-size, $scale-2);
 	vertical-align: middle;
 	font-style: normal;
 	color: $color-complimentary;
@@ -439,8 +439,8 @@ a:active {
   	> p:first-child::first-letter {
   		display: inline-block;
   	    float: left;
-  		@include rem-fallback(font-size, $scale-5);
-  		@include rem-fallback(padding, 0, $scale-n3, 0, 0);
+  		@include rem(font-size, $scale-5);
+  		@include rem(padding, 0, $scale-n3, 0, 0);
   		margin: 0;
   	}
   */
@@ -681,7 +681,24 @@ figcaption,
 .twitter-link {
   float: right;
   clear: right;
-  display: inline-block;
+  display: block;
+  padding: 20px 0px 0px;
+  padding: 1.25rem 0rem 0rem;
+  width: 28.336px;
+  width: 1.771rem;
+  opacity: .6;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("/assets/build/Twitter_logo_white.png") center center no-repeat;
+  background-size: 100%;
+  transition: .3s ease opacity;
+}
+.twitter-link:hover, .twitter-link:focus {
+  opacity: .9;
+}
+.no-js .twitter-link {
+  display: none;
 }
 
 .site-footer {

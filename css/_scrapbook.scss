@@ -1,21 +1,21 @@
 .scrap {
-	
+
 	@include clearfix;
-	
+
 	.short-post {
-		@include rem-fallback( font-size, $scale-05);
+		@include rem( font-size, $scale-05);
 	}
-	
+
 	.medium-post {
-		
+
 	}
 
 	.long-post {
-		
+
 	}
-	
+
 	.e-content {
-		
+
 		@include responsive(wide-screens) {
 				@include grid-five(3, 2);
 				margin: 0 $gutter-five 0 0;
@@ -24,7 +24,7 @@
 				clear: left;
 		}
 	}
-	
+
 	blockquote {
 
 		font-family: $font-serif;
@@ -36,18 +36,18 @@
 			display: inline-block;
 			float: left;
 			margin: 0 0 0 -30px;
-			@include rem-fallback(font-size, ($scale-7));
+			@include rem(font-size, ($scale-7));
 			font-family: $font-serif;
 		}
 //
 //		&:after  { content: close-quote }
 	}
-	
+
 	h1 {
-		@include rem-fallback( font-size, $scale-05);
-		@include rem-fallback( line-height, $scale-2);
+		@include rem( font-size, $scale-05);
+		@include rem( line-height, $scale-2);
 	}
-	
+
 	cite {
     	text-align: left;
     	display: inline;
@@ -55,39 +55,39 @@
 	    	content: none;
     	}
 	}
-	
+
 	.p-author {
 		&:before {
     		content:"\2014";
     	}
 	}
-	
+
 	.cite-text {
 		display: block;
 	}
-	
+
 	figcaption {
 		margin: #{$scale-0}em 0 0;
 		font-family: $font-sans;
-		
+
 		time {
 			display: inline-block;
 		}
-		
+
 	}
-	
+
 	footer,
 	figcaption,
 	nav {
-		
+
 		@include responsive(wide-screens) {
 				@include grid-five(2, 1);
 				float: right;
 				clear: right;
 		}
-		
+
 	}
-	
-	
-	
+
+
+
 }
