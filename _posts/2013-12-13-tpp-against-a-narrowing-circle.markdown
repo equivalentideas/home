@@ -14,7 +14,7 @@ As governments and corporations push to finalise negotiations for The Trans-Paci
 It is in the interest of a broad collection of individuals and organisations working in health, education, human rights, journalism, ecology, welfare, workers rights,  etc. to oppose the secrecy over the TPP negotiations, an attack on the democratic process. The shying away and labeling of this issue as ‘special interest’ is a success for secrecy. Maybe courage is contagious, but silence is too. If we don’t respond, the strategy of exclusion gains power and is validated.
 
 <figure class="wide graphic central">
-	<img alt="Leaders of TPP member states and prospective member states at a TPP summit in 2010." src="/assets/build/2010-tpp-leaders.jpg" />
+	<img alt="Photograph of the leaders of TPP member states grinning in front of their nations' flags." src="{{ site.url }}/assets/build/2010-tpp-leaders.jpg" />
 	<figcaption>Leaders of the TPP member states and prospective member states at a TPP summit in 2010. Image by <a href="http://www.flickr.com/photos/50371131@N04/5178312541" title="Get more information about this photograph.">Gobierno de Chile used under CC BY 2.0 license</a>.</figcaption>
 </figure>
 
