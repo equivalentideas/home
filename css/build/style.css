@@ -436,8 +436,8 @@ audio {
   float: left;
   clear: left;
   display: block;
-  margin-top: 5.04px;
-  margin-top: 0.315rem;
+  margin-top: 6.112px;
+  margin-top: 0.382rem;
 }
 
 .article-audio-heading {
@@ -1387,8 +1387,12 @@ figure.wide figcaption, .js figure.media figcaption {
 }
 
 .collapsible-heading-status {
-  position: absolute;
-  right: 9999em;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  height: 0;
 }
 
 .collapsible-content {
