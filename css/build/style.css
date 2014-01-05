@@ -239,6 +239,16 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.wf-loading {
+  visibility: hidden;
+}
+.wf-loading .site-header {
+  visibility: visible;
+}
+.wf-loading .site-header [role="banner"] {
+  visibility: hidden;
+}
+
 body {
   font-family: "ff-meta-serif-web-pro", georgia, serif;
   font-weight: normal;
@@ -568,25 +578,15 @@ figcaption,
 }
 @media only screen and (min-width: 85em) {
   .site-intro {
-    padding-right: 0;
-    padding-left: 0;
+    margin-top: 108.112px;
+    margin-top: 6.757rem;
     margin-right: auto;
     margin-left: auto;
-    max-width: 915px;
-    max-width: 57.1875rem;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 .site-intro h1 {
-  text-transform: none;
-  border: none;
-  letter-spacing: 0;
-  font-family: "ff-meta-serif-web-pro", georgia, serif;
-  font-weight: normal;
-  font-size: 1.125em;
-  line-height: 1.6;
-  color: #030408;
-  font-size: 20px;
-  font-size: 1.25rem;
   margin-top: 0;
 }
 .site-intro h1 .u-url {
@@ -597,40 +597,74 @@ figcaption,
 }
 .site-intro h1,
 .site-intro .roles {
+  border: none;
+  letter-spacing: 0;
+  font-family: "ff-meta-serif-web-pro", georgia, serif;
+  font-weight: normal;
+  text-transform: none;
+  color: #030408;
   display: inline;
-  font-size: 28.336px;
-  font-size: 1.771rem;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 @media only screen and (min-width: 40em) {
   .site-intro h1,
   .site-intro .roles {
     font-size: 28.336px;
     font-size: 1.771rem;
-  }
-}
-@media only screen and (min-width: 55em) {
-  .site-intro h1,
-  .site-intro .roles {
-    font-size: 38.912px;
-    font-size: 2.432rem;
+    line-height: 38.912px;
+    line-height: 2.432rem;
   }
 }
 @media only screen and (min-width: 85em) {
   .site-intro h1,
   .site-intro .roles {
-    font-size: 64.848px;
-    font-size: 4.053rem;
+    font-size: 28.336px;
+    font-size: 1.771rem;
+    color: #000;
   }
 }
-.site-intro h1 .role,
-.site-intro .roles .role {
+
+.wf-active .role-detentionlogs {
   display: inline-block;
+}
+@media only screen and (min-width: 21em) {
+  .wf-active .role-detentionlogs {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 64.4375em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 85em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 87.375em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 40em) {
   .home #journal {
     margin-top: 64.848px;
     margin-top: 4.053rem;
+  }
+}
+@media only screen and (min-width: 55em) {
+  .home #journal {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 14.42857%;
+    padding-left: 14.42857%;
   }
 }
 
@@ -847,7 +881,7 @@ body {
 }
 
 @media only screen and (min-width: 55em) {
-  .reading-width, .home #journal, #disqus_thread,
+  .reading-width, #disqus_thread,
   .post-meta,
   .social-share {
     margin-left: auto;
@@ -856,7 +890,7 @@ body {
   }
 }
 @media only screen and (min-width: 60em) {
-  .reading-width, .home #journal, #disqus_thread,
+  .reading-width, #disqus_thread,
   .post-meta,
   .social-share {
     width: 54%;
@@ -864,7 +898,7 @@ body {
 }
 
 @media only screen and (min-width: 85em) {
-  .title-width {
+  .title-width, .site-intro, .home #journal {
     width: 72.8%;
     margin-left: auto;
     margin-right: auto;
