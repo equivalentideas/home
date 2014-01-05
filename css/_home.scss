@@ -12,19 +12,15 @@
 	}
 
 	@include responsive(full-large-screens) {
-		padding-right: 0;
-		padding-left: 0;
+		@include rem(margin-top, $scale-7);
 		margin-right: auto;
 		margin-left: auto;
-		@include rem(max-width, 57.1875);
+		padding-right: 0;
+		padding-left: 0;
+		@extend .title-width;
 	}
 
 	h1 {
-		text-transform: none;
-		border: none;
-		letter-spacing: 0;
-		@include basetype;
-		@include rem(font-size, $scale-1);
 		margin-top: 0;
 
 		.u-url {
@@ -34,37 +30,74 @@
 		.p-name {
 			display: inline-block;
 		}
-
 	}
 
 	h1,
 	.roles {
+		border: none;
+		letter-spacing: 0;
+		font-family: $font-serif;
+		font-weight: normal;
+		text-transform: none;
+		color: $color-main;
 		display: inline;
-		@include rem(font-size, $scale-2);
+		@include rem(font-size, $scale-1);
 
 		@include responsive(medium-screens) {
 			@include rem(font-size, $scale-2);
+			@include rem(line-height, $scale-3);
 		}
 
 		@include responsive(wide-screens) {
-			@include rem(font-size, $scale-3);
 		}
 
 		@include responsive(full-large-screens) {
-			@include rem(font-size, $scale-4);
-		}
+		 	@include rem(font-size, $scale-2);
+		 	color: #000;
+ 		}
+	}
+}
 
-		.role {
-			display: inline-block;
-		}
+.wf-active .role-detentionlogs {
+	display: inline-block;
+
+	@media only screen and (min-width: 21em) {
+		display: inline;
+	}
+}
+
+.wf-active .role-collagraph,
+.wf-active .role-detentionlogs {
+	@media only screen and (min-width: 64.4375em) {
+		display: inline-block;
+	}
+
+	@include responsive(full-large-screens) {
+		display: inline;
+	}
+
+	@media only screen and (min-width: 87.375em) {
+		display: inline-block;
 	}
 }
 
 .home #journal {
-	@extend .reading-width;
 
 	@include responsive(medium-screens) {
 		@include rem(margin-top, $scale-4);
+	}
+
+	@include responsive(wide-screens) {
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: $margin-five-b;
+		padding-left: $margin-five-b;
+	}
+
+	@include responsive(full-large-screens) {
+		@extend .title-width;
+		// padding-right: 0;
+		// padding-left: 0;
 	}
 }
 
