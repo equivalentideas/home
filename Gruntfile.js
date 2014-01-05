@@ -48,6 +48,7 @@ module.exports = function(grunt) {
           'js/global.js'
         ],
         dest: 'js/build/production.js',
+        nonull: true,
       }
     },
 

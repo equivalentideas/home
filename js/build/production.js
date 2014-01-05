@@ -83,6 +83,63 @@
  */
 
 (function(a){jQuery.fn.widowFix=function(d){var c={letterLimit:null,prevLimit:null,linkFix:false,dashes:false};var b=a.extend(c,d);if(this.length){return this.each(function(){var i=a(this);var n;if(b.linkFix){var h=i.find("a:last");h.wrap("<var>");var e=a("var").html();n=h.contents()[0];h.contents().unwrap()}var f=a(this).html().split(" "),m=f.pop();if(f.length<=1){return}function k(){if(m===""){m=f.pop();k()}}k();if(b.dashes){var j=["-","–","—"];a.each(j,function(o,p){if(m.indexOf(p)>0){m='<span style="white-space:nowrap;">'+m+"</span>";return false}})}var l=f[f.length-1];if(b.linkFix){if(b.letterLimit!==null&&n.length>=b.letterLimit){i.find("var").each(function(){a(this).contents().replaceWith(e);a(this).contents().unwrap()});return}else{if(b.prevLimit!==null&&l.length>=b.prevLimit){i.find("var").each(function(){a(this).contents().replaceWith(e);a(this).contents().unwrap()});return}}}else{if(b.letterLimit!==null&&m.length>=b.letterLimit){return}else{if(b.prevLimit!==null&&l.length>=b.prevLimit){return}}}var g=f.join(" ")+"&nbsp;"+m;i.html(g);if(b.linkFix){i.find("var").each(function(){a(this).contents().replaceWith(e);a(this).contents().unwrap()})}})}}})(jQuery);
+// Rag Adjust https://github.com/nathanford/ragadjust
+
+ragadjust = function (s, method) {
+
+	if (document.querySelectorAll) {
+
+		var eles = document.querySelectorAll(s),
+				elescount = eles.length,
+
+				preps = /(\s|^|>)((aboard|about|above|across|after|against|along|amid|among|anti|around|before|behind|below|beneath|beside|besides|between|beyond|concerning|considering|despite|detention|down|during|except|excepting|excluding|following|from|inside|into|like|minus|near|onto|opposite|outside|over|past|plus|regarding|round|save|since|than|that|this|through|toward|towards|under|underneath|unlike|until|upon|versus|with|within|without)?\s)+/gi,
+
+				smallwords = /(\s|^)(([a-zA-Z-_(]{1,2}('|’)*[a-zA-Z-_,;]{0,1}?\s)+)/gi, // words with 3 or less characters
+
+				dashes = /([-–—])\s/gi,
+
+				emphasis = /(<(strong|em|b|i)>)(([^\s]+\s*){2,3})?(<\/(strong|em|b|i)>)/gi;
+
+		while (elescount-- > 0) {
+
+			var ele = eles[elescount],
+					elehtml = ele.innerHTML;
+
+			if (method == 'prepositions' || method == 'all')
+
+				// replace prepositions (greater than 3 characters)
+				elehtml = elehtml.replace(preps, function(contents, p1, p2) {
+				        return p1 + p2.replace(/\s/gi, '&#160;');
+				    });
+
+			if (method == 'small-words' || method == 'all')
+
+				// replace small words
+				elehtml = elehtml.replace(smallwords, function(contents, p1, p2) {
+		        return p1 + p2.replace(/\s/g, '&#160;');
+		    });
+
+		  if (method == 'dashes' || method == 'all')
+
+		  	// replace small words
+		  	elehtml = elehtml.replace(dashes, function(contents) {
+		        return contents.replace(/\s/g, '&#160;');
+		    });
+
+			if (method == 'emphasis' || method == 'all')
+
+				// emphasized text
+				elehtml = elehtml.replace(emphasis, function(contents, p1, p2, p3, p4, p5) {
+				        return p1 + p3.replace(/\s/gi, '&#160;') + p5;
+				    });
+
+			ele.innerHTML = elehtml;
+
+		}
+
+	}
+
+};
 /*! SocialCount - v0.1.6 - 2013-08-08
 * https://github.com/filamentgroup/SocialCount
 * Copyright (c) 2013 zachleat; Licensed MIT */
@@ -436,12 +493,14 @@
 
 }( window, window.document, jQuery ));
 
-// WidowFix
 $(document).ready(function() {
-    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name').widowFix();
+    // WidowFix
+    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name, .p-summary').widowFix();
 });
 
-// FitVids
-$(document).ready(function(){
+ragadjust('.e-content p,h2, h3, .p-summary', 'all');
+
+$(document).ready(function() {
+    // FitVids
 	$("figure.media").fitVids();
 });

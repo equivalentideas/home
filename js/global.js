@@ -1,9 +1,11 @@
-// WidowFix
 $(document).ready(function() {
-    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name').widowFix();
+    // WidowFix
+    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name, .p-summary').widowFix();
 });
 
-// FitVids
-$(document).ready(function(){
+ragadjust('.e-content p,h2, h3, .p-summary', 'all');
+
+$(document).ready(function() {
+    // FitVids
 	$("figure.media").fitVids();
 });
