@@ -12,6 +12,17 @@
 	@include rem(font-size, $scale-n1);
 }
 
+.wf-loading {
+	visibility: hidden;
+
+	.site-header {
+		visibility: visible;
+		[role="banner"] {
+			visibility: hidden;
+		}
+	}
+}
+
 body {
 	@include basetype;
 	text-rendering: optimizeLegibility;
