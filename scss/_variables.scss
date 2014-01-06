@@ -1,50 +1,3 @@
-// @mediaqueries
-// -------------------------------------------------------------------------------*/
-
-$width-small:  30em;
-$width-medium: 40em;
-$width-medium-two: 47em;
-$width-wide:  55em;
-$width-large: 60em;
-$width-full-large: 85em;
-
-@mixin responsive($width) {
-	   
-	    @if $width == small-screens {
-        @media only screen and (min-width: $width-small) {
-            @content; }
-    }
-          
-    @else if $width == medium-screens {
-        @media only screen and (min-width: $width-medium) {
-    	   @content; }
- 	}
-
-    @else if $width == medium-screens-two {
-        @media only screen and (min-width: $width-medium-two) {
-    	   @content; }
- 	}
- 	
-    @else if $width == wide-screens {
-        @media only screen and (min-width: $width-wide) {
-            @content; }
-    }
-
-    @else if $width == large-screens {
-        @media only screen and (min-width: $width-large) {
-            @content; }
-    }
-
-    @else if $width == full-large-screens {
-        @media only screen and (min-width: $width-full-large) {
-            @content; }
-    }
-
- 	
-}
-
-// /@mediaqueries
-// -------------------------------------------------------------------------------*/
 
 // @colours
 // -------------------------------------------------------------------------------*/
@@ -68,7 +21,7 @@ $color-complimentary-light: #bbb;
 /* @typescale
 -------------------------------------------------------------------------------*/
 
-/* 
+/*
 	http://modularscale.com/scale/?px1=17&px2=14&ra1=1.667&ra2=0
 	17px @ 1:1.667
 	14px @ 1:1.667
@@ -93,11 +46,7 @@ $scale-17	: 38.008;		/* 17 	38.008rem   608.132px   */
 /* /@type-scale
 -------------------------------------------------------------------------------*/
 
-// @typestacks
-// -------------------------------------------------------------------------------*/
 
-$font-sans: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif ;
-$font-serif: "ff-meta-serif-web-pro", georgia, serif;
 
 // @/typestacks
 // -------------------------------------------------------------------------------*/

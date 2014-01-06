@@ -1,3 +1,19 @@
+(function() {
+  window.onload = function() {
+    var body = document.body;
+    body.onkeypress = function(e) {
+      if (e.keyCode == 103 || e.charCode == 103) {
+	var dev = body.getAttribute('data-development-grid');
+	if (dev === null || dev == 'hide') {
+	  body.setAttribute('data-development-grid', 'show');
+	}
+	else {
+	  body.setAttribute('data-development-grid', 'hide');
+	}
+      }
+    }
+  }
+})();
 /*global jQuery */
 /*jshint multistr:true browser:true */
 /*!
@@ -92,7 +108,7 @@ ragadjust = function (s, method) {
 		var eles = document.querySelectorAll(s),
 				elescount = eles.length,
 
-				preps = /(\s|^|>)((aboard|about|above|across|after|against|along|amid|among|anti|around|before|behind|below|beneath|beside|besides|between|beyond|concerning|considering|despite|detention|down|during|except|excepting|excluding|following|from|inside|into|like|minus|near|onto|opposite|outside|over|past|plus|regarding|round|save|since|than|that|this|through|toward|towards|under|underneath|unlike|until|upon|versus|with|within|without)?\s)+/gi,
+				preps = /(\s|^|>)((aboard|about|above|across|after|against|along|amid|among|anti|around|before|behind|below|beneath|beside|besides|between|beyond|concerning|considering|despite|down|during|except|excepting|excluding|following|from|inside|into|like|minus|near|onto|opposite|outside|over|past|plus|regarding|round|save|since|than|that|this|through|toward|towards|under|underneath|unlike|until|upon|versus|with|within|without)\s)+/gi,
 
 				smallwords = /(\s|^)(([a-zA-Z-_(]{1,2}('|’)*[a-zA-Z-_,;]{0,1}?\s)+)/gi, // words with 3 or less characters
 

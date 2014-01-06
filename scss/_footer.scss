@@ -2,7 +2,7 @@
 	font-family: $font-sans;
 	@include rem(padding-bottom, $scale-3);
 
-	@include responsive(medium-screens) {
+	@include breakpoint($s) {
 		@include rem(padding-top, $scale-4);
 	}
 
@@ -22,17 +22,22 @@
 	}
 }
 
+ul.service-links {
+	@include clearfix;
+}
+
 .service-links {
 	@include rem(margin-top, $scale-n2);
-	@include clearfix;
 
 	li {
-		float: left;
+		// float: left;
 		display: block;
-		@include grid-two(1, 0);
+		@include grid-span(1, 1, 2);
+		clear: left;
 
 		&:nth-child(2n+2) {
-			margin-left: $gutter-two;
+			@include grid-span(1, 2, 2);
+			clear: right;
 		}
 	}
 
@@ -40,7 +45,7 @@
 
 		display: none;
 
-		@include responsive(small-screens) {
+		@include breakpoint($xs) {
 			display: inline-block;
 			color: darken($color-fade, 15%);
 			vertical-align: middle;
@@ -54,7 +59,7 @@
 .license {
 	@include rem(margin-top, $scale-2);
 
-	@include responsive(medium-screens-two) {
+	@include breakpoint($m) {
 		text-align: center;
 	}
 

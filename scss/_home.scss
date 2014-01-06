@@ -1,17 +1,17 @@
 .site-intro {
 	@include rem(margin-top, $scale-2);
 
-	@include responsive(medium-screens) {
+	@include breakpoint($s) {
 		@include rem(margin-top, $scale-4);
 	}
 
-	@include responsive(wide-screens) {
+	@include breakpoint($l) {
 		@include rem( margin-top, $scale-4);
 		padding-right: $margin-five-b;
 		padding-left: $margin-five-b;
 	}
 
-	@include responsive(full-large-screens) {
+	@include breakpoint($xxl) {
 		@include rem(margin-top, $scale-7);
 		margin-right: auto;
 		margin-left: auto;
@@ -43,15 +43,15 @@
 		display: inline;
 		@include rem(font-size, $scale-1);
 
-		@include responsive(medium-screens) {
+		@include breakpoint($s) {
 			@include rem(font-size, $scale-2);
 			@include rem(line-height, $scale-3);
 		}
 
-		@include responsive(wide-screens) {
+		@include breakpoint($l) {
 		}
 
-		@include responsive(full-large-screens) {
+		@include breakpoint($xxl) {
 		 	@include rem(font-size, $scale-2);
 		 	color: #000;
  		}
@@ -72,7 +72,7 @@
 		display: inline-block;
 	}
 
-	@include responsive(full-large-screens) {
+	@include breakpoint($xxl) {
 		display: inline;
 	}
 
@@ -83,18 +83,18 @@
 
 .home #journal {
 
-	@include responsive(medium-screens) {
+	@include breakpoint($s) {
 		@include rem(margin-top, $scale-4);
 	}
 
-	@include responsive(wide-screens) {
+	@include breakpoint($l) {
 		margin-left: auto;
 		margin-right: auto;
 		padding-right: $margin-five-b;
 		padding-left: $margin-five-b;
 	}
 
-	@include responsive(full-large-screens) {
+	@include breakpoint($xxl) {
 		@extend .title-width;
 		// padding-right: 0;
 		// padding-left: 0;
