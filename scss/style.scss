@@ -16,6 +16,9 @@ $xxl: 85em;
 $grids: 2;
 $gutters: .07;
 
+$grids: add-grid(2 at $xs);
+$gutters: add-gutter(.14 at $xs);
+
 $grids: add-grid(7 at $s);
 $gutters: add-gutter(.2 at $s);
 
@@ -48,7 +51,7 @@ $font-serif: "ff-meta-serif-web-pro", georgia, serif;
 
 @import "navigation";
 
-@import "layout";
+@import "journal";
 
 @import "tools";
 

@@ -1,21 +1,68 @@
 .site-header {
 	border-bottom: 1px $color-fade solid;
-	@include clearfix;
+    padding-right: gutter-span();
+    padding-left: gutter-span();
+    width: 100%;
+    @include clearfix;
+
+    @include breakpoint($xs) {
+        padding-right: gutter-span();
+        padding-left: gutter-span();
+    }
+
+    @include breakpoint($s) {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .banner {
 	@include rem(margin, $scale-n1, 0, $scale-n4);
 	display: inline-block;
+
+    @include breakpoint($s) {
+        @include isolation-span(2, 2, 'left', $grid: 7);
+    }
+
+    @include breakpoint($l) {
+        @include isolation-span(2, 2, 'left', $grid: 9);
+    }
+
+    @include breakpoint($xxl) {
+        @include isolation-span(2, 3, 'left', $grid: 13);
+    }
+}
+
+.header-links {
+    float: right;
+    clear: right;
+    display: block;
+    text-align: right;
+
+    @include breakpoint($s) {
+        @include isolation-span(1, 6, 'right', $grid: 7);
+    }
+
+    @include breakpoint($l) {
+        @include isolation-span(1, 8, 'right', $grid: 9);
+    }
+
+    @include breakpoint($xxl) {
+        @include isolation-span(1, 11, 'right', $grid: 13);
+    }
+
+    a {
+        float: right;
+    }
 }
 
 .twitter-link {
-	float: right;
-	clear: right;
-	display: block;
+    display: block;
     @include rem(padding, $scale-1, 0, 0);
     @include rem(width, $scale-2);
     opacity: .2;
     text-indent: 100%;
+    text-align: right;
     white-space: nowrap;
     overflow: hidden;
     background: url('/assets/build/Twitter_logo.png') center center no-repeat;

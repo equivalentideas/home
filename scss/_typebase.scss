@@ -24,6 +24,8 @@
 }
 
 body {
+	margin: 0 auto;
+	max-width: 105em;
 	@include basetype;
 	text-rendering: optimizeLegibility;
 	background-color: $color-background;
@@ -35,10 +37,6 @@ body {
 	@include breakpoint($xl) {
 		@include rem( font-size, $scale-1);
 	}
-
-
-select, input, textarea {
-	color: $color-main;
 }
 
 /*
@@ -47,10 +45,8 @@ select, input, textarea {
 	}
 */
 
-	@include breakpoint($xl) {
-		@include rem( font-size, $scale-1);
-	}
-
+select, input, textarea {
+	color: $color-main;
 }
 
 h1 {
@@ -227,6 +223,7 @@ a {
 		text-align: center;
 		width: 100%;
 		display: block;
+		clear: both;
 		@include rem(font-size, $scale-2);
 		@include rem(padding-top, $scale-n1);
 	}

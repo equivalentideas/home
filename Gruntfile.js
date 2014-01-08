@@ -116,5 +116,4 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['concat', 'uglify', 'compass', 'imagemin']);
 
   grunt.registerTask('dev', ['watch']);
-
 };

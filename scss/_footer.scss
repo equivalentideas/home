@@ -35,9 +35,19 @@ ul.service-links {
 		@include grid-span(1, 1, 2);
 		clear: left;
 
+		@include breakpoint($xs) {
+			@include grid-span(1, 1, 2);
+			clear: left;
+		}
+
 		&:nth-child(2n+2) {
 			@include grid-span(1, 2, 2);
 			clear: right;
+
+			@include breakpoint($xs) {
+				@include grid-span(1, 2, 2);
+				clear: right;
+			}
 		}
 	}
 
@@ -45,7 +55,7 @@ ul.service-links {
 
 		display: none;
 
-		@include breakpoint($xs) {
+		@include breakpoint(40em) {
 			display: inline-block;
 			color: darken($color-fade, 15%);
 			vertical-align: middle;
