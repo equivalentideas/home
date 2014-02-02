@@ -170,17 +170,27 @@ ul {
 	}
 }
 
+.post-meta {
+	font-family: $font-sans;
+	font-style: italic;
+	@include rem(font-size, $scale-0);
+	color: $color-discreet;
+
+	.journal-header & {
+		display: block;
+		@include rem(margin-top, $scale-n4);
+
+		.author {
+			color: $color-discreet;
+		}
+	}
+}
+
 .dt-published {
 	font-family: $font-sans;
 	/* make lining figures */
     font-style: italic;
 	@include rem(font-size, $scale-0);
-
-	h1 + & {
-		display: block;
-		@include rem(margin-top, $scale-n4);
-	}
-
 }
 
 a {

@@ -449,7 +449,7 @@ h1 {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px #2f3437 solid;
+  border-bottom: 1px #888888 solid;
   /* 	font-family: $font-sans; */
 }
 
@@ -578,18 +578,30 @@ blockquote ul {
   list-style-type: circle;
 }
 
+.post-meta {
+  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #888888;
+}
+
+.journal-header .post-meta {
+  display: block;
+  margin-top: 5.04px;
+  margin-top: 0.315rem;
+}
+
+.journal-header .post-meta .author {
+  color: #888888;
+}
+
 .dt-published {
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
   /* make lining figures */
   font-style: italic;
   font-size: 18px;
   font-size: 1.125rem;
-}
-
-h1 + .dt-published {
-  display: block;
-  margin-top: 5.04px;
-  margin-top: 0.315rem;
 }
 
 a {
@@ -870,7 +882,7 @@ figcaption,
 
 .posts-list time,
 .posts-list .p-summary {
-  color: #474e52;
+  color: #a2a2a2;
 }
 
 .posts-list time {
@@ -1223,7 +1235,8 @@ nav ol,
 
 @media (min-width: 55em) {
   .journal-entry header,
-  .journal-entry .e-content > * {
+  .journal-entry .e-content > *,
+  .journal-entry .entry-footer {
     margin-left: auto;
     margin-right: auto;
     width: 54.71698%;

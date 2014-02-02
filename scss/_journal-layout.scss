@@ -67,7 +67,8 @@
 
 .journal-entry {
 	header,
-	.e-content > * {
+	.e-content > *,
+	.entry-footer {
 		@include breakpoint($l) {
 			margin-left: auto;
 			margin-right: auto;
@@ -94,6 +95,7 @@
 	}
 
 	.entry-footer {
+
 	}
 }
 
