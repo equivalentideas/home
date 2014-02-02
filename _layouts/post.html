@@ -20,20 +20,19 @@
             <section class="e-content entry-content">
                 {{ content }}
             </section>
+
+            <footer class="entry-footer">
+                {% include social.html %}
+
+                <p class="author-bio author vcard byline">{% include short-about.html %}</p>
+            </footer>
         </article>
+        <ul class="feed-links">
+            <li>
+                <a href="{{ site.url }}/rss.xml" title="Subscribe to a feed of these articles via RSS.">RSS</a>
+            </li>
+        </ul>
 
-        <footer class="entry-footer">
-
-            {% include social.html %}
-
-            <p class="author-bio author vcard byline">{% include short-about.html %}</p>
-
-            <ul class="feed-links">
-                <li>
-                    <a href="{{ site.url }}/rss.xml" title="Subscribe to a feed of these articles via RSS.">RSS</a>
-                </li>
-            </ul>
-        </footer>
     </div>
 
     {% include footer.html %}
