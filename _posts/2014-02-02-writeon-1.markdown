@@ -6,7 +6,7 @@ categories: journal
 description: "My response to the first episode of Relly Annet-Baker’s February writing class, Write On."
 ---
 
-I’ve signed up to [Relly Annet-Baker](https://twitter.com/RellyAB ‘@RellyAB on Twitter’)’s month long, email based class [Write On](http://rel.ly/writeon/). 
+I’ve signed up to [Relly Annet-Baker](https://twitter.com/RellyAB '@RellyAB on Twitter')’s month long, email based class [Write On](http://rel.ly/writeon/). 
 
 > 28 daily emailed prompts (and a couple of surprises) to give you the tools and encouragement you need to write and publish articles on whatever topic you want, regularly.
 
@@ -24,6 +24,6 @@ I’d like to write about publishing, web design, journalism, information and th
 
 I think I could write and publish something weekly—something short probably. Maybe monthly is more achievable. That would be a good habit to get into. That’s why I’m publishing this, feeding the habit.
 
-Most recently I’ve only written in response to a request, either an [interview](http://equivalentideas.com/journal/subcompact-detentionlogs/) or opportunity to write on a specific topic, like [the TPP](http://equivalentideas.com/journal/tpp-against-a-narrowing-circle/).
+Most recently I’ve only written in response to a request, either an [interview](http://equivalentideas.com/journal/subcompact-detentionlogs/ 'Subcompact Publishing & Detention Logs') or opportunity to write on a specific topic, like [the TPP](http://equivalentideas.com/journal/tpp-against-a-narrowing-circle/ 'Against a narrowing circle: Secrecy and the TPP Negotiations').
 
 I like to think that at it’s best, my writing is inclusive and easy to understand. I think I use too many words, and I’d like to write more succinctly.
