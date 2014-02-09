@@ -158,6 +158,11 @@ blockquote {
     		content:"\2014";
 		}
 	}
+
+	> p:first-child {
+		margin-top: 0;
+	}
+
 }
 
 ul, ol {
