@@ -181,6 +181,15 @@ ul {
 	}
 }
 
+hr {
+	@include rem(margin-top, $scale-0);
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 2px solid $color-discreet;
+	padding: 0;
+}
+
 .dt-published {
 	@include rem(font-size, $scale-0);
 	/* make lining figures */
@@ -189,7 +198,6 @@ ul {
 }
 
 figcaption,
-.license,
 .service-links .username {
 		@include detail;
 }
@@ -199,12 +207,23 @@ figcaption,
 }
 
 .feed-links {
-	@include rem(font-size, $scale-n1);
-	margin: 0;
+	@include supporting;
 	list-style: none;
 	text-align: right;
 
+	li {
+		@include rem(margin-left, $scale-n3);
+	}
+
 	a {
-		color: $color-complimentary;
+		@include rem(padding, $scale-n5, $scale-n2);
+		background-color: $color-fade;
+		color: $color-discreet;
+
+		&:hover,
+		&:focus	{
+			text-decoration: none;
+			@include color-invert;
+		}
 	}
 }

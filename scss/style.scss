@@ -40,25 +40,18 @@ $font-serif: "ff-meta-serif-web-pro", georgia, serif;
 @import "reset";
 
 @import "typebase";
+@import "layout";
+
+@import "header";
+@import "footer";
+@import "navigation";
 
 @import "scrapbook";
+@import "journal";
 
 @import "home";
 
-@import "header";
-
-@import "footer";
-
-@import "navigation";
-
-@import "journal";
-
+// @import "sharelinks";
 @import "tools";
 
-/* @print
--------------------------------------------------------------------------------*/
-
 @import "print";
-
-/* /@print
--------------------------------------------------------------------------------*/

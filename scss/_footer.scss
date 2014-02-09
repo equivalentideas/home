@@ -1,10 +1,35 @@
 .site-footer {
-	font-family: $font-sans;
-	@include rem(padding-bottom, $scale-3);
+	@include rem(padding-top, $scale-3);
+    @include rem(padding-bottom, $scale-3);
+    @include grid-span(2, 1, 2);
+    padding-right: gutter-span();
+    padding-left: gutter-span();
+    font-family: $font-sans;
+
+    @include breakpoint($xs) {
+        padding-right: gutter-span();
+        padding-left: gutter-span();
+    }
 
 	@include breakpoint($s) {
+		@include isolation-span(5, 2, 'both', $grid: 7);
 		@include rem(padding-top, $scale-4);
+        padding-right: 0;
+        padding-left: 0;
 	}
+
+    @include breakpoint($m) {
+        @include isolation-span(5, 2, 'both', $grid: 7);
+    }
+
+    @include breakpoint($l) {
+    	@include rem(padding-top, $scale-5);
+        @include isolation-span(7, 2, 'both', $grid: 9);
+    }
+
+    @include breakpoint($xxl) {
+        @include isolation-span(9, 3, 'both', $grid: 13);
+    }
 
 	nav a,
 	.service-links a {
@@ -15,8 +40,7 @@
 
 		&:hover,
 		&:focus {
-			background: $color-primary;
-			color: $color-background;
+			@include color-invert;
 			text-decoration: none;
 		}
 	}
@@ -68,12 +92,9 @@ ul.service-links {
 
 .license {
 	@include rem(margin-top, $scale-2);
+	text-align: center;
 
-	@include breakpoint($m) {
-		text-align: center;
-	}
-
-	img {
-		width: auto;
+	a {
+		color: $color-discreet;
 	}
 }

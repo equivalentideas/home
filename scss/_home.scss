@@ -95,7 +95,7 @@
 	}
 
 	@include breakpoint($xxl) {
-		@extend .title-width;
+		// @extend .title-width;
 		// padding-right: 0;
 		// padding-left: 0;
 	}
