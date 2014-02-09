@@ -1,15 +1,20 @@
 @mixin basetype {
-	font-family: $font-serif;
+	color: $color-main;
 	font-weight: normal;
 	font-size: 1.125em;
+	font-family: $font-serif;
 	line-height: 1.6;
-	color: $color-main;
 }
 
 @mixin supporting {
+	color: $color-discreet;
 	font-family: $font-sans;
-	font-weight: normal;
+}
+
+@mixin detail {
 	@include rem(font-size, $scale-n1);
+	font-weight: normal;
+	font-family: $font-sans;
 }
 
 .wf-loading {
@@ -17,6 +22,7 @@
 
 	.site-header {
 		visibility: visible;
+
 		[role="banner"] {
 			visibility: hidden;
 		}
@@ -24,11 +30,11 @@
 }
 
 body {
+	@include basetype;
 	margin: 0 auto;
 	max-width: 105em;
-	@include basetype;
-	text-rendering: optimizeLegibility;
 	background-color: $color-background;
+	text-rendering: optimizeLegibility;
 
 	@include breakpoint($s) {
 		@include rem( font-size, $scale-05);
@@ -39,12 +45,6 @@ body {
 	}
 }
 
-/*
-	@include breakpoint($l) {
-		@include rem( font-size, $scale-0);
-	}
-*/
-
 select, input, textarea {
 	color: $color-main;
 }
@@ -52,12 +52,10 @@ select, input, textarea {
 h1 {
 	@include rem(margin-top, $scale-0);
 	@include rem(font-size, $scale-2);
-	line-height: 1.6;
-	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	border-bottom: 1px $color-discreet solid;
-/* 	font-family: $font-sans; */
+	font-weight: normal;
+	line-height: 1.6;
 
 	@include breakpoint($s) {
 		@include rem(margin-top, $scale-4);
@@ -76,8 +74,8 @@ h1 {
 h2 {
 	@include rem(margin, $scale-3, 0, 0);
 	@include rem(font-size, $scale-1);
-	font-family: $font-sans;
 	font-weight: bold;
+	font-family: $font-sans;
 
 	@include breakpoint($s) {
 		@include rem(font-size, $scale-2);
@@ -87,14 +85,13 @@ h2 {
 
 h3 {
 	@include rem(margin, $scale-2, 0, 0);
-	font-family: $font-sans;
-	font-style: italic;
 	font-weight: normal;
+	font-style: italic;
+	font-family: $font-sans;
 }
 
 h4, h5, h6 {
 }
-
 
 p, ul, ol, dl, figure, blockquote {
 	@include rem( margin-top, $scale-0);
@@ -102,8 +99,8 @@ p, ul, ol, dl, figure, blockquote {
 
 p {
 	+ p {
-		margin-top: 0;
 		@include rem( text-indent, $scale-1);
+		margin-top: 0;
 
 		@include breakpoint($s) {
 			@include rem( text-indent, $scale-2);
@@ -111,20 +108,29 @@ p {
 	}
 }
 
-/*
-.journal-entry .e-content > p:last-child:after {
-	content: "\25FC";
-	padding-left: .2em;
-	@include rem( font-size, $scale-2);
-	vertical-align: middle;
-	font-style: normal;
-	color: $color-complimentary;
+a {
+    color: $color-primary;
+    text-decoration: none;
+
+	&:hover,
+	&:focus {
+	    color: $color-primary;
+        text-decoration: underline;
+	}
+
+	&:active {
+	    color: $color-main;
+	}
+
+	.h-entry .p-name & {
+		color: $color-main;
+		text-decoration: none;
+	}
 }
-*/
 
 blockquote {
-    font-style: italic;
 	@include rem( padding, 0, $scale-0);
+    font-style: italic;
 	font-family: $font-sans;
 
 	@include breakpoint($s) {
@@ -137,10 +143,10 @@ blockquote {
     }
 
     + footer cite {
-    	text-align: right;
-		display: block;
 		@include rem( margin, $scale-0, 0, 0);
 		@include rem(font-size, $scale-0);
+		display: block;
+    	text-align: right;
 		opacity: .9;
 
 		&:hover,
@@ -170,80 +176,17 @@ ul {
 	}
 }
 
-.post-meta {
-	font-family: $font-sans;
-	font-style: italic;
-	@include rem(font-size, $scale-0);
-	color: $color-discreet;
-
-	.journal-header & {
-		display: block;
-		@include rem(margin-top, $scale-n4);
-
-		.author {
-			color: $color-discreet;
-		}
-	}
-}
-
 .dt-published {
-	font-family: $font-sans;
+	@include rem(font-size, $scale-0);
 	/* make lining figures */
     font-style: italic;
-	@include rem(font-size, $scale-0);
-}
-
-a {
-    color: $color-primary;
-    text-decoration: none;
-
-	&:link {
-	}
-
-	&:hover,
-	&:focus {
-	    color: $color-primary;
-        text-decoration: underline;
-	}
-
-	&:active {
-	    color: $color-main;
-	}
-
-	.h-entry .p-name & {
-		color: $color-main;
-		text-decoration: none;
-	}
-}
-
-.journal-entry .e-content {
-
-/*
-	> p:first-child::first-letter {
-		display: inline-block;
-	    float: left;
-		@include rem(font-size, $scale-5);
-		@include rem(padding, 0, $scale-n3, 0, 0);
-		margin: 0;
-	}
-*/
-
-	&:after {
-		content: "* * *";
-		text-align: center;
-		width: 100%;
-		display: block;
-		clear: both;
-		@include rem(font-size, $scale-2);
-		@include rem(padding-top, $scale-n1);
-	}
-
+	font-family: $font-sans;
 }
 
 figcaption,
 .license,
 .service-links .username {
-		@include supporting;
+		@include detail;
 }
 
 .notice {
@@ -251,11 +194,10 @@ figcaption,
 }
 
 .feed-links {
-	list-style: none;
-	// font-family: $font-sans;
-	text-align: right;
-	margin: 0;
 	@include rem(font-size, $scale-n1);
+	margin: 0;
+	list-style: none;
+	text-align: right;
 
 	a {
 		color: $color-complimentary;

@@ -88,14 +88,11 @@
 		}
 	}
 
-	.e-content > * {
+	.e-content > *,
+	.entry-footer {
 		@include breakpoint($xxl) {
 			@include isolation-span(5, 5, 'both', $grid: 13);
 		}
-	}
-
-	.entry-footer {
-
 	}
 }
 
