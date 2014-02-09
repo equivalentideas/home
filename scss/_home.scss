@@ -1,3 +1,14 @@
+.site-intro,
+.home .journal-list {
+    @include breakpoint($l) {
+        @include isolation-span(7, 2, 'both', $grid: 9);
+    }
+
+    @include breakpoint($xxl) {
+        @include isolation-span(9, 3, 'both', $grid: 13);
+    }
+}
+
 .site-intro {
 	@include rem(margin-top, $scale-2);
 
@@ -7,17 +18,10 @@
 
 	@include breakpoint($l) {
 		@include rem( margin-top, $scale-4);
-		padding-right: $margin-five-b;
-		padding-left: $margin-five-b;
 	}
 
 	@include breakpoint($xxl) {
 		@include rem(margin-top, $scale-7);
-		margin-right: auto;
-		margin-left: auto;
-		padding-right: 0;
-		padding-left: 0;
-		@extend .title-width;
 	}
 
 	h1 {
@@ -54,6 +58,7 @@
 		@include breakpoint($xxl) {
 		 	@include rem(font-size, $scale-2);
 		 	color: #000;
+		 	display: block;
  		}
 	}
 }
@@ -81,23 +86,9 @@
 	}
 }
 
-.home #journal {
-
+.home .journal-list {
 	@include breakpoint($s) {
 		@include rem(margin-top, $scale-4);
-	}
-
-	@include breakpoint($l) {
-		margin-left: auto;
-		margin-right: auto;
-		padding-right: $margin-five-b;
-		padding-left: $margin-five-b;
-	}
-
-	@include breakpoint($xxl) {
-		// @extend .title-width;
-		// padding-right: 0;
-		// padding-left: 0;
 	}
 }
 
@@ -109,13 +100,12 @@
 		@include rem(padding, 0, 0, $scale-2);
 	}
 
-	.p-name {
-		font-weight: bold;
+	.dt-published {
+		color: $color-discreet;
 	}
 
-	time,
-	.p-summary {
-		color: lighten($color-discreet, 10%);
+	.p-name {
+		font-weight: bold;
 	}
 
 	time {
