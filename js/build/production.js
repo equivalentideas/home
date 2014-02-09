@@ -1,3 +1,19 @@
+(function() {
+  window.onload = function() {
+    var body = document.body;
+    body.onkeypress = function(e) {
+      if (e.keyCode == 103 || e.charCode == 103) {
+	var dev = body.getAttribute('data-development-grid');
+	if (dev === null || dev == 'hide') {
+	  body.setAttribute('data-development-grid', 'show');
+	}
+	else {
+	  body.setAttribute('data-development-grid', 'hide');
+	}
+      }
+    }
+  }
+})();
 /*global jQuery */
 /*jshint multistr:true browser:true */
 /*!
@@ -502,5 +518,5 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     // FitVids
-	$("figure.media").fitVids();
+	$(".media-figure").fitVids();
 });

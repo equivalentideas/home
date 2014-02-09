@@ -5,17 +5,28 @@ module.exports = function(grunt) {
 
     pkg: grunt.file.readJSON('package.json'),
 
-    sass: {
+    compass: {
       dist: {
         options: {
-          // cssmin will minify later
-          style: 'expanded'
-        },
-        files: {
-          'css/build/style.css': 'css/style.scss'
+          sassDir: 'scss',
+          cssDir: 'stylesheets',
+          environment: 'production',
+          outputStyle: 'expanded'
         }
       }
     },
+
+    // sass: {
+    //   dist: {
+    //     options: {
+    //       // cssmin will minify later
+    //       style: 'expanded'
+    //     },
+    //     files: {
+    //       'css/build/style.css': 'css/style.scss'
+    //     }
+    //   }
+    // },
 
     autoprefixer: {
       options: {
@@ -24,15 +35,15 @@ module.exports = function(grunt) {
       multiple_files: {
         expand: true,
         flatten: true,
-        src: 'css/build/*.css',
-        dest: 'css/build/prefixed/'
+        src: 'stylesheets/style.css',
+        dest: 'stylesheets/build/prefixed/'
       }
     },
 
     cssmin: {
       combine: {
         files: {
-              'css/build/minified/style.css': ['css/build/prefixed/style.css']
+              'stylesheets/build/minified/style.css': ['stylesheets/build/prefixed/style.css']
         }
       }
     },
@@ -82,8 +93,8 @@ module.exports = function(grunt) {
         }
       },
       css: {
-        files: ['css/*.scss'],
-        tasks: ['sass', 'autoprefixer', 'cssmin'],
+        files: ['scss/*.scss'],
+        tasks: ['compass', 'autoprefixer', 'cssmin'],
         options: {
           spawn: false,
         }
@@ -102,8 +113,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is basically a rebuild
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin']);
+  grunt.registerTask('default', ['concat', 'uglify', 'compass', 'imagemin']);
 
   grunt.registerTask('dev', ['watch']);
-
 };

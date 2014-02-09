@@ -1,0 +1,25 @@
+.social-share {
+    @include rem(margin-top, $scale-0);
+    @include rem(font-size, $scale-n1);
+    @include supporting;
+    display: none;
+
+    @include breakpoint($l) {
+        // @include grid-span(1,8,9);
+        // position: absolute;
+        // @include rem(top, $scale-7 + $scale-7 + $scale-5);
+         display: block;
+        // text-align: right;
+    }
+
+    h2 {
+        @include rem(font-size, $scale-n1);
+        display: inline;
+        font-weight: normal;
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 0;
+    }
+}

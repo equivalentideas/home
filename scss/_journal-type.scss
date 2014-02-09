@@ -1,0 +1,33 @@
+
+.post-meta {
+    @include supporting;
+    font-style: italic;
+    @include rem(font-size, $scale-0);
+
+    .journal-header & {
+        display: block;
+        @include rem(margin-top, $scale-n4);
+    }
+}
+
+.journal-header .author {
+    color: $color-discreet;
+}
+
+.journal-entry {
+     .e-content {
+
+         > :last-child {
+        @include clearfix;
+        border-bottom-color: $color-fade;
+        border-bottom-style: solid;
+        @include rem(border-bottom-width, $scale-n4);
+        @include rem(padding-bottom, $scale-1);
+        }
+    }
+
+    .author-bio {
+        @include supporting;
+        @include rem(margin-top, $scale-1);
+    }
+}

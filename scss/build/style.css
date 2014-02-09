@@ -239,6 +239,16 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.wf-loading {
+  visibility: hidden;
+}
+.wf-loading .site-header {
+  visibility: visible;
+}
+.wf-loading .site-header [role="banner"] {
+  visibility: hidden;
+}
+
 body {
   font-family: "ff-meta-serif-web-pro", georgia, serif;
   font-weight: normal;
@@ -248,7 +258,7 @@ body {
   text-rendering: optimizeLegibility;
   background-color: #fdfdfc;
   /*
-  	@include responsive(wide-screens) {
+  	@include breakpoint(wide-screens) {
   		@include rem( font-size, $scale-0);
   	}
   */
@@ -469,6 +479,17 @@ figcaption,
   font-style: italic;
 }
 
+.feed-links {
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.feed-links a {
+  color: #7f5d51;
+}
+
 .scrap:after {
   content: "";
   display: table;
@@ -557,25 +578,15 @@ figcaption,
 }
 @media only screen and (min-width: 85em) {
   .site-intro {
-    padding-right: 0;
-    padding-left: 0;
+    margin-top: 108.112px;
+    margin-top: 6.757rem;
     margin-right: auto;
     margin-left: auto;
-    max-width: 915px;
-    max-width: 57.1875rem;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 .site-intro h1 {
-  text-transform: none;
-  border: none;
-  letter-spacing: 0;
-  font-family: "ff-meta-serif-web-pro", georgia, serif;
-  font-weight: normal;
-  font-size: 1.125em;
-  line-height: 1.6;
-  color: #030408;
-  font-size: 20px;
-  font-size: 1.25rem;
   margin-top: 0;
 }
 .site-intro h1 .u-url {
@@ -586,34 +597,60 @@ figcaption,
 }
 .site-intro h1,
 .site-intro .roles {
+  border: none;
+  letter-spacing: 0;
+  font-family: "ff-meta-serif-web-pro", georgia, serif;
+  font-weight: normal;
+  text-transform: none;
+  color: #030408;
   display: inline;
-  font-size: 28.336px;
-  font-size: 1.771rem;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 @media only screen and (min-width: 40em) {
   .site-intro h1,
   .site-intro .roles {
     font-size: 28.336px;
     font-size: 1.771rem;
-  }
-}
-@media only screen and (min-width: 55em) {
-  .site-intro h1,
-  .site-intro .roles {
-    font-size: 38.912px;
-    font-size: 2.432rem;
+    line-height: 38.912px;
+    line-height: 2.432rem;
   }
 }
 @media only screen and (min-width: 85em) {
   .site-intro h1,
   .site-intro .roles {
-    font-size: 64.848px;
-    font-size: 4.053rem;
+    font-size: 28.336px;
+    font-size: 1.771rem;
+    color: #000;
   }
 }
-.site-intro h1 .role,
-.site-intro .roles .role {
+
+.wf-active .role-detentionlogs {
   display: inline-block;
+}
+@media only screen and (min-width: 21em) {
+  .wf-active .role-detentionlogs {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 64.4375em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 85em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 87.375em) {
+  .wf-active .role-collagraph,
+  .wf-active .role-detentionlogs {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -622,14 +659,17 @@ figcaption,
     margin-top: 4.053rem;
   }
 }
+@media only screen and (min-width: 55em) {
+  .home #journal {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 14.42857%;
+    padding-left: 14.42857%;
+  }
+}
 
 .posts-list {
   list-style: none;
-  /*
-  	li + li {
-  		border-top: 1px $color-fade solid;
-  	}
-  */
 }
 .posts-list .h-entry {
   display: block;
@@ -642,6 +682,19 @@ figcaption,
 .posts-list time,
 .posts-list .p-summary {
   color: #474e52;
+}
+.posts-list time {
+  display: block;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+.posts-list .p-summary {
+  display: inline;
+}
+.posts-list .to-section {
+  display: inline-block;
+  padding-left: 5.04px;
+  padding-left: 0.315rem;
 }
 
 .site-header {
@@ -662,7 +715,24 @@ figcaption,
 .twitter-link {
   float: right;
   clear: right;
-  display: inline-block;
+  display: block;
+  padding: 20px 0px 0px;
+  padding: 1.25rem 0rem 0rem;
+  width: 28.336px;
+  width: 1.771rem;
+  opacity: .2;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("/assets/build/Twitter_logo.png") center center no-repeat;
+  background-size: 100%;
+  transition: .3s ease opacity;
+}
+.twitter-link:hover, .twitter-link:focus {
+  opacity: .9;
+}
+.no-js .twitter-link {
+  display: none;
 }
 
 .site-footer {
@@ -811,22 +881,24 @@ body {
 }
 
 @media only screen and (min-width: 55em) {
-  .reading-width, .home #journal, #disqus_thread,
-  .author-bio {
+  .reading-width, #disqus_thread,
+  .post-meta,
+  .social-share {
     margin-left: auto;
     margin-right: auto;
     width: 56%;
   }
 }
 @media only screen and (min-width: 60em) {
-  .reading-width, .home #journal, #disqus_thread,
-  .author-bio {
+  .reading-width, #disqus_thread,
+  .post-meta,
+  .social-share {
     width: 54%;
   }
 }
 
 @media only screen and (min-width: 85em) {
-  .title-width {
+  .title-width, .site-intro, .home #journal {
     width: 72.8%;
     margin-left: auto;
     margin-right: auto;
@@ -867,6 +939,11 @@ body {
 .journal-entry .post-info {
   padding-bottom: 28.336px;
   padding-bottom: 1.771rem;
+}
+
+.author-bio {
+  margin-top: 64.848px;
+  margin-top: 4.053rem;
 }
 
 .column-container {
@@ -992,8 +1069,8 @@ figure.wide figcaption, .js figure.media figcaption {
 @media only screen and (min-width: 55em) {
   figure.wide, .js figure.media {
     width: 100% !important;
-    margin-right: -21%;
-    margin-left: -21%;
+    margin-right: auto;
+    margin-left: auto;
   }
   figure.wide figcaption, .js figure.media figcaption {
     padding: 0;
@@ -1003,26 +1080,281 @@ figure.wide figcaption, .js figure.media figcaption {
   }
 }
 
-/* 	 filamentgroup / jQuery-Collapsible-Content
-	https://github.com/filamentgroup/jQuery-Collapsible-Content
-*/
-.collapsible-header {
+/*! SocialCount - v0.1.6 - 2013-08-08
+* https://github.com/filamentgroup/SocialCount
+* Copyright (c) 2013 zachleat; Licensed MIT */
+.socialcount {
+  color: #fff;
+  font-size: .875em;
+  line-height: 2.2em;
+}
+
+.socialcount > li {
+  background-color: #999;
+}
+
+.socialcount > li,
+.socialcount > li > a:focus,
+.socialcount .loading {
+  border-radius: 5px;
+}
+
+.socialcount > li > a:focus,
+.socialcount > li:hover,
+.socialcount > li.hover {
+  background-color: #464646;
+}
+
+/* Special class added to count when it's >= the minimum */
+/* Base CSS */
+.socialcount {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 .6em 0;
+  overflow: hidden;
+}
+
+.socialcount-large {
+  line-height: normal;
+}
+
+.socialcount :link,
+.socialcount :visited {
+  color: inherit;
+}
+
+.socialcount > li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  position: relative;
+  vertical-align: top;
+  min-width: 80px;
+  min-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  *margin-right: 4px;
+}
+
+.socialcount.like.de_DE > .facebook {
+  min-width: 90px;
+  /* like */
+}
+
+.socialcount-small > li {
+  min-width: 0;
+}
+
+.socialcount-large > li {
+  float: left;
+  margin: 0 .6em .6em 0;
+}
+
+.socialcount.recommend .facebook {
+  min-width: 120px;
+}
+
+.socialcount-small.recommend .facebook {
+  min-width: 0;
+}
+
+.socialcount-large > li,
+.socialcount-large.recommend .facebook {
+  min-width: 105px;
+}
+
+.socialcount > li > a {
+  display: block;
+  padding: 0 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.socialcount-small > li > a {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.socialcount-large > li > a {
+  padding: 12px 5px 8px;
+}
+
+.socialcount .count {
+  color: inherit;
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.socialcount-large .count {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  padding-top: 10px;
+}
+
+.socialcount-small .count {
+  margin-left: 0;
+}
+
+.socialcount .facebook iframe {
+  height: 21px;
+  width: 90px;
+  /* recommend */
+}
+
+.socialcount.de_DE .facebook iframe {
+  width: 83px;
+  /* recommend */
+}
+
+.socialcount.like .facebook iframe {
+  width: 48px;
+  /* like */
+}
+
+.socialcount.like.de_DE .facebook iframe {
+  width: 83px;
+  /* like */
+}
+
+.socialcount .button {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.socialcount .button iframe {
+  pointer-events: auto;
+}
+
+.socialcount-large .button {
+  top: auto;
+  bottom: 2px;
+}
+
+.socialcount.grade-a.activate-on-hover > li.hover .count,
+.socialcount.grade-a.activate-on-click > li.hover.active .count {
+  text-indent: -999px;
+}
+
+.socialcount.grade-a.activate-on-hover > li.hover .button,
+.socialcount.grade-a.activate-on-click > li.hover.active .button {
+  display: block;
+}
+
+.socialcount.grade-a.activate-on-hover > li.hover > a,
+.socialcount.grade-a.activate-on-click > li.hover.active > a {
+  cursor: default;
+}
+
+.socialcount-small.grade-a.activate-on-hover > li.hover > a,
+.socialcount-small.grade-a.activate-on-click > li.hover.active > a,
+.socialcount.grade-a.activate-on-hover > li.hover .button iframe,
+.socialcount.grade-a.activate-on-click > li.hover.active .button iframe {
   cursor: pointer;
 }
 
-.collapsible-header::after {
-  content: " [-]";
-  font-size: 14px;
-  font-size: 0.875rem;
-  vertical-align: top;
+/* Inline loading */
+.socialcount .loading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: #aaa;
+  background-color: rgba(170, 170, 170, 0.7);
+  color: #000;
+  text-transform: uppercase;
+  font-size: .75em;
+  text-align: center;
 }
 
-.collapsible-collapsed .collapsible-header::after {
-  content: " [+]";
+.socialcount-large .loading {
+  padding-top: 30%;
 }
 
-.collapsible-collapsed .collapsible-content {
-  display: none;
+.socialcount .loading .dot {
+  display: inline-block;
+  /* no ie7 compat needed here, just shows the text links */
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  background: #fff;
+  opacity: 0;
+  border-radius: 50%;
+  -webkit-animation: socialCountLoadingFade .6s infinite;
+  -moz-animation: socialCountLoadingFade .6s infinite;
+  animation: socialCountLoadingFade .6s infinite;
+}
+
+.socialcount .loading .dot:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.socialcount .loading .dot:nth-child(2) {
+  -webkit-animation-delay: .05s;
+  -moz-animation-delay: .05s;
+  animation-delay: .05s;
+}
+
+.socialcount .loading .dot:nth-child(3) {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  animation-delay: .1s;
+}
+
+@-webkit-keyframes socialCountLoadingFade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes socialCountLoadingFade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes socialCountLoadingFade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.social-share {
+  text-align: center;
 }
 
 /* @print
@@ -1049,8 +1381,7 @@ figure.wide figcaption, .js figure.media figcaption {
     margin-right: 0.5cm;
     margin-bottom: 4cm;
     margin-left: 0.5cm;
-}
-
+  }
   p,
   h2,
   h3 {

@@ -7,5 +7,5 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     // FitVids
-	$("figure.media").fitVids();
+	$(".media-figure").fitVids();
 });

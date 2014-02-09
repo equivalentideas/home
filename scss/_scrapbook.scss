@@ -16,7 +16,7 @@
 
 	.e-content {
 
-		@include responsive(wide-screens) {
+		@include breakpoint($l) {
 				@include grid-five(3, 2);
 				margin: 0 $gutter-five 0 0;
 				padding: 0;
@@ -80,7 +80,7 @@
 	figcaption,
 	nav {
 
-		@include responsive(wide-screens) {
+		@include breakpoint($l) {
 				@include grid-five(2, 1);
 				float: right;
 				clear: right;

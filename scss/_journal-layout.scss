@@ -1,0 +1,25 @@
+
+.title-width {
+
+	@include breakpoint($xxl) {
+		@include grid-five(3, 4);
+		margin-left: auto;
+		margin-right: auto;
+		@include rem( margin-bottom, $scale-5);
+		padding-right: 0;
+		padding-left: 0;
+
+	}
+}
+
+
+
+// .post-info {
+// 	@include rem(padding-bottom, $scale-2);
+// }
+
+img,
+iframe,
+video {
+width: 100%;
+}
