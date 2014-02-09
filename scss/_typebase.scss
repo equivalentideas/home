@@ -217,6 +217,7 @@ figcaption,
 
 	a {
 		@include rem(padding, $scale-n5, $scale-n2);
+		border-radius: .1em;
 		background-color: $color-fade;
 		color: $color-discreet;
 
