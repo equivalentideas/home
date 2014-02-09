@@ -1327,7 +1327,6 @@ figure.wide figcaption, .js figure.media figcaption {
     opacity: 0;
   }
 }
-
 @-moz-keyframes socialCountLoadingFade {
   0% {
     opacity: 0;
@@ -1341,7 +1340,6 @@ figure.wide figcaption, .js figure.media figcaption {
     opacity: 0;
   }
 }
-
 @keyframes socialCountLoadingFade {
   0% {
     opacity: 0;
@@ -1355,7 +1353,6 @@ figure.wide figcaption, .js figure.media figcaption {
     opacity: 0;
   }
 }
-
 .social-share {
   text-align: center;
 }
@@ -1384,8 +1381,7 @@ figure.wide figcaption, .js figure.media figcaption {
     margin-right: 0.5cm;
     margin-bottom: 4cm;
     margin-left: 0.5cm;
-}
-
+  }
   p,
   h2,
   h3 {
