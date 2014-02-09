@@ -636,6 +636,7 @@ figcaption,
 .feed-links a {
   padding: 1px 10.192px;
   padding: 0.0625rem 0.637rem;
+  border-radius: .1em;
   background-color: #dedee3;
   color: #888888;
 }
@@ -1175,8 +1176,7 @@ nav ol,
 }
 
 @media (min-width: 85em) {
-  .title-width,
-  .site-intro {
+  .title-width {
     width: 72.8%;
     margin-left: auto;
     margin-right: auto;
@@ -1289,6 +1289,28 @@ video {
   }
 }
 
+@media (min-width: 55em) {
+  .site-intro,
+  .home .journal-list {
+    width: 77.35849%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 11.32075%;
+    clear: both;
+  }
+}
+
+@media (min-width: 85em) {
+  .site-intro,
+  .home .journal-list {
+    width: 68.83117%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 15.58442%;
+    clear: both;
+  }
+}
+
 .site-intro {
   margin-top: 28.336px;
   margin-top: 1.771rem;
@@ -1305,8 +1327,6 @@ video {
   .site-intro {
     margin-top: 64.848px;
     margin-top: 4.053rem;
-    padding-right: 14.42857%;
-    padding-left: 14.42857%;
   }
 }
 
@@ -1314,10 +1334,6 @@ video {
   .site-intro {
     margin-top: 108.112px;
     margin-top: 6.757rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 0;
-    padding-left: 0;
   }
 }
 
@@ -1362,6 +1378,7 @@ video {
     font-size: 28.336px;
     font-size: 1.771rem;
     color: #000;
+    display: block;
   }
 }
 
@@ -1397,18 +1414,9 @@ video {
 }
 
 @media (min-width: 40em) {
-  .home #journal {
+  .home .journal-list {
     margin-top: 64.848px;
     margin-top: 4.053rem;
-  }
-}
-
-@media (min-width: 55em) {
-  .home #journal {
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 14.42857%;
-    padding-left: 14.42857%;
   }
 }
 
@@ -1422,13 +1430,12 @@ video {
   padding: 0rem 0rem 1.771rem;
 }
 
-.posts-list .p-name {
-  font-weight: bold;
+.posts-list .dt-published {
+  color: #888888;
 }
 
-.posts-list time,
-.posts-list .p-summary {
-  color: #a2a2a2;
+.posts-list .p-name {
+  font-weight: bold;
 }
 
 .posts-list time {
