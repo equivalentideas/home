@@ -1,0 +1,230 @@
+@mixin basetype {
+	color: $color-main;
+	font-weight: normal;
+	font-size: 1.125em;
+	font-family: $font-serif;
+	line-height: 1.6;
+}
+
+@mixin supporting {
+	color: $color-discreet;
+	font-family: $font-sans;
+}
+
+@mixin detail {
+	@include rem(font-size, $scale-n1);
+	font-weight: normal;
+	font-family: $font-sans;
+}
+
+.wf-loading {
+	visibility: hidden;
+
+	.site-header {
+		visibility: visible;
+
+		[role="banner"] {
+			visibility: hidden;
+		}
+	}
+}
+
+body {
+	@include basetype;
+	margin: 0 auto;
+	max-width: 105em;
+	background-color: $color-background;
+	text-rendering: optimizeLegibility;
+
+	@include breakpoint($s) {
+		@include rem( font-size, $scale-05);
+	}
+
+	@include breakpoint($xl) {
+		@include rem( font-size, $scale-1);
+	}
+}
+
+select, input, textarea {
+	color: $color-main;
+}
+
+h1 {
+	@include rem(margin-top, $scale-0);
+	@include rem(font-size, $scale-2);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	line-height: 1.6;
+
+	@include breakpoint($s) {
+		@include rem(margin-top, $scale-4);
+		@include rem(font-size, $scale-2);
+		@include rem(line-height, $scale-3);
+		border-bottom: none;
+	}
+
+	@include breakpoint($xl) {
+		@include rem(margin-top, $scale-5);
+		@include rem(font-size, $scale-3);
+		@include rem(line-height, $scale-3 + $scale-n1);
+	}
+}
+
+h2 {
+	@include rem(margin, $scale-3, 0, 0);
+	@include rem(font-size, $scale-1);
+	font-weight: bold;
+	font-family: $font-sans;
+
+	@include breakpoint($s) {
+		@include rem(font-size, $scale-2);
+	}
+
+}
+
+h3 {
+	@include rem(margin, $scale-2, 0, 0);
+	font-weight: normal;
+	font-style: italic;
+	font-family: $font-sans;
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, dl, figure, blockquote {
+	@include rem( margin-top, $scale-0);
+}
+
+p {
+	+ p {
+		@include rem( text-indent, $scale-1);
+		margin-top: 0;
+
+		@include breakpoint($s) {
+			@include rem( text-indent, $scale-2);
+		}
+	}
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+
+	&:hover,
+	&:focus {
+	    color: $color-primary;
+        text-decoration: underline;
+	}
+
+	&:active {
+	    color: $color-main;
+	}
+
+	.h-entry .p-name & {
+		color: $color-main;
+		text-decoration: none;
+	}
+}
+
+blockquote {
+	@include rem( padding, 0, $scale-0);
+    font-style: italic;
+	font-family: $font-sans;
+
+	@include breakpoint($s) {
+		@include rem( padding, 0, $scale-2);
+	}
+
+    .single-quote & {
+	    font-style: normal;
+	    padding: 0;
+    }
+
+    + footer cite {
+		@include rem( margin, $scale-0, 0, 0);
+		@include rem(font-size, $scale-0);
+		display: block;
+    	text-align: right;
+		opacity: .9;
+
+		&:hover,
+		&:focus {
+			opacity: 1;
+		}
+
+    	&:before {
+    		content:"\2014";
+		}
+	}
+
+	> p:first-child {
+		margin-top: 0;
+	}
+
+}
+
+ul, ol {
+	list-style-position: outside;
+}
+
+ul {
+	list-style-type: disc;
+
+	ul {
+		list-style-type: circle;
+	}
+
+	blockquote & {
+		list-style-type: circle;
+	}
+}
+
+hr {
+	@include rem(margin-top, $scale-0);
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 2px solid $color-discreet;
+	padding: 0;
+}
+
+.dt-published {
+	@include rem(font-size, $scale-0);
+	/* make lining figures */
+    font-style: italic;
+	font-family: $font-sans;
+}
+
+figcaption,
+.service-links .username {
+		@include detail;
+}
+
+.notice {
+	font-style: italic;
+}
+
+.feed-links {
+	@include supporting;
+	list-style: none;
+	text-align: right;
+
+	li {
+		@include rem(margin-left, $scale-n3);
+	}
+
+	a {
+		@include rem(padding, $scale-n5, $scale-n2);
+		border-radius: .1em;
+		background-color: $color-fade;
+		color: $color-discreet;
+
+		&:hover,
+		&:focus	{
+			text-decoration: none;
+			@include color-invert;
+		}
+	}
+}
