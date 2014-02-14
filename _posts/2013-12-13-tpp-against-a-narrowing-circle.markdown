@@ -13,7 +13,7 @@ As governments and corporations push to finalise negotiations for The Trans-Paci
 
 It is in the interest of a broad collection of individuals and organisations working in health, education, human rights, journalism, ecology, welfare, workers rights,  etc. to oppose the secrecy over the TPP negotiations, an attack on the democratic process. The shying away and labeling of this issue as ‘special interest’ is a success for secrecy. Maybe courage is contagious, but silence is too. If we don’t respond, the strategy of exclusion gains power and is validated.
 
-<figure class="wide-figure graphic-figure central-figure">
+<figure id="figure-1" class="wide-figure graphic-figure central-figure">
 	<img alt="Photograph of the leaders of TPP member states grinning in front of their nations' flags." src="{{ site.url }}/assets/build/2010-tpp-leaders.jpg" />
 	<figcaption>Leaders of the TPP member states and prospective member states at a TPP summit in 2010. Image by <a href="http://www.flickr.com/photos/50371131@N04/5178312541" title="Get more information about this photograph.">Gobierno de Chile used under CC BY 2.0 license</a>.</figcaption>
 </figure>
@@ -48,7 +48,7 @@ The TPP is a deal between you and I, and corporations (via government) to set ru
 
 Stiglitz applied his thinking on information to government:
 
-<figure class="quote">
+<figure id="figure-2" class="quote">
 	<blockquote>
 		<p>Meaningful participation in democratic processes requires informed participants. Secrecy reduces the information available to the citizenry, hobbling their ability to participate meaningfully…We often speak of government being accountable, accountable to the people. But if effective democratic oversight is to be achieved, then the voters have to be informed: they have to know what alternative actions were available, and what the results might have been…</p>
 	</blockquote>
@@ -65,7 +65,7 @@ For the TPP, U.S Trade Representative Ron Kirk says secrecy from the public is n
 
 Stiglitz addresses this position:
 
-<figure class="quote">
+<figure id="figure-3" class="quote">
 	<blockquote>
 		<p>The argument that public discussions—including discussions of uncertainties and mistakes—will undermine the authority of public institutions is one of the most corrosive of democratic processes. It is akin to the kinds of arguments that authoritarian regimes conventionally use. I would argue, on the contrary, that were governments to deal honestly with their citizenry, confidence in government and public institutions would increase, not decrease.</p>
 	</blockquote>
@@ -102,7 +102,7 @@ It is not only the details of policy outcomes that is crucial for wide participa
 
 It proves the vital relevance of groups like [Wikileaks](https://wikileaks.org/) and people like [Chelsea Manning](http://www.privatemanning.org/learn-more/bradley-manning), [Edward Snowden](http://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance) and [Jeremy Hammond](http://www.truthdig.com/report/page3/feeding_the_flame_of_revolt_20131117),  that the only way we could discover the deals being made on our behalf is by concerned people on the inside passing information out to us.
 
-<figure class="quote">
+<figure id="figure-4" class="quote">
 	<blockquote>
 		<p>To maintain secrecy, often the circle of those involved in decision making is greatly circumscribed; those who are able to provide valuable insights are cut out of the discussion. The quality of decision making is thereby weakened. There is, again, a vicious circle. With more mistakes, public officials become more defensive; to protect themselves, they seek even more secrecy, narrowing in the circle still further, eroding still further the quality of decision-making.</p>
 	</blockquote>
@@ -113,7 +113,7 @@ It proves the vital relevance of groups like [Wikileaks](https://wikileaks.org/)
 
 Already, a range of groups and individuals are speaking out against the contempt for participatory democracy visible in the TPP negotiations. [Doctors Without Borders (Médecins Sans Frontières/MSF)](http://www.msf.org/) have long [recognised the impact the TPP](http://www.msfaccess.org/spotlight-on/trans-pacific-partnership-agreement) will have on the lives of people they work with.
 
-<figure class="wide-figure media-figure">
+<figure  id="figure-5" class="wide-figure media-figure">
 	<iframe src="//player.vimeo.com/video/66307252?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </figure>
 
