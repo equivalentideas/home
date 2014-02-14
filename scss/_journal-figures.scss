@@ -1,6 +1,10 @@
 
 .e-content figure {
 
+    &:target {
+        background-color: $color-highlight;
+    }
+
     &.tweet {
             @include rem(margin-bottom, $scale-1);
     }

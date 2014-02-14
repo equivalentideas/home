@@ -15,6 +15,8 @@ $color-primary-darker: #444;
 $color-complimentary: #7f5d51;
 $color-complimentary-light: #bbb;
 
+$color-highlight: #F8F082;
+
 @mixin color-invert {
     background-color: $color-primary;
     color: $color-background;
