@@ -167,6 +167,11 @@ blockquote {
 
 ul, ol {
 	list-style-position: outside;
+	@include rem(padding-left, $scale-2);
+
+	@include breakpoint($s) {
+		padding-left: 0;
+	}
 }
 
 ul {
