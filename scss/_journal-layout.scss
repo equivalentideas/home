@@ -1,25 +1,32 @@
 
 .title-width {
-
-	@include breakpoint($xxl) {
-		@include grid-five(3, 4);
-		margin-left: auto;
-		margin-right: auto;
-		@include rem( margin-bottom, $scale-5);
-		padding-right: 0;
-		padding-left: 0;
-
-	}
+    @include breakpoint($xxl) {
+        @include grid-five(3, 4);
+        @include rem( margin-bottom, $scale-5);
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
-
-
 // .post-info {
-// 	@include rem(padding-bottom, $scale-2);
+//  @include rem(padding-bottom, $scale-2);
 // }
 
 img,
 iframe,
 video {
-width: 100%;
+    width: 100%;
+}
+
+.journal-subarticle {
+    @include rem( margin-top, $scale-1);
+    @include rem( margin-bottom, $scale-1);
+    border-top: 2px $color-discreet solid;
+    border-bottom: 2px $color-discreet solid;
+
+    h1 {
+        @include rem( margin-top, $scale-2);
+    }
 }
