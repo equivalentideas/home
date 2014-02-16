@@ -349,7 +349,7 @@ h2 {
   margin: 2.432rem 0rem 0rem;
   font-size: 20px;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: normal;
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
   color: #383838;
 }
@@ -470,7 +470,6 @@ hr {
 .dt-published {
   font-size: 18px;
   font-size: 1.125rem;
-  /* make lining figures */
   font-style: italic;
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
 }
@@ -487,24 +486,32 @@ figcaption,
   font-style: italic;
 }
 
-.feed-links {
+.feed-links,
+.interface-links ul {
   color: #888888;
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   list-style: none;
   text-align: right;
 }
-.feed-links li {
+.feed-links li,
+.interface-links ul li {
   margin-left: 6.112px;
   margin-left: 0.382rem;
+  display: inline-block;
 }
-.feed-links a {
+.feed-links a,
+.interface-links ul a {
   padding: 1px 10.192px;
   padding: 0.0625rem 0.637rem;
   border-radius: .1em;
   background-color: #dedee3;
   color: #888888;
 }
-.feed-links a:hover, .feed-links a:focus {
+.feed-links a:hover, .feed-links a:focus,
+.interface-links ul a:hover,
+.interface-links ul a:focus {
   text-decoration: none;
   background-color: #1f5289;
   color: #fdfdfc;
@@ -990,10 +997,10 @@ nav ol,
 @media (min-width: 85em) {
   .title-width {
     width: 72.8%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 78.752px;
     margin-bottom: 4.922rem;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 0;
     padding-left: 0;
   }
@@ -1003,6 +1010,19 @@ img,
 iframe,
 video {
   width: 100%;
+}
+
+.journal-subarticle {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+  border-top: 2px #888888 solid;
+  border-bottom: 2px #888888 solid;
+}
+.journal-subarticle h1 {
+  margin-top: 28.336px;
+  margin-top: 1.771rem;
 }
 
 .e-content figure:target {
