@@ -76,6 +76,7 @@ h2 {
 	@include rem(font-size, $scale-1);
 	font-weight: bold;
 	font-family: $font-sans;
+	color: #383838;
 
 	@include breakpoint($s) {
 		@include rem(font-size, $scale-2);
