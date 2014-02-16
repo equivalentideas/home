@@ -472,6 +472,7 @@ h2 {
   font-size: 1.25rem;
   font-weight: bold;
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  color: #383838;
 }
 
 @media (min-width: 40em) {
@@ -577,6 +578,15 @@ blockquote > p:first-child {
 ul,
 ol {
   list-style-position: outside;
+  padding-left: 28.336px;
+  padding-left: 1.771rem;
+}
+
+@media (min-width: 40em) {
+  ul,
+  ol {
+    padding-left: 0;
+  }
 }
 
 ul {
@@ -970,6 +980,10 @@ figcaption,
   background-color: #1f5289;
   color: #fdfdfc;
   text-decoration: none;
+}
+
+ul.service-links {
+  padding-left: 0;
 }
 
 ul.service-links:after {
