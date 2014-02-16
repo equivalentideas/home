@@ -14,8 +14,8 @@ Contributions could include:
 
 <!-- Copyright license stuff -->
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><em>This section is licensed under a <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" title="See the license">CC0 1.0 Universal, Public Domain Dedication</a>. To the extent possible under law, <a rel="dct:publisher"
-href="http://equivalentideas.com"><span property="dct:title">Luke Bacon</span></a> has waived all copyright and related or neighboring rights to <cite property="dct:title"><a href="http://equivalentideas.com/journal/approaching-priniciples-for-independent-archives/#principles" title="Principles for Independent Archives">Principles for Independent Archives</a></cite>. If you choose to contribute, your contribution will also fall under this license to make it as reuseable to others as possible.</em></p>
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><em><cite property="dct:title"><a href="http://equivalentideas.com/journal/approaching-principles-for-independent-archives/#principles" title="Principles for Independent Archives">Principles for Independent Archives</a></cite> is licensed under a <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" title="See the license">CC0 1.0 Universal, Public Domain Dedication</a>. To the extent possible under law, <a rel="dct:publisher"
+href="http://equivalentideas.com"><span property="dct:title">Luke Bacon</span></a> has waived all copyright and related or neighboring rights to <cite property="dct:title"><a href="http://equivalentideas.com/journal/approaching-principles-for-independent-archives/#principles" title="Principles for Independent Archives">Principles for Independent Archives</a></cite>. If you choose to contribute, your contribution will also fall under this license to make it as reuseable to others as possible.</em></p>
 
 <!-- end Copyright license stuff -->
 

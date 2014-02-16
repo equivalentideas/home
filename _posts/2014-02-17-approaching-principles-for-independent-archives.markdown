@@ -55,7 +55,7 @@ While there are [Open Government](http://www.finance.gov.au/e-government/strateg
 
 People in a position of power are [incentivised to be closed](http://equivalentideas.com/journal/tpp-against-a-narrowing-circle/#figure-4 'Quote from Stiglitz, 1999, On Liberty, the Right to Know, and Public Discourse: The Role of Transparency in Public Life') with their information. We need legislation *and* a culture of transparency to make sure people with useful information share it. The act of collecting, categorising, transcoding and republishing evidence to make it more accessible to more people is an important act of accountability journalism. It lowers the cost for others to use and act upon it.
 
-There is also the issue of secret, unofficial, suppressed and censored records: [what does the public have a right to know?](http://equivalentideas.com/journal/tpp-against-a-narrowing-circle/ 'Against a narrowing circle: Secrecy and the TPP Negotiations') The question of “what to collect” is obviously crucial, but here I’m just thinking about what to do with records once they are collected.
+There is also the issue of secret, unofficial, suppressed and censored records: what does the public have a right to know? The question of “what to collect” is obviously crucial, but here I’m just thinking about what to do with records once they are collected.
 
 ## Why independent?
 
