@@ -198,7 +198,6 @@ hr {
 
 .dt-published {
 	@include rem(font-size, $scale-0);
-	/* make lining figures */
     font-style: italic;
 	font-family: $font-sans;
 }
@@ -212,13 +211,16 @@ figcaption,
 	font-style: italic;
 }
 
-.feed-links {
+.feed-links,
+.interface-links ul {
 	@include supporting;
+	@include rem(margin-bottom, $scale-1);
 	list-style: none;
 	text-align: right;
 
 	li {
 		@include rem(margin-left, $scale-n3);
+		display: inline-block;
 	}
 
 	a {
