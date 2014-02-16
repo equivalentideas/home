@@ -74,7 +74,7 @@ h1 {
 h2 {
 	@include rem(margin, $scale-3, 0, 0);
 	@include rem(font-size, $scale-1);
-	font-weight: bold;
+	font-weight: normal;
 	font-family: $font-sans;
 	color: #383838;
 
