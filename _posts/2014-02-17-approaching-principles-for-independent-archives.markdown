@@ -118,7 +118,7 @@ Because principles are modular by nature, you can consider your own project’s 
 
 The easiest way to contribute is to leave a comment responding to the [principles below](#principles 'Principles for Independent Archives'). You can use the [comment system](#disqus_thread 'Leave a comment'), [email](mailto:luke@equivalentideas.com?subject=RE%20Principles%20for%20Independent%20Archives 'Email Luke Bacon') or [tweet](http://twitter.com/equivalentideas 'Luke Bacon on Twitter') at me, publish a responding blog post, whatever you like. Preferably you should respond somewhere public so everyone can see the discussion. You'll see that I've also made some recommendations for the type of contributions that might be productive.
 
-I've published the principles on [GitHub](https://github.com/equivalentideas/home/blob/gh-pages/_includes/independent-archive-principles.md 'Principles for Indpendent Archives on Github') where you can edit and improve them (inspired by [ProPublic's Nerd Guides](https://github.com/propublica/guides 'ProPublica’s News App and Data Style Guides'). I know that not everyone is a GitHub user, [here's quick video on signing up](https://www.youtube.com/watch?v=ezxRcdJ8glM&list=PLg7s6cbtAD17rhrz2BJWAPJMjR71B3IDx&feature=c4-overview-vl 'How to Create a GitHub Account, A Quick Look') and [a video on why](https://www.youtube.com/watch?v=CEN4XNth61o 'Clay Shirky: How the Internet will one day transform government')). Please feel welcome to post changes to the principles in the comments section as well. If there’s ideas in the comments that should be turned into edits on the GitHub repository I can handle that.
+I've published the principles on [GitHub](https://github.com/equivalentideas/independent-archive-principles/blob/master/independent-archive-principles.md 'Principles for Indpendent Archives on Github') where you can edit and improve them (inspired by [ProPublic's Nerd Guides](https://github.com/propublica/guides 'ProPublica’s News App and Data Style Guides'). I know that not everyone is a GitHub user, [here's quick video on signing up](https://www.youtube.com/watch?v=ezxRcdJ8glM&list=PLg7s6cbtAD17rhrz2BJWAPJMjR71B3IDx&feature=c4-overview-vl 'How to Create a GitHub Account, A Quick Look') and [a video on why](https://www.youtube.com/watch?v=CEN4XNth61o 'Clay Shirky: How the Internet will one day transform government')). Please feel welcome to post changes to the principles in the comments section as well. If there’s ideas in the comments that should be turned into edits on the GitHub repository I can handle that.
 
 Why contribute? There’s a lot of work to do and we need lots of people involved to do it. Most people (like me) don’t have formal training in information management. The more we can share our experiences and knowledge and support the community of people doing this work, the more impact our projects will have. The technological landscape that we’re working in is racing away benieth us—I don't know anyone who feels like they know what’s coming next.
 
@@ -137,8 +137,8 @@ Why contribute? There’s a lot of work to do and we need lots of people involve
     <aside class="interface-links">
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
-            <li><a href="https://github.com/equivalentideas/home/edit/gh-pages/_includes/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
-            <li><a href="https://github.com/equivalentideas/home/commits/gh-pages/_includes/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/edit/master/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/commits/master/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
 
@@ -148,8 +148,8 @@ Why contribute? There’s a lot of work to do and we need lots of people involve
 <aside class="interface-links">
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
-            <li><a href="https://github.com/equivalentideas/home/edit/gh-pages/_includes/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
-            <li><a href="https://github.com/equivalentideas/home/commits/gh-pages/_includes/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/edit/master/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/commits/master/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
 </article>
