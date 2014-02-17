@@ -93,7 +93,7 @@ While each of these examples have a clear purpose they also blur across categori
 
 Small projects are best positioned to engage focused communities. They should also be open, thoughtfully networked and encourge the potential for widespread access.
 
-Striving for universal accessibility and trying to engage a mass audience are very, very different things. Its easy for unfunded volunteer projects to stretch themselves too thin. A multitude of networked approaches, overlaping in time and well as topic, will reach the furthest.
+Striving for universal accessibility and trying to engage a mass audience are very, very different things. It’s easy for unfunded volunteer projects to stretch themselves too thin. A multitude of networked approaches, overlaping in time and well as topic, will reach the furthest.
 
 <figure id="figure-4" class="quote">
     <blockquote>
