@@ -138,6 +138,7 @@ Why contribute? There’s a lot of work to do and we need lots of people involve
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
             <li><a href="https://github.com/equivalentideas/independent-archive-principles/edit/master/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/issues" title="Join the discussion on GitHub.">Issues</a></li>
             <li><a href="https://github.com/equivalentideas/independent-archive-principles/commits/master/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
@@ -149,6 +150,7 @@ Why contribute? There’s a lot of work to do and we need lots of people involve
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
             <li><a href="https://github.com/equivalentideas/independent-archive-principles/edit/master/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/independent-archive-principles/issues" title="Join the discussion on GitHub.">Issues</a></li>
             <li><a href="https://github.com/equivalentideas/independent-archive-principles/commits/master/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
