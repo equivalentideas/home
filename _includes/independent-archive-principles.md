@@ -33,9 +33,6 @@ href="http://equivalentideas.com"><span property="dct:title">Luke Bacon</span></
 
 Presenting records/data in a consistant, standardised, common format reduces the cost for others to use and act upon them. Open, long lived formats, standards and structures have a better chance of lasting over time than closed, proprietary standards.
 
-<!-- Chunks not blobs, structured data, meta data, [orbital content](http://alistapart.com/article/orbital-content), [loose federation of data](https://readmill.com/Equivalentideas/reads/small-pieces-loosely-joined/highlights/jj_tzw)
-    promote comparisions http://en.wikipedia.org/wiki/Small_multiple -->
-
 ### Think long term
 
 From day one, plan for shut down. All projects end. Small, under-resourced, personal projects are not excluded. Discuss and have a plan for this situation. If possible, the records should remain accessible long after work has stopped on the project.
