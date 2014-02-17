@@ -1,11 +1,12 @@
 $(document).ready(function() {
+    $('.p-name, .journal-entry h1').widowFix({
+        letterLimit: 10,
+        prevLimit: 8
+    });
+
     // WidowFix
-    $('.journal-entry p, .journal-entry h1, .site-intro, .p-name, .p-summary').widowFix();
-});
+    $('.journal-entry p, .site-intro, .p-summary').widowFix();
 
-// ragadjust('.e-content p,h2, h3', 'all');
-
-$(document).ready(function() {
     // FitVids
 	$(".media-figure").fitVids();
 });
