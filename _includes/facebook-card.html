@@ -5,4 +5,6 @@
         {% if page.thumbnail %}<meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">{% endif %}
         <meta property="og:title" content="{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}">
         <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:type" content="article">
         <meta property="article:author" content="{{ site.author }}">
+        <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%-d' }}">
