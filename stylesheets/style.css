@@ -1221,6 +1221,7 @@ video {
 
 .posts-list {
   list-style: none;
+  padding-left: 0;
 }
 .posts-list .h-entry {
   display: block;
