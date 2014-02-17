@@ -120,8 +120,8 @@ I've published the principles below on GitHub where you can edit and improve the
     <aside class="interface-links">
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
-            <li><a href="" title="Edit and fork these principles on Github.">Edit</a></li>
-            <li><a href="" title="View the edit history of the principles on GitHub.">History</a></li>
+            <li><a href="https://github.com/equivalentideas/home/edit/gh-pages/_includes/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/home/commits/gh-pages/_includes/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
 
@@ -131,8 +131,8 @@ I've published the principles below on GitHub where you can edit and improve the
 <aside class="interface-links">
         <ul>
             <li><a href="#disqus_thread" title="Contribute by leaving thought on the principles below.">Comment</a></li>
-            <li><a href="" title="Edit and fork these principles on Github.">Edit</a></li>
-            <li><a href="" title="View the edit history of the principles on GitHub.">History</a></li>
+            <li><a href="https://github.com/equivalentideas/home/edit/gh-pages/_includes/independent-archive-principles.md" title="Edit and fork these principles on Github.">Edit</a></li>
+            <li><a href="https://github.com/equivalentideas/home/commits/gh-pages/_includes/independent-archive-principles.md" title="View the edit history of the principles on GitHub.">History</a></li>
         </ul>
     </aside>
 </article>
