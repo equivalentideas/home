@@ -114,7 +114,24 @@ I'm advocating for lots of small projects with divergent approaches, so why sugg
 
 Because principles are modular by nature, you can consider your own project’s position and then drawn on the knowledge of people who’ve been there before. Reuse and plug together a your own personal set of guidelines. [Jeremy Keith’s](http://adactio.com/ 'Jeremy Keith's website) [collection of principles](http://principles.adactio.com 'Design Principles collection') is a great resource.
 
-I've published the principles below on GitHub where you can edit and improve them (inspired by [ProPublic's Nerd Guides](https://github.com/propublica/guides 'ProPublica’s News App and Data Style Guides')). I not everyone is a GitHub user so I’ve also opened up comments as well. If there’s ideas in the comments that should be turned into edits on the GitHub repository I’ll handle that.
+## How &amp; Why to Contribute
+
+The easiest way to contribute is to leave a comment responding to the [principles below](#principles 'Principles for Independent Archives'). You can use the [comment system](#disqus_thread 'Leave a comment'), [email](mailto:luke@equivalentideas.com?subject=RE%20Principles%20for%20Independent%20Archives 'Email Luke Bacon') or [tweet](http://twitter.com/equivalentideas 'Luke Bacon on Twitter') at me, publish a responding blog post, whatever you like. Preferably you should respond somewhere public so everyone can see the discussion. You'll see that I've also made some recommendations for the type of contributions that might be productive.
+
+I've published the principles on [GitHub](https://github.com/equivalentideas/home/blob/gh-pages/_includes/independent-archive-principles.md 'Principles for Indpendent Archives on Github') where you can edit and improve them (inspired by [ProPublic's Nerd Guides](https://github.com/propublica/guides 'ProPublica’s News App and Data Style Guides'). I know that not everyone is a GitHub user, [here's quick video on signing up](https://www.youtube.com/watch?v=ezxRcdJ8glM&list=PLg7s6cbtAD17rhrz2BJWAPJMjR71B3IDx&feature=c4-overview-vl 'How to Create a GitHub Account, A Quick Look') and [a video on why](https://www.youtube.com/watch?v=CEN4XNth61o 'Clay Shirky: How the Internet will one day transform government')). Please feel welcome to post changes to the principles in the comments section as well. If there’s ideas in the comments that should be turned into edits on the GitHub repository I can handle that.
+
+Why contribute? There’s a lot of work to do and we need lots of people involved to do it. Most people (like me) don’t have formal training in information management. The more we can share our experiences and knowledge and support the community of people doing this work, the more impact our projects will have. The technological landscape that we’re working in is racing away benieth us—I don't know anyone who feels like they know what’s coming next.
+
+<figure id="figure-5" class="quote">
+    <blockquote>
+        Belonging to a community means participating, observing, and generally being in attendance (either physically or virtually). But being an advocate requires stepping forward and helping to articulate that community’s needs, or advance their interests, or—when necessary—protect their rights. You need to both amplify and clarify the values of a community, not merely share them.
+    </blockquote>
+    <footer>
+        <cite>
+            <a href="http://aworkinglibrary.com/library/archives/represent/" title="Read Respresent at A Working Library">Mandy Brown, Represent, 2011</a>
+        </cite>
+    </footer>
+</figure>
 
 <article id="principles" class="journal-subarticle">
     <aside class="interface-links">
