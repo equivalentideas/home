@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Approaching Principles for Independent Archives"
-date:   2014-02-18 09:37:00
+date:   2014-02-17 11:30:00
 categories: journal
 description: "What should an independent archive do? Some starter ideas and an invitation for contributions."
 comments: true
