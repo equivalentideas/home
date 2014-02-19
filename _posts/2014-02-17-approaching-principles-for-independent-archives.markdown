@@ -65,7 +65,7 @@ As more services become digital, and more people carry devices creating more dat
 
 The cost of collecting, organising, storing and providing access to this material requires a constant budget, in part because of the unstable nature of digital storage. Funding for the types of institutions that run these projects is not increasing to match this demand.
 
-Already a huge amount of archiving practice has been taken up by corporations like Google, Ansestry and Facebook. We don‘t know the future of these projects, [we just know that a lot of these companies have deleted a huge amount information](http://www.archiveteam.org/index.php?title=Deathwatch 'Archive Team Death Watch'). There's a strong insurance argument for creating diverse, networked archives.
+Already a huge amount of archiving practice has been taken up by corporations like Google, Ancestry and Facebook. We don‘t know the future of these projects, [we just know that a lot of these companies have deleted a huge amount information](http://www.archiveteam.org/index.php?title=Deathwatch 'Archive Team Death Watch'). There's a strong insurance argument for creating diverse, networked archives.
 
 While there are journalism institutions that publish the primary source material they report on, many don’t. There are certainly legitimate reasons not to publish this material with an article, but you often get the impression that the publisher is in a defensive, competitive head space, not thinking about the longterm value of their work, or the ways in which their audience might want to explore a story. Most institutions deny access by default. Creating open collections of source material is an act of journalism most easily committed by people who don’t live and die by ‘exclusives’.
 
@@ -112,7 +112,7 @@ Principles are a tool that you put your ideas into so that you don’t have to r
 
 I'm advocating for lots of small projects with divergent approaches, so why suggested common principles? What I'm really trying to do is get people to share their ideas and experiences in a useful form that can be quickly adapted to other projects. Each projects should have their own distinct principles, and they should be made available on a `/principles` page.
 
-Because principles are modular by nature, you can consider your own project’s position and then drawn on the knowledge of people who’ve been there before. Reuse and plug together a your own personal set of guidelines. [Jeremy Keith’s](http://adactio.com/ 'Jeremy Keith's website) [collection of principles](http://principles.adactio.com 'Design Principles collection') is a great resource.
+Because principles are modular by nature, you can consider your own project’s position and then draw on the knowledge of people who’ve been there before. Reuse and plug together a your own personal set of guidelines. [Jeremy Keith’s](http://adactio.com/ 'Jeremy Keith's website) [collection of principles](http://principles.adactio.com 'Design Principles collection') is a great resource.
 
 ## How &amp; Why to Contribute
 
