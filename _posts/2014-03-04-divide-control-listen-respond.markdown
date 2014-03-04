@@ -3,7 +3,7 @@ layout: post
 title:  "Divide and Control, Listen and Respond"
 date:   2014-03-04 14:10:00
 categories: journal
-description: "The situation for asylum seekers imprisioned by Australia worsens. How can those inside and outside the detention fences connect to demand change?"
+description: "The situation for asylum seekers imprisoned by Australia worsens. How can those inside and outside the detention fences connect to demand change?"
 ---
 
 Silence builds tension. We need information to make decisions, to feel confident in a situation. Evidence is crucial to justice.
@@ -51,9 +51,9 @@ When [asked by a journalist](http://www.minister.immi.gov.au/media/sm/2014/sm211
 
 > It’s not designed as a processing facility. It’s designed as an experiment in the active creation of horror to secure the deterrence. That's why I say again that Reza Barati's death is not a crisis for the department. It’s actually an opportunity – it’s an opportunity to extend that logic one step further to say, "This happens." But deterrence continues, Operation Sovereign Borders continue.
 
-Every time I think this situation cannot get worse, it does. Even crueler policies and conditions are revealed. [The Australian Government is pleased with this trajectory](http://www.theguardian.com/world/2014/feb/26/shorten-accuses-faux-patriotism-campbell-cover-up-).
+Every time I think this situation cannot get worse, it does. Even crueller policies and conditions are revealed. [The Australian Government is pleased with this trajectory](http://www.theguardian.com/world/2014/feb/26/shorten-accuses-faux-patriotism-campbell-cover-up-).
 
-People detained are not passive victims. The Detention Logs archive contains [98 onsite demonstrations](http://detentionlogs.com.au/data/incidents?utf8=%E2%9C%93&incident_type=Demonstration+-+Onsite) recorded by detention centre staff between Oct 2009 and May 2011. There are [hundreds of reports of hunger strikes](http://detentionlogs.com.au/data/incidents?utf8=%E2%9C%93&incident_type=Voluntary+starvation+%28%3E24+hrs%29).
+People detained are not passive victims. The Detention Logs archive contains [98 on-site demonstrations](http://detentionlogs.com.au/data/incidents?utf8=%E2%9C%93&incident_type=Demonstration+-+Onsite) recorded by detention centre staff between Oct 2009 and May 2011. There are [hundreds of reports of hunger strikes](http://detentionlogs.com.au/data/incidents?utf8=%E2%9C%93&incident_type=Voluntary+starvation+%28%3E24+hrs%29).
 
 In January 2013 a letter from a group of asylum seekers detained on Manus Island, describing their transfer between detention facilities, was [published in New Matilda](https://newmatilda.com/2013/01/22/long-journey-manus):
 
