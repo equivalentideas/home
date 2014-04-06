@@ -490,6 +490,10 @@ h3 {
   font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
 }
 
+address {
+  font-style: normal;
+}
+
 p,
 ul,
 ol,
@@ -599,6 +603,11 @@ ul ul {
 
 blockquote ul {
   list-style-type: circle;
+}
+
+dl dt {
+  margin-top: 18px;
+  margin-top: 1.125rem;
 }
 
 hr {

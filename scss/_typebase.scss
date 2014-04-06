@@ -94,6 +94,10 @@ h3 {
 h4, h5, h6 {
 }
 
+address {
+	font-style: normal;
+}
+
 p, ul, ol, dl, figure, blockquote {
 	@include rem( margin-top, $scale-0);
 }
@@ -184,6 +188,12 @@ ul {
 
 	blockquote & {
 		list-style-type: circle;
+	}
+}
+
+dl {
+	dt {
+		@include rem( margin-top, $scale-0);
 	}
 }
 
