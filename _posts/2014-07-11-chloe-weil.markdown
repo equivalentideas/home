@@ -43,6 +43,6 @@ Weil connected the thinking about craft and approach to the details of implement
 
 I decided to write this quick post as a mark and sign post for myself, and anyone else, pointing to her work. As Weil knew, most URLs don't last, and I don't know what will happen to her work in the long term. I hope that it can be kept online.
 
-As I've done with other websites that feel are like a book I would like to add to my shelf for future reference, I've run a quick `wget` on her domain. This downloads a copy of everything in reach. I used [instructions by the Archive Team](http://www.archiveteam.org/index.php?title=Wget) that I found via [Jason Scott](http://textfiles.com/jason/) of the archive.org Weil references. I suspect she was a [punk archivist](http://www.mikejonesonline.com/contextjunky/2014/06/09/i-am-for-an-archive-blogjune-9/) herself.
+As I've done with other websites that feel are like a book I would add to my shelf for future reference, I've run a quick `wget` on her domain. This downloads a copy of everything in reach. I used [instructions by the Archive Team](http://www.archiveteam.org/index.php?title=Wget) that I found via [Jason Scott](http://textfiles.com/jason/) of the archive.org Weil references. I suspect she was a [punk archivist](http://www.mikejonesonline.com/contextjunky/2014/06/09/i-am-for-an-archive-blogjune-9/) herself.
 
 My thoughts go out to Chloe Weil's family and friends. The sparks she left for the web are deeply appreciated.
