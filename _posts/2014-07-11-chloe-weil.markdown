@@ -18,7 +18,7 @@ Her document [Julius Cards](http://chloeweil.com/julius-cards/) is an example I'
 
 This work inspired me to make a similar html document as a record and tribute to my grandmother Joan Bacon. I need to get on and do that.
 
-Weil recorded audio versions of her posts. After hearing [Our Raggered History](http://chloeweil.com/audio/2013-11-04-our-ragged-history.mp3) I quickly wrote the code to publish audio versions of my posts, copying her example, but I'm yet to follow though. Looking at it now, my approach is overdone and too compicated, I much prefer Weil's link, front and centre at the top of the post. She clearly loved sound in all it's forms and wanted to share that, not hide it away. Another bold simplicity.
+Weil recorded audio versions of her posts. After hearing [Our Raggered History](http://chloeweil.com/audio/2013-11-04-our-ragged-history.mp3) I quickly wrote the code to publish audio versions of my posts, copying her example, but I'm yet to follow though. Looking at it now, my approach is overdone and too complicated, I much prefer Weil's link, front and centre at the top of the post. She clearly loved sound in all it's forms and wanted to share that, not hide it away. Another bold simplicity that inspires self-confidence and determination.
 
 Weil connected the thinking about craft and approach to the details of implementation and then back out to our social and industrial contexts and how we shape them. She asked hard questions of our efforts:
 
