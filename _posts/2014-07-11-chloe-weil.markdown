@@ -10,7 +10,7 @@ I didn't know Chloe Weil personally. I know her work and her writing through her
 
 Weil's work stands out to me as a bright example of the kind of work that directs me and makes me smile: pieces about life and living and history made for everyone: family, friends, robots and crawlers, unknown people in unexpected places, through the past and into the future. Work of the web, built from HTML, available for everyone, pushing accessibility through translation and whatever means. Striving to be a speck in the [Long Now and the Big Here](http://longnow.org/essays/big-here-long-now/).
 
-I didn't know Chloe, but I feel like I've benefited from her ideas and gifts as part of a tradition of crafts people, thousands of years old, working to make the means of publishing more accessible to more people.
+I didn't know Weil, but I feel like I've benefited from her ideas and gifts as part of a tradition of crafts people, thousands of years old, working to make the means of publishing more accessible to more people.
 
 I don't know what she would think about this.
 
@@ -45,4 +45,4 @@ I decided to write this quick post as a mark and sign post for myself, and anyon
 
 As I've done with other websites that feel like a book I would like to add to my shelf for future reference, I've run a quick `wget` on her domain. This downloads a copy of everything in reach. I used [instructions by the Archive Team](http://www.archiveteam.org/index.php?title=Wget) that I found via [Jason Scott](http://textfiles.com/jason/) of the archive.org Weil references. I suspect she was a [punk archivist](http://www.mikejonesonline.com/contextjunky/2014/06/09/i-am-for-an-archive-blogjune-9/) herself.
 
-My thoughts go out to Chloe's family and friends. The sparks she left for the web are deeply appreciated.
+My thoughts go out to Chloe Weil's family and friends. The sparks she left for the web are deeply appreciated.
