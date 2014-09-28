@@ -1257,6 +1257,15 @@ video {
   padding-left: 0.315rem;
 }
 
+.article-audio {
+  float: none;
+  clear: both;
+  color: #888888;
+  font-family: "ff-meta-web-pro", "Open Sans", helvetica, Verdana, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
 @media print {
   pre,
   blockquote,

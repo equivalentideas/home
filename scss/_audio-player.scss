@@ -1,0 +1,6 @@
+.article-audio {
+    float: none;
+    clear: both;
+    @include supporting;
+    @include rem(font-size, $scale-0);
+}
