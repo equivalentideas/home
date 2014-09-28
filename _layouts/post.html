@@ -20,6 +20,10 @@
             <!-- {% include sharelinks.html %} -->
 
             <section class="e-content entry-content">
+                {{ if page.audio-mp3 }}
+                    {% include article-audio.html %}
+                {{ endif }}
+
                 {{ content }}
             </section>
 
