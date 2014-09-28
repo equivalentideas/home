@@ -6,6 +6,8 @@ categories: journal
 description: "What should an independent archive do? Some starter ideas and an invitation for contributions."
 comments: true
 audio-mp3: https://ia601405.us.archive.org/27/items/ApproachingPrinciplesForIndependentArchivesLukeBacon2014/ApproachingPrinciplesForIndependentArchives_LukeBacon_2014.mp3
+audio-mp3-size: 25.9 MB
+audio-ogg: https://archive.org/download/ApproachingPrinciplesForIndependentArchivesLukeBacon2014/ApproachingPrinciplesForIndependentArchives_LukeBacon_2014.ogg
 ---
 
 I'm building an open, independent repository of public interest documents around a specific topic. A place where records of interest can be collected, organised and made accessible. An independent archive.
