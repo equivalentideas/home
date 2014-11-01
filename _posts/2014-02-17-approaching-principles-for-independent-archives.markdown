@@ -39,7 +39,7 @@ Recently [I baited](https://twitter.com/equivalentideas/status/43193029362518016
     </blockquote>
     <footer>
         <cite>
-             Cassie Findlay, over two tweets (<a href="https://twitter.com/CassPF/status/432024549597511680" title="First part of Findlay’s answer">part one</a>, <a href="https://twitter.com/CassPF/status/432024719747866624" title="Second part of Findlay’s answer">part two</a>), 8th Febuary 2014. She also recommended a book, <a href="http://books.google.com.au/books?id=fgqkAgAAQBAJ&lpg=PP1&dq=bibliogroup%3A%22Topics%20in%20Australasian%20library%20and%20information%20studies%22&pg=PP1#v=onepage&q&f=false" title="Archives: Recordkeeping in Society on Google Books">Archives: Recordkeeping in Society</a>.   
+             Cassie Findlay, over two tweets (<a href="https://twitter.com/CassPF/status/432024549597511680" title="First part of Findlay’s answer">part one</a>, <a href="https://twitter.com/CassPF/status/432024719747866624" title="Second part of Findlay’s answer">part two</a>), 8th Febuary 2014. She also recommended a book, <a href="http://books.google.com.au/books?id=fgqkAgAAQBAJ&lpg=PP1&dq=bibliogroup%3A%22Topics%20in%20Australasian%20library%20and%20information%20studies%22&pg=PP1#v=onepage&q&f=false" title="Archives: Recordkeeping in Society on Google Books">Archives: Recordkeeping in Society</a>.
         </cite>
     </footer>
 </figure>
