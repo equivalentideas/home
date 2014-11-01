@@ -146,8 +146,10 @@ Why contribute? There’s a lot of work to do and we need lots of people involve
         </ul>
     </aside>
 
-{% include independent-archive-principles.md %}
-
+{% capture prinicples_markdown %}
+  {% include independent-archive-principles.md %}
+{% endcapture %}
+{{ prinicples_markdown | markdownify }}
 
 <aside class="interface-links">
         <ul>
