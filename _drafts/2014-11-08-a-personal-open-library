@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "A personal open library"
+date:   2014-11-08 11:44:00
+categories: journal
+description: "Using the Open Library as a backbone for a personal, online library."
+---
+
+## intro
+
+Inspired by the [Good, Form & Spectacle Library](https://openlibrary.org/people/george08/lists/OL62310L/Good_Form_Spectacle_Library) and by [Readmill](http://readmill.com/).
+
+## Setup
+
+I set up a jekyll collection using a [basic tutorial from Site Point](http://www.sitepoint.com/getting-started-jekyll-collections/).
+
+My first ‘text’ was Robert Bringhurst’s *What is reading for?*, which I had read a few days earlier.
+
+[Open Library API](https://openlibrary.org/developers/api) and [Ruby interface gem](https://github.com/jayfajardo/openlibrary)
