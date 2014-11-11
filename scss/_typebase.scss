@@ -1,9 +1,14 @@
 @mixin basetype {
 	color: $color-main;
 	font-weight: normal;
-	font-size: 1.125em;
+	font-size: 1.1em;
 	font-family: $font-serif;
-	line-height: 1.6;
+	line-height: 1.5;
+
+	.wf-active & {
+		font-size: 1.125em;
+		line-height: 1.6;
+	}
 }
 
 @mixin supporting {
@@ -17,17 +22,18 @@
 	font-family: $font-sans;
 }
 
-.wf-loading {
-	visibility: hidden;
-
-	.site-header {
-		visibility: visible;
-
-		[role="banner"] {
-			visibility: hidden;
-		}
-	}
-}
+// .wf-loading {
+// 	// visibility: hidden;
+// 	font-size: 103%;
+//
+// 	// .site-header {
+// 	// 	visibility: visible;
+// 	//
+// 	// 	[role="banner"] {
+// 	// 		visibility: hidden;
+// 	// 	}
+// 	// }
+// }
 
 body {
 	@include basetype;
