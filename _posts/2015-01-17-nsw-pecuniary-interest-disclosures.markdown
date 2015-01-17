@@ -3,7 +3,7 @@ layout: post
 title:  "2013-2014 NSW Legislative Assembly Pecuniary Interest Disclosures"
 date:   2015-01-17 17:30:00
 categories: journal
-description: ""
+description: "The individual disclosure forms for each member of the NSW Parliament Legislative Assembly, showing their pecuniary interest disclosures as of 30th June 2014."
 ---
 
 Here are the individual disclosure forms for each member of the NSW Parliament Legislative Assembly. They make up the [2013-2014 register of disclosures](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/062281a7012b5820ca257020000a3058/d8ec3278d94e2783ca257d71001a8111?OpenDocument) “presented to Parliament pursuant to the Constitution (Disclosures by Members) Regulation 1983”.
