@@ -9,99 +9,101 @@ description: "The individual disclosure forms for each member of the NSW Parliam
 Here are the individual disclosure forms for each member of the NSW Parliament Legislative Assembly. They make up the [2013-2014 register of disclosures](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/062281a7012b5820ca257020000a3058/d8ec3278d94e2783ca257d71001a8111?OpenDocument) “presented to Parliament pursuant to the Constitution (Disclosures by Members) Regulation 1983”.
 
 
-* [Richard Amery, Member for Mount Druitt](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Amery_Richard_pecuniary-interests.pdf)
-* [Kevin Anderson, Member for Tamworth](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Anderson_Kevin_pecuniary-interests.pdf)
-* [Greg Aplin, Member for Albury](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Aplin_Greg_pecuniary-interests.pdf)
-* [Stuart Ayres, Member for Penrith](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Ayres_Stuart_pecuniary-interests.pdf)
-* [Mike Baird, Member for Manly](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Baird_Mike_pecuniary-interests.pdf)
-* [John Barilaro, Member for Monaro](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Barilaro_John_pecuniary-interests.pdf)
-* [Clayton Barr, Member for Cessnock](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Barr_Clayton_pecuniary-interests.pdf)
-* [Bart Bassett, Member for Londonderry](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Bassett_Bart_pecuniary-interests.pdf)
-* [Craig Baumann, Member for Port Stephens](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Baumann_Craig_pecuniary-interests.pdf)
-* [Gladys Berejiklian, Member for Willoughby](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Berejiklian_Gladys_pecuniary-interests.pdf)
-* [Stephen Bromhead, Member for Myall Lakes](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Bromhead_Stephen_pecuniary-interests.pdf)
-* [Glenn Brookes, Member for East Hills](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Brookes_Glenn_pecuniary-interests.pdf)
-* [Linda Burney, Member for Canterbury](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Burney_Linda_pecuniary-interests.pdf)
-* [Cherie Burton, Member for Kogarah](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Burton_Cherie_pecuniary-interests.pdf)
-* [Charles Casuscelli, Member for Strathfield](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Casuscelli_Charles_pecuniary-interests.pdf)
-* [Barry Collier, Member for Miranda](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Collier_Barry_pecuniary-interests.pdf)
-* [Kevin Conolly, Member for Riverstone](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Conolly_Kevin_pecuniary-interests.pdf)
-* [Andrew Constance, Member for Bega](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Constance_Andrew_pecuniary-interests.pdf)
-* [Mark Coure, Member for Oatley](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Coure_Mark_pecuniary-interests.pdf)
-* [Timothy Owen, Member for Newcastle](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Owen_Timothy_pecuniary-interests.pdf)
-* [Michael Daley, Member for Maroubra](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Daley_Michael_pecuniary-interests.pdf)
-* [Tanya Davies, Member for Mulgoa](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Davies_Tanya_pecuniary-interests.pdf)
-* [Victor Dominello, Member for Ryde](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Dominello_Victor_pecuniary-interests.pdf)
-* [Bryan Doyle, Member for Campbelltown](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Doyle_Bryan_pecuniary-interests.pdf)
-* [Garry Edwards, Member for Swansea](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Edwards_Garry_pecuniary-interests.pdf)
-* [David Elliott, Member for Baulkham Hills](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Elliott_David_pecuniary-interests.pdf)
-* [Lee Evans, Member for Heathcote](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Evans_Lee_pecuniary-interests.pdf)
-* [John Flowers, Member for Rockdale](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Flowers_John_pecuniary-interests.pdf)
-* [Andrew Fraser, Member for Coffs Harbour](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Fraser_Andrew_pecuniary-interests.pdf)
-* [Robert Furolo, Member for Lakemba](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Furolo_Robert_pecuniary-interests.pdf)
-* [Andrew Gee, Member for Orange](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Gee_Andrew_pecuniary-interests.pdf)
-* [Thomas George, Member for Lismore](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_George_Thomas_pecuniary-interests.pdf)
-* [Melanie Gibbons, Member for Menai](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Gibbons_Melanie_pecuniary-interests.pdf)
-* [Pru Goward, Member for Goulburn](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Goward_Pru_pecuniary-interests.pdf)
-* [Troy Grant, Member for Dubbo](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Grant_Troy_pecuniary-interests.pdf)
-* [Alex Greenwich, Member for Sydney](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Greenwich_Alex_pecuniary-interests.pdf)
-* [Christopher Gulaptis, Member for Clarence	](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_* 	[Gulaptis_Christopher_pecuniary-interests.pdf)
-* [Shelley Hancock, Member for South Coast](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hancock_Shelley_pecuniary-interests.pdf)
-* [Jodie Harrison, Member for Charlestown](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Harrison_Jodie_pecuniary-interests.pdf)
-* [Chris Hartcher, Member for Terrigal](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hartcher_Chris_pecuniary-interests.pdf)
-* [Noreen Hay, Member for Wollongong](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hay_Noreen_pecuniary-interests.pdf)
-* [Brad Hazzard, Member for Wakehurst](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hazzard_Brad_pecuniary-interests.pdf)
-* [Katrina Hodgkinson, Member for Burrinjuck](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hodgkinson_Katrina_pecuniary-interests.pdf)
-* [Ron Hoenig, Member for Heffron](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hoenig_Ron_pecuniary-interests.pdf)
-* [Chris Holstein, Member for Gosford](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Holstein_Chris_pecuniary-interests.pdf)
-* [Sonia Hornery, Member for Wallsend](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hornery_Sonia_pecuniary-interests.pdf)
-* [Kevin Humphries, Member for Barwon](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Humphries_Kevin_pecuniary-interests.pdf)
-* [Tony Issa, Member for Granville](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Issa_Tony_pecuniary-interests.pdf)
-* [Matt Kean, Member for Hornsby](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Kean_Matt_pecuniary-interests.pdf)
-* [Nick Lalich, Member for Cabramatta](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lalich_Nick_pecuniary-interests.pdf)
-* [Geoff Lee, Member for Parramatta](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lee_Geoff_pecuniary-interests.pdf)
-* [Paul Lynch, Member for Liverpool](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lynch_Paul_pecuniary-interests.pdf)
-* [Daryl Maguire, Member for Wagga Wagga](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Maguire_Daryl_pecuniary-interests.pdf)
-* [Adam Marshall, Member for Northern Tablelands](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Marshall_Adam_pecuniary-interests.pdf)
-* [Andrew McDonald, Member for Macquarie Fields](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_McDonald_Andrew_pecuniary-interests.pdf)
-* [Tania Mihailuk, Member for Bankstown](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Mihailuk_Tania_pecuniary-interests.pdf)
-* [Bruce Notley-Smith, Member for Coogee](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Notley-Smith_Bruce_pecuniary-interests.pdf)
-* [Jonathan O'Dea, Member for Davidson](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_O%27Dea_Jonathan_pecuniary-interests.pdf)
-* [Barry O'Farrell, Member for Ku-ring-gai](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_O%27Farrell_Barry_pecuniary-interests.pdf)
-* [Donald Page, Member for Ballina](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Page_Donald_pecuniary-interests.pdf)
-* [Jamie Parker, Member for Balmain](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Parker_Jamie_pecuniary-interests.pdf)
-* [Robyn Parker, Member for Maitland](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Parker_Robyn_pecuniary-interests.pdf)
-* [Ryan Park, Member for Keira](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Park_Ryan_pecuniary-interests.pdf)
-* [Chris Patterson, Member for Camden](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Patterson_Chris_pecuniary-interests.pdf)
-* [Dominic Perrottet, Member for Castle Hill](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Perrottet_Dominic_pecuniary-interests.pdf)
-* [Barbara Perry, Member for Auburn](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Perry_Barbara_pecuniary-interests.pdf)
-* [Adrian Piccoli, Member for Murrumbidgee](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Piccoli_Adrian_pecuniary-interests.pdf)
-* [Greg Piper, Member for Lake Macquarie](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Piper_Greg_pecuniary-interests.pdf)
-* [Geoff Provest, Member for Tweed](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Provest_Geoff_pecuniary-interests.pdf)
-* [Nathan Rees, Member for Toongabbie](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rees_Nathan_pecuniary-interests.pdf)
-* [John Robertson, Member for Blacktown](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Roberts_Anthony_pecuniary-interests.pdf)
-* [Anthony Roberts, Member for Lane Cove](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Robertson_John_pecuniary-interests.pdf)
-* [Andrew Rohan, Member for Smithfield](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rohan_Andrew_pecuniary-interests.pdf)
-* [Jai Rowell, Member for Wollondilly](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rowell_Jai_pecuniary-interests.pdf)
-* [Roza Sage, Member for Blue Mountains](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Sage_Roza_pecuniary-interests.pdf)
-* [John Sidoti, Member for Drummoyne](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Sidoti_John_pecuniary-interests.pdf)
-* [Jillian Skinner, Member for North Shore](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Skinner%2C%20Jillian_pecuniary-interests.pdf)
-* [Greg Smith, Member for Epping](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Smith_Greg_pecuniary-interests.pdf)
-* [George Souris, Member for Upper Hunter](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Souris_George_pecuniary-interests.pdf)
-* [Mark Speakman, Member for Cronulla](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Speakman_Mark_pecuniary-interests.pdf)
-* [Chris Spence, Member for The Entrance](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Spence_Chris_pecuniary-interests.pdf)
-* [Rob Stokes, Member for Pittwater](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Stokes_Rob_pecuniary-interests.pdf)
-* [Andrew Stoner, Member for Oxley](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Stoner_Andrew_pecuniary-interests.pdf)
-* [Carmel Tebbutt, Member for Marrickville](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Tebbutt_Carmel_pecuniary-interests.pdf)
-* [Paul Toole, Member for Bathurst](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Toole_Paul_pecuniary-interests.pdf)
-* [Gabrielle Upton, Member for Vaucluse](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Upton_Gabrielle_pecuniary-interests.pdf)
-* [Gareth Ward, Member for Kiama](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Ward_Gareth_pecuniary-interests.pdf)
-* [Anna Watson, Member for Shellharbour](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Watson_Anna_pecuniary-interests.pdf)
-* [Darren Webber, Member for Wyong](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Webber_Darren_pecuniary-interests.pdf)
-* [John Williams, Member for Murray-Darling](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_John_pecuniary-interests.pdf)
-* [Leslie Williams, Member for Port Macquarie](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Leslie_pecuniary-interests.pdf)
-* [Ray Williams, Member for Hawkesbury](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Ray_pecuniary-interests.pdf)
-* [Guy Zangari, Member for Fairfield](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Zangari_Guy_pecuniary-interests.pdf)
+<ul>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Amery_Richard_pecuniary-interests.pdf">Richard Amery, Member for Mount Druitt</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Anderson_Kevin_pecuniary-interests.pdf">Kevin Anderson, Member for Tamworth</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Aplin_Greg_pecuniary-interests.pdf">Greg Aplin, Member for Albury</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Ayres_Stuart_pecuniary-interests.pdf">Stuart Ayres, Member for Penrith</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Baird_Mike_pecuniary-interests.pdf">Mike Baird, Member for Manly</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Barilaro_John_pecuniary-interests.pdf">John Barilaro, Member for Monaro</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Barr_Clayton_pecuniary-interests.pdf">Clayton Barr, Member for Cessnock</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Bassett_Bart_pecuniary-interests.pdf">Bart Bassett, Member for Londonderry</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Baumann_Craig_pecuniary-interests.pdf">Craig Baumann, Member for Port Stephens</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Berejiklian_Gladys_pecuniary-interests.pdf">Gladys Berejiklian, Member for Willoughby</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Bromhead_Stephen_pecuniary-interests.pdf">Stephen Bromhead, Member for Myall Lakes</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Brookes_Glenn_pecuniary-interests.pdf">Glenn Brookes, Member for East Hills</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Burney_Linda_pecuniary-interests.pdf">Linda Burney, Member for Canterbury</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Burton_Cherie_pecuniary-interests.pdf">Cherie Burton, Member for Kogarah</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Casuscelli_Charles_pecuniary-interests.pdf">Charles Casuscelli, Member for Strathfield</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Collier_Barry_pecuniary-interests.pdf">Barry Collier, Member for Miranda</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Conolly_Kevin_pecuniary-interests.pdf">Kevin Conolly, Member for Riverstone</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Constance_Andrew_pecuniary-interests.pdf">Andrew Constance, Member for Bega</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Coure_Mark_pecuniary-interests.pdf">Mark Coure, Member for Oatley</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Owen_Timothy_pecuniary-interests.pdf">Timothy Owen, Member for Newcastle</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Daley_Michael_pecuniary-interests.pdf">Michael Daley, Member for Maroubra</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Davies_Tanya_pecuniary-interests.pdf">Tanya Davies, Member for Mulgoa</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Dominello_Victor_pecuniary-interests.pdf">Victor Dominello, Member for Ryde</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Doyle_Bryan_pecuniary-interests.pdf">Bryan Doyle, Member for Campbelltown</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Edwards_Garry_pecuniary-interests.pdf">Garry Edwards, Member for Swansea</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Elliott_David_pecuniary-interests.pdf">David Elliott, Member for Baulkham Hills</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Evans_Lee_pecuniary-interests.pdf">Lee Evans, Member for Heathcote</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Flowers_John_pecuniary-interests.pdf">John Flowers, Member for Rockdale</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Fraser_Andrew_pecuniary-interests.pdf">Andrew Fraser, Member for Coffs Harbour</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Furolo_Robert_pecuniary-interests.pdf">Robert Furolo, Member for Lakemba</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Gee_Andrew_pecuniary-interests.pdf">Andrew Gee, Member for Orange</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_George_Thomas_pecuniary-interests.pdf">Thomas George, Member for Lismore</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Gibbons_Melanie_pecuniary-interests.pdf">Melanie Gibbons, Member for Menai</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Goward_Pru_pecuniary-interests.pdf">Pru Goward, Member for Goulburn</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Grant_Troy_pecuniary-interests.pdf">Troy Grant, Member for Dubbo</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Greenwich_Alex_pecuniary-interests.pdf">Alex Greenwich, Member for Sydney</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_*%20%20%20%5BGulaptis_Christopher_pecuniary-interests.pdf">Christopher Gulaptis, Member for Clarence    </a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hancock_Shelley_pecuniary-interests.pdf">Shelley Hancock, Member for South Coast</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Harrison_Jodie_pecuniary-interests.pdf">Jodie Harrison, Member for Charlestown</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hartcher_Chris_pecuniary-interests.pdf">Chris Hartcher, Member for Terrigal</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hay_Noreen_pecuniary-interests.pdf">Noreen Hay, Member for Wollongong</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hazzard_Brad_pecuniary-interests.pdf">Brad Hazzard, Member for Wakehurst</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hodgkinson_Katrina_pecuniary-interests.pdf">Katrina Hodgkinson, Member for Burrinjuck</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hoenig_Ron_pecuniary-interests.pdf">Ron Hoenig, Member for Heffron</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Holstein_Chris_pecuniary-interests.pdf">Chris Holstein, Member for Gosford</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Hornery_Sonia_pecuniary-interests.pdf">Sonia Hornery, Member for Wallsend</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Humphries_Kevin_pecuniary-interests.pdf">Kevin Humphries, Member for Barwon</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Issa_Tony_pecuniary-interests.pdf">Tony Issa, Member for Granville</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Kean_Matt_pecuniary-interests.pdf">Matt Kean, Member for Hornsby</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lalich_Nick_pecuniary-interests.pdf">Nick Lalich, Member for Cabramatta</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lee_Geoff_pecuniary-interests.pdf">Geoff Lee, Member for Parramatta</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Lynch_Paul_pecuniary-interests.pdf">Paul Lynch, Member for Liverpool</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Maguire_Daryl_pecuniary-interests.pdf">Daryl Maguire, Member for Wagga Wagga</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Marshall_Adam_pecuniary-interests.pdf">Adam Marshall, Member for Northern Tablelands</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_McDonald_Andrew_pecuniary-interests.pdf">Andrew McDonald, Member for Macquarie Fields</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Mihailuk_Tania_pecuniary-interests.pdf">Tania Mihailuk, Member for Bankstown</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Notley-Smith_Bruce_pecuniary-interests.pdf">Bruce Notley-Smith, Member for Coogee</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_O%27Dea_Jonathan_pecuniary-interests.pdf">Jonathan O&#39;Dea, Member for Davidson</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_O%27Farrell_Barry_pecuniary-interests.pdf">Barry O&#39;Farrell, Member for Ku-ring-gai</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Page_Donald_pecuniary-interests.pdf">Donald Page, Member for Ballina</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Parker_Jamie_pecuniary-interests.pdf">Jamie Parker, Member for Balmain</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Parker_Robyn_pecuniary-interests.pdf">Robyn Parker, Member for Maitland</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Park_Ryan_pecuniary-interests.pdf">Ryan Park, Member for Keira</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Patterson_Chris_pecuniary-interests.pdf">Chris Patterson, Member for Camden</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Perrottet_Dominic_pecuniary-interests.pdf">Dominic Perrottet, Member for Castle Hill</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Perry_Barbara_pecuniary-interests.pdf">Barbara Perry, Member for Auburn</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Piccoli_Adrian_pecuniary-interests.pdf">Adrian Piccoli, Member for Murrumbidgee</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Piper_Greg_pecuniary-interests.pdf">Greg Piper, Member for Lake Macquarie</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Provest_Geoff_pecuniary-interests.pdf">Geoff Provest, Member for Tweed</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rees_Nathan_pecuniary-interests.pdf">Nathan Rees, Member for Toongabbie</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Roberts_Anthony_pecuniary-interests.pdf">John Robertson, Member for Blacktown</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Robertson_John_pecuniary-interests.pdf">Anthony Roberts, Member for Lane Cove</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rohan_Andrew_pecuniary-interests.pdf">Andrew Rohan, Member for Smithfield</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Rowell_Jai_pecuniary-interests.pdf">Jai Rowell, Member for Wollondilly</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Sage_Roza_pecuniary-interests.pdf">Roza Sage, Member for Blue Mountains</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Sidoti_John_pecuniary-interests.pdf">John Sidoti, Member for Drummoyne</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Skinner%2C%20Jillian_pecuniary-interests.pdf">Jillian Skinner, Member for North Shore</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Smith_Greg_pecuniary-interests.pdf">Greg Smith, Member for Epping</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Souris_George_pecuniary-interests.pdf">George Souris, Member for Upper Hunter</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Speakman_Mark_pecuniary-interests.pdf">Mark Speakman, Member for Cronulla</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Spence_Chris_pecuniary-interests.pdf">Chris Spence, Member for The Entrance</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Stokes_Rob_pecuniary-interests.pdf">Rob Stokes, Member for Pittwater</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Stoner_Andrew_pecuniary-interests.pdf">Andrew Stoner, Member for Oxley</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Tebbutt_Carmel_pecuniary-interests.pdf">Carmel Tebbutt, Member for Marrickville</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Toole_Paul_pecuniary-interests.pdf">Paul Toole, Member for Bathurst</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Upton_Gabrielle_pecuniary-interests.pdf">Gabrielle Upton, Member for Vaucluse</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Ward_Gareth_pecuniary-interests.pdf">Gareth Ward, Member for Kiama</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Watson_Anna_pecuniary-interests.pdf">Anna Watson, Member for Shellharbour</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Webber_Darren_pecuniary-interests.pdf">Darren Webber, Member for Wyong</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_John_pecuniary-interests.pdf">John Williams, Member for Murray-Darling</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Leslie_pecuniary-interests.pdf">Leslie Williams, Member for Port Macquarie</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Ray_pecuniary-interests.pdf">Ray Williams, Member for Hawkesbury</a></li>
+<li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Zangari_Guy_pecuniary-interests.pdf">Guy Zangari, Member for Fairfield</a></li>
+</ul>
 
 If any of the entries are mismatched [let me know](/contact) and I'll see what I can do.
 
