@@ -103,7 +103,9 @@ Here are the individual disclosure forms for each member of the NSW Parliament L
 * [Ray Williams, Member for Hawkesbury](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Ray_pecuniary-interests.pdf)
 * [Guy Zangari, Member for Fairfield](https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Zangari_Guy_pecuniary-interests.pdf)
 
-If any of the entries are wrong [let me know](/contact) and I'll see what I can do.
+If any of the entries are mismatched [let me know](/contact) and I'll see what I can do.
+
+Presently, the only other way to access these files is via one big unsearchable PDF. Breaking them up into individual, labeled files is the first step towards making them more accessible.
 
 This wouldn't have been possible without the work of [Henare Degan](https://twitter.com/henaredegan), [Jamie Pillora](https://github.com/jpillora) and everyone who came to the [#nswvotes meetup this week](http://www.meetup.com/OpenAustralia-Foundation/events/219652731/) and made it such a fun night.
 
