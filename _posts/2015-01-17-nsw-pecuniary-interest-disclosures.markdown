@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2013-2014 NSW Legislative Assembly Percuniary Interest Disclosures"
+title:  "2013-2014 NSW Legislative Assembly Pecuniary Interest Disclosures"
 date:   2015-01-17 17:30:00
 categories: journal
 description: ""
