@@ -9,7 +9,7 @@ description: "The individual disclosure forms for each member of the NSW Parliam
 Here are the individual disclosure forms for each member of the NSW Parliament Legislative Assembly. They make up the [2013-2014 register of disclosures](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/062281a7012b5820ca257020000a3058/d8ec3278d94e2783ca257d71001a8111?OpenDocument) “presented to Parliament pursuant to the Constitution (Disclosures by Members) Regulation 1983”.
 
 
-<ul>
+<ul id="mp-list">
 <li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Amery_Richard_pecuniary-interests.pdf">Richard Amery, Member for Mount Druitt</a></li>
 <li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Anderson_Kevin_pecuniary-interests.pdf">Kevin Anderson, Member for Tamworth</a></li>
 <li><a href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Aplin_Greg_pecuniary-interests.pdf">Greg Aplin, Member for Albury</a></li>
