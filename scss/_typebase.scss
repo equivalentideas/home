@@ -212,6 +212,10 @@ hr {
 	padding: 0;
 }
 
+input {
+	font-family: $font-sans;
+}
+
 .dt-published {
 	@include rem(font-size, $scale-0);
     font-style: italic;

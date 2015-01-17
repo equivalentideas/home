@@ -470,6 +470,10 @@ hr {
   padding: 0;
 }
 
+input {
+  font-family: "ff-meta-web-pro", "Fira Sans", helvetica, Verdana, sans-serif;
+}
+
 .dt-published {
   font-size: 18px;
   font-size: 1.125rem;
@@ -1258,6 +1262,30 @@ video {
   font-family: "ff-meta-web-pro", "Fira Sans", helvetica, Verdana, sans-serif;
   font-size: 18px;
   font-size: 1.125rem;
+}
+
+#mp-list {
+  margin-top: 38.912px;
+  margin-top: 2.432rem;
+}
+#mp-list label,
+#mp-list input {
+  display: block;
+}
+#mp-list label {
+  font-weight: bold;
+}
+#mp-list input {
+  width: 100%;
+  margin-top: 6.112px;
+  margin-top: 0.382rem;
+  padding: 6.112px;
+  padding: 0.382rem;
+}
+#mp-list .p-name {
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 @media print {

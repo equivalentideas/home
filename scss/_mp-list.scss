@@ -1,0 +1,23 @@
+#mp-list {
+  @include rem(margin-top, $scale-3);
+
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    @include rem(margin-top, $scale-n3);
+    @include rem(padding, $scale-n3);
+  }
+
+  .p-name {
+    font-weight: bold;
+    @include rem(font-size, $scale-1);
+  }
+}
