@@ -8,8 +8,8 @@ description: "The individual disclosure forms for each member of the NSW Parliam
 
 Here are the individual disclosure forms for each member of the NSW Parliament Legislative Assembly. They make up the [2013-2014 register of disclosures](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/062281a7012b5820ca257020000a3058/d8ec3278d94e2783ca257d71001a8111?OpenDocument) “presented to Parliament pursuant to the Constitution (Disclosures by Members) Regulation 1983”.
 
-
-<ul id="mp-list" class="filter-list">
+<div id="mp-list">
+<ul class="list filter-list">
 <li><a class="h-card"  href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Amery_Richard_pecuniary-interests.pdf"><span class="p-name">Richard Amery</span>, Member for <span class="p-role">Mount Druitt</span></a></li>
 <li><a class="h-card" href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Anderson_Kevin_pecuniary-interests.pdf"><span class="p-name">Kevin Anderson</span>, Member for <span class="p-role">Tamworth</span></a></li>
 <li><a class="h-card" href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Aplin_Greg_pecuniary-interests.pdf"><span class="p-name">Greg Aplin</span>, Member for <span class="p-role">Albury</span></a></li>
@@ -104,6 +104,7 @@ Here are the individual disclosure forms for each member of the NSW Parliament L
 <li><a class="h-card" href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Williams_Ray_pecuniary-interests.pdf"><span class="p-name">Ray Williams</span>, Member for <span class="p-role">Hawkesbury</span></a></li>
 <li><a class="h-card" href="https://archive.org/download/NSW_Pecuniary_Interests_2013-2014/2014-06-30_Zangari_Guy_pecuniary-interests.pdf"><span class="p-name">Guy Zangari</span>, Member for <span class="p-role">Fairfield</span></a></li>
 </ul>
+</div>
 
 If any of the entries are mismatched [let me know](/contact) and I'll see what I can do.
 
