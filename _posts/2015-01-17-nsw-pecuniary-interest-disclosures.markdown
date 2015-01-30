@@ -114,6 +114,8 @@ Presently, the only other way to access these files is via one big unsearchable 
 
 This wouldn't have been possible without the work of [Henare Degan](https://twitter.com/henaredegan), [Jamie Pillora](https://github.com/jpillora) and everyone who came to the [#nswvotes meetup this week](http://www.meetup.com/OpenAustralia-Foundation/events/219652731/) and made it such a fun night.
 
+Big thanks to [Chris Nilsson](https://twitter.com/otherchirps) for [melting his computer](http://www.meetup.com/OpenAustralia-Foundation/messages/boards/thread/48640454/10#127607012) to [ORC](http://en.wikipedia.org/wiki/Optical_character_recognition) these documents. Much of the text in the documents can now be searched. I've replaced all the [files on archive.org](https://archive.org/details/NSW_Pecuniary_Interests_2013-2014) with the ORC’d versions Chris supplied.
+
 ## Process
 
 1. Download the [Register of Disclosures by Members of the Legislative Assembly as at 30 June 2014 (Volumes One and Two)](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/062281a7012b5820ca257020000a3058/d8ec3278d94e2783ca257d71001a8111?OpenDocument), [via a NSW Legislative Assembly Tabled Paper Search](http://www.parliament.nsw.gov.au/prod/la/latabdoc.nsf/TabledDocumentsAll?SearchView&query=([REPORTTITLE]=(register*+of*+disclosures*))&searchorder=4). It's in two separate, massive PDF documents. Sadly these are scans of the forms submitted by MPs. Some have been filled digitally and some have been hand written. Believe it or not, but even in 2014 it looks like at least one of the documents was filled out using a typewriter.
