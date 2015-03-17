@@ -6,7 +6,9 @@ categories: journal
 description: "My experience designing in a new team and adapting to a new process"
 ---
 
-For the last three and a half months I’ve been working with the [OpenAustralia Foundation](https://www.openaustraliafoundation.org.au/) to design their latest project, *[They Vote For You](http://theyvoteforyou.org.au)*. For me, as always, this was a broad interpretation of the role “designer”: digging into functionality, language, information architecture, appearance, feeling, right down to the purpose and direction of the site. At the core we are trying to respectfully support citizens in using the tool to achieve something they want. I’m very proud of where we’ve taken the project and to now be joining the team permanently.
+For the last three and a half months I’ve been working with the [OpenAustralia Foundation](https://www.openaustraliafoundation.org.au/) to design their latest project, *[They Vote For You](http://theyvoteforyou.org.au)*. For me, as always, this was a broad interpretation of the role “designer”: digging into functionality, language, information architecture, appearance, feeling, right down to the purpose and direction of the site.
+
+At *They Vote For You* citizens see how their elected representatives vote on their behalf in Parliament. Citizens can use this knowledge as leverage in their relationships with law makers. I’m very proud of where we’ve taken the project and to now be joining the team permanently.
 
 I’ve gained so much from others who’ve opened up and I want to pay it back by documenting some of our process. Sharing experience is also a key part of the [Open Source Design Manifesto](http://designopen.org/blogging_about/the-open-source-design-manifesto/), “I will share my design experiences; both the good and the bad”.
 
