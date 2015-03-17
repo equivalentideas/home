@@ -14,7 +14,7 @@ I’ve gained so much from others who’ve opened up and I want to pay it back b
 
 There were a lot of unknowns and first-times throughout the project. For me it was a new team and their strong commitment to a project methodology with which I had little experience, [Agile development](http://en.wikipedia.org/wiki/Agile_software_development). I was also tasked with a lot of [Ruby on Rails](http://rubyonrails.org/) development—I had a little experience from [Detention Logs](http://detentionlogs.com.au/), but had never written ruby for a client project.
 
-Similarly, the OpenAustralia Foundation hadn’t worked with a designer in this capacity before: someone working on broad iterations of design and implementing it in code during major application development. Previously they’ve handed a fairly established interface over to a design phase. That is still a common process, but in the wake of responsive design practices more and more designers are being embedded into teams, helping to develop an application or website from day one.
+Similarly, the OpenAustralia Foundation hadn’t worked with a designer in this capacity before: someone working on broad iterations of design and implementing it in code during major application development. Previously they’ve handed a fairly established interface over to a design phase.
 
 ## Approach
 
