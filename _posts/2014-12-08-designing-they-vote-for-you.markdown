@@ -3,7 +3,7 @@ layout: post
 title:  "Designing They Vote For You"
 date:   2014-12-08 09:11:00
 categories: journal
-description: "My experience designing They Vote For You, adapting to a new process and sticking to the basics"
+description: "My experience designing in a new team and adapting to a new process"
 ---
 
 For the last three and a half months I’ve been working with the [OpenAustralia Foundation](https://www.openaustraliafoundation.org.au/) to design their latest project, *[They Vote For You](http://theyvoteforyou.org.au)*. For me, as always, this was a broad interpretation of the role “designer”: digging into functionality, language, information architecture, appearance, feeling, right down to the purpose and direction of the site. At the core we are trying to respectfully support citizens in using the tool to achieve something they want. I’m very proud of where we’ve taken the project and to now be joining the team permanently.
