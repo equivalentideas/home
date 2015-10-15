@@ -20,7 +20,7 @@ that the consensus in their professional community is that WestConnex is bad pla
 They say expanding the public transport system
 is the logical approach to improve our city for the people who live in it.
 
-I'm not expert on traffic or planning,
+I'm no expert on traffic or planning,
 so I look at all this and wonder, why WestConnex?
 If it's not there to help the people living in Sydney, then who benefits?
 
@@ -40,7 +40,7 @@ and some basic information about their contracts.
 I hope this list is useful to people trying to understand the project
 and gives them new avenues to ask questions and demand answers.
 The site has now collected 70 contractors
-who’ve been given 158 contracts are worth over 150 million dollars.
+with 158 contracts worth over 150 million dollars.
 It doesn’t include some of the really big contracts,
 or ones smaller than $150,000,
 because of deficiencies with [NSW’s Government Information Public Access Act (GIPA)](http://www.austlii.edu.au/au/legis/nsw/consol_act/giaa2009368/).
@@ -88,4 +88,4 @@ you would like to know about these companies or contracts.
 Maybe I can help.
 
 If _you_ have more public interest information about these contractors, contracts or the WestConnex project,
-please use the contact information at the bottom of the website [https://whywestconnex.herokuapp.com](https://whywestconnex.herokuapp.com).
+please use the [contact information at the bottom of the website](https://whywestconnex.herokuapp.com).
