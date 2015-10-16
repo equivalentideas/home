@@ -64,8 +64,8 @@ In fact they’re the company who’ve taken the most in contracts in this list.
 AECOM got a $700,000 contract for “Traffic Director” services—even though
 some simple Googling shows they’re are being sued in Queensland
 for their involvement in incorrect traffic projections on a motorway project.
-[They’ve just paid out a massive settlement—thought to be over _$700 million_—to end one of the cases](http://www.theaustralian.com.au/business/dataroom/rivercity-motor-group-in-168bn-legal-settlement/story-fnjw8txa-1227457810858) (link paywalled)
-ahead a September court appearance.
+They’ve just paid out a massive settlement of
+over $250 million on some cases and are still being sued by hundreds of investors.
 
 This is just a couple from seventy contractors the site has collected so far.
 You might look into some of the others.
