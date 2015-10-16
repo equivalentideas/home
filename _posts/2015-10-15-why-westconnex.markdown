@@ -8,7 +8,7 @@ description: "If we’re not building this toll road to help the people living i
 
 WestConnex is a $15 billion dollar project to expand Sydney’s motorway system.
 When I look at this project, as a Sydney local,
-I wonder why successive NSW Governments are so keen on it?
+I wonder why our Government is so keen on it?
 
 The stated goal of the project is
 to improve Sydney’s bad traffic,
