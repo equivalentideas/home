@@ -12,7 +12,7 @@ I wonder why our Government is so keen on it?
 
 The stated goal of the project is
 to improve Sydney’s bad traffic,
-but the Government’s [own traffic analysis says it won’t improve congestion](http://www.smh.com.au/nsw/sydney-traffic-secret-westconnex-documents-show-worse-congestion-after-toll-road-20150525-gh980u.html)
+but the Government’s [own traffic analysis says it may not solve congestion](http://www.smh.com.au/nsw/sydney-traffic-secret-westconnex-documents-show-worse-congestion-after-toll-road-20150525-gh980u.html)
 and an [independent study says it will make it worse](http://www.smh.com.au/nsw/parramatta-road-traffic-will-increase-under-westconnex-study-shows-20150427-1mueqm.html).
 
 An urban planner who’s worked on the project told me
