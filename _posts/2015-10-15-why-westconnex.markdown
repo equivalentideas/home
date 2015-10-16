@@ -6,7 +6,7 @@ categories: journal
 description: "If we’re not building this toll road to help the people living in Sydney, then who benefits?"
 ---
 
-WestConnex is a $15 billion dollar project to expand Sydney’s freeway system.
+WestConnex is a $15 billion dollar project to expand Sydney’s motorway system.
 When I look at this project, as a Sydney local,
 I wonder why successive NSW Governments are so keen on it?
 
