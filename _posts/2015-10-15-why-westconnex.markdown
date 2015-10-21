@@ -3,8 +3,8 @@ layout: post
 title:  "Who profits from WestConnex?"
 date:   2015-10-15 22:45:00
 categories: journal
-comments: true
 description: "If we’re not building this toll road to help the people living in Sydney, then who benefits?"
+comments: true
 ---
 
 WestConnex is a $15 billion dollar project to expand Sydney’s motorway system.
@@ -90,3 +90,5 @@ Maybe I can help.
 
 If _you_ have more public interest information about these contractors, contracts or the WestConnex project,
 please use the [contact information at the bottom of the website](https://whywestconnex.herokuapp.com).
+
+{% include comments.html %}
