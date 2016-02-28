@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Who profits from WestConnex?"
-date:   2015-10-15 22:45:00
+date:   2015-10-15 22:45:00 +1100
 categories: journal
 description: "If we’re not building this toll road to help the people living in Sydney, then who benefits?"
 comments: true

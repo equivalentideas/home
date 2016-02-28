@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chloe Weil"
-date:   2014-07-11 09:11:00
+date:   2014-07-11 09:11:00 +1100
 categories: journal
 description: "I didn't know Chloe Weil, but I feel like I've benefited from her ideas and gifts. I know her work and her writing through her website, chloeweil.com."
 ---

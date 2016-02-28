@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Divide and Control, Listen and Respond"
-date:   2014-03-04 14:10:00
+date:   2014-03-04 14:10:00 +1100
 categories: journal
 description: "The situation for asylum seekers imprisoned by Australia worsens. How can those inside and outside the detention fences connect to demand change?"
 ---

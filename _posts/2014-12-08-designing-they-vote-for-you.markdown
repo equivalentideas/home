@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Designing They Vote For You"
-date:   2014-12-08 09:11:00
+date:   2014-12-08 09:11:00 +1100
 categories: journal
 description: "My experience designing in a new team and adapting to a new process"
 ---

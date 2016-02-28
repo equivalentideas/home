@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2013-2014 NSW Legislative Assembly Pecuniary Interest Disclosures"
-date:   2015-01-17 17:30:00
+date:   2015-01-17 17:30:00 +1100
 categories: journal
 description: "The individual disclosure forms for each member of the NSW Parliament Legislative Assembly, showing their pecuniary interest disclosures as of 30th June 2014."
 ---

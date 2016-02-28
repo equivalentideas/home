@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Against a narrowing circle: Secrecy and the TPP Negotiations"
-date:   2013-12-13 00:57:00
+date:   2013-12-13 00:57:00 +1100
 categories: journal
 description: "Why is the TPP negotiated in secret? What does it mean for this strategy to be validated?"
 comments: true

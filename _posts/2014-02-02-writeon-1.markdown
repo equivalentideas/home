@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Write On, Day 1"
-date:   2014-02-02 22:57:00
+date:   2014-02-02 22:57:00 +1100
 categories: journal
 description: "My response to the first episode of Relly Annet-Baker’s February writing class, Write On."
 ---
