@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "2.2.0"
+gem "jekyll", "~>3.1"
 
 gem "sass", "~>3.2.0"
 gem "compass", "~>0.12.0"
