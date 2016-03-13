@@ -66,7 +66,7 @@ One kept interrupting the others
 only to then realise they were misreading the rules.
 These interruptions made the actual debate harder to follow
 for both the audience and councillors.
-The procedure is meant to help meetings run well,
+Procedure is meant to help meetings run well,
 but it seemed more like a prop for political theatre last night.
 
 There was constant miscommunication
