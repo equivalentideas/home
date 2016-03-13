@@ -78,12 +78,12 @@ It seemed to me that there were a few causes for this:
     This made it hard for everyone
     to nail down the precise point at hand—even
     the other councillors.
-  * [Mayor Sally Betts]() who was running the meeting
+  * [Mayor Sally Betts](), who was running the meeting,
     kept leaning over to talk to council staff while people were speaking.
     This meant that they had to constantly
     reconfirm the questions and motions being raised.
     People around me in the audience kept
-    shaking their heads–“they’re not even bloody listening”.
+    shaking their heads, “they’re not even bloody listening”.
   * The room had really bad acoustics that muffled what was said.
     This problem was made worse by councillors having cross conversations
     while motions were being put forward.
