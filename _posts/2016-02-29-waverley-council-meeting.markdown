@@ -37,7 +37,7 @@ and what project information they should have access to.
 There were about 15 people watching the meeting.
 It seemed to me they were all strongly for extending the submission time
 and wanted more information about the project.
-I had no idea about the plan before last night.
+I had no idea about the project before last night.
 
 I’m not familiar with them,
 but I thought Councillors [John Wakefield](http://www.waverley.nsw.gov.au/council/councillors/bondi_ward#john )
