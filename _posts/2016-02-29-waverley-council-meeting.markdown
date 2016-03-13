@@ -124,7 +124,7 @@ getting a worse deal on the project.
 The explanation of why this would happen wasn’t clear to me—but
 I think it’s beside the point.
 
-A public institution like a local council isn’t like a normal business.
+A public institution like a local council isn’t like a business.
 It works on behalf of the public and has a bunch of special processes
 to ensure it acts in the public interest.
 These include having an elected council and holding open public meetings.
