@@ -91,7 +91,7 @@ It seemed to me that there were a few causes for this:
 
 ## Accessibility and participation
 
-There were a problems with transparency and accountability as well.
+There were also problems with transparency and accountability.
 
 Even in the room it was difficult to tell
 how councillors were voting on motions.
