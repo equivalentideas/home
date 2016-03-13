@@ -136,7 +136,7 @@ If it costs more for the public to get reasonable detail
 of the plan they need to judge,
 then surely those are basic, core costs.
 They might actually find that transparency enables locals to
-better direct resources, saving resources and increasing effectiveness.
+better direct resources, cutting waste and increasing effectiveness.
 
 From just this meeting I observed these barriers
 people understanding what their local public institutions are planning and doing;
