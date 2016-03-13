@@ -50,7 +50,7 @@ what seemed like reasonable public participation.
 Local council meetings in Australia have a reputation
 for being ineffective and boring.
 This reputation is totally off the mark in my area.
-They debated important issues and proposals
+Important issues and proposals were debated
 that will impact this area and it’s people.
 There were some things however
 that made it hard to understand what was going on.
