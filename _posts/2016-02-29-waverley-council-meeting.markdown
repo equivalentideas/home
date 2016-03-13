@@ -42,7 +42,7 @@ I had no idea about the project before last night.
 I’m not familiar with them,
 but I thought Councillors [John Wakefield](http://www.waverley.nsw.gov.au/council/councillors/bondi_ward#john )
 and [Dominic (Darugland Boondi Boondi) Wy Kanak](http://www.waverley.nsw.gov.au/council/councillors/bondi_ward#dominic)
-did a good job standing up for greater public involvement in the redevelopment.
+did a good job standing up for greater public involvement.
 I was pretty shocked by the conservative majority of councillors
 who made snide remarks and spoke against
 what seemed like reasonable public participation.
