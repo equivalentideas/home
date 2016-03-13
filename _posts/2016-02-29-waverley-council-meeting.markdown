@@ -134,7 +134,7 @@ but are seen as a core cost of council business.
 Transparency in democratic institutions isn’t a “nice to have”.
 If it costs more for the public to get reasonable detail
 of the plan they need to judge,
-then surely those are basic, core costs of business.
+then surely those are basic, core costs.
 They might actually find that transparency enables locals to
 better direct resources, saving resources and increasing effectiveness.
 
