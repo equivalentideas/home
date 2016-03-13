@@ -57,7 +57,7 @@ that made it hard to understand what was going on.
 
 ## Problems
 
-When I first arrived there was a lot of confusion and bickering
+When I first arrived there was *a lot* of confusion and bickering
 about what the proper meeting procedure was.
 This was boring and frustrating.
 Councillors were talking over each other,
