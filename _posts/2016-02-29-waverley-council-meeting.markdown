@@ -20,7 +20,7 @@ So far they’ve all said that people should go to their local meetings.
 I wanted to see why.
 
 I’m really glad I went along.
-It seems that important decisions are made in local council
+It seems that important decisions *are* made in local council
 meetings–but there are also heaps of problems with them.
 
 My representatives were debating how involved local people should be in
