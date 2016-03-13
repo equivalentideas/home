@@ -6,7 +6,7 @@ categories: journal
 description: "Placeholder description"
 ---
 
-Last month I went to my local council meeting.
+Last month I went to my [local council meeting](http://waverley.infocouncil.biz/Open/2016/02/CM_20160216_MIN_366.PDF "Waverley Council Meeting Minutes, 16 February 2016").
 It was the first meeting I'd been to since moving to Bondi three years ago,
 and the second local council meeting I've ever been to.
 
