@@ -4,6 +4,7 @@ title:  "Waverley Council Meeting, 16 February 2016"
 date:   2016-02-28 07:08:00 +1100
 categories: journal
 description: "Placeholder description"
+comments: true
 ---
 
 Last month I went to my [local council meeting](http://waverley.infocouncil.biz/Open/2016/02/CM_20160216_MIN_366.PDF "Waverley Council Meeting Minutes, 16 February 2016").
