@@ -6,7 +6,7 @@ categories: journal
 description: "Placeholder description"
 ---
 
-Last night I went to my local council meeting.
+Last month I went to my local council meeting.
 It was the first meeting I'd been to since moving to Bondi three years ago,
 and the second local council meeting I've ever been to.
 
@@ -131,4 +131,4 @@ people understanding what their local public institutions are planning and doing
 barriers to acting in their local democracy.
 I was impressed by a few councillors who spoke for
 the public’s right to know and direct their council.
-I think I'll head back next month and see what else I can learn.
+I think I'll head back this month and see what else I can learn.
