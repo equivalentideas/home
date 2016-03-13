@@ -99,7 +99,8 @@ blockers to participation.
 Even in the room it was difficult to tell
 how councillors were voting on motions.
 This is the key job we elect these people to do,
-yet most votes are held ‘on the voices’. This means that the ...
+yet most votes are held ‘on the voices’.
+This means that how each councillor voted is not recorded in the meeting minutes.
 
 This is a major problem of accountability for elected representatives
 at every level of government in Australia.
