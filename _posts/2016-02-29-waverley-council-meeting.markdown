@@ -98,7 +98,6 @@ blockers to participation.
 
 Even in the room it was difficult to tell
 how councillors were voting on motions.
-
 This is the key job we elect these people to do,
 yet most votes are held ‘on the voices’. This means that the ...
 
