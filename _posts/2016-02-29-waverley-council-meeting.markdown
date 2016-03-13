@@ -73,7 +73,7 @@ There was constant miscommunication
 about what was being said throughout the meeting.
 It seemed to me that there were a few causes for this:
 
-  * The councillors spoke in the language of stuffy government procedure
+  * Councillors spoke in the language of stuffy government procedure
     rather than just saying what they meant.
     This made it hard for everyone
     to nail down the precise point at hand—even
