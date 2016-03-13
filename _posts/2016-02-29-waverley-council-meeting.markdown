@@ -3,7 +3,7 @@ layout: post
 title:  "Waverley Council Meeting, 16 February 2016"
 date:   2016-02-28 07:08:00 +1100
 categories: journal
-description: "Placeholder description"
+description: "Important decisions are made at local council meetings–but there are also heaps of problems with them."
 comments: true
 thumbnail: /assets/2013-12-27-Bondi-Surf-Pavilion-by-Alex-Proimos-compressor.jpg
 ---
