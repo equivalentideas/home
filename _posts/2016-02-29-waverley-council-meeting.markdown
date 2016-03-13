@@ -50,6 +50,8 @@ that will impact this area and it's people.
 There were some things however
 that made it hard to understand what was going on.
 
+## Problems
+
 When I first arrived there was a lot of confusion and bickering
 about what the proper meeting procedure was.
 This was boring and frustrating.
@@ -81,6 +83,8 @@ It seemed to me that there were a few causes for this:
     while motions were being put forward.
     The councillors also sat facing away from the public audience,
     projecting their voices away from them.
+
+## Accessibility and participation
 
 There were a problems with transparency and accountability as well.
 
