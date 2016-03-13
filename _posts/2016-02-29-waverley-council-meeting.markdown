@@ -106,8 +106,8 @@ This is a major problem of accountability for elected representatives
 at every level of government in Australia.
 Micaela Ash recently wrote a [great post detailing this problem in our Federal Parliament](https://www.openaustraliafoundation.org.au/2016/02/04/they-vote-for-you-finding-the-real-facts-about-voting/).
 
-You might think that the people attending the meeting would
-be able to tell how individual councillors voted, but this wasn’t really clear.
+You might think that at least the people at the meeting would
+be able to tell how individual councillors voted, but it wasn’t clear at all.
 The councillors sit facing away from the audience,
 so when they call out their vote you can’t always distinguish their position.
 
