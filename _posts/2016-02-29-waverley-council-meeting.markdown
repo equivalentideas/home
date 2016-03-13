@@ -138,9 +138,9 @@ then surely those are basic, core costs.
 They might actually find that transparency enables locals to
 better direct resources, cutting waste and increasing effectiveness.
 
-From just this meeting I observed these barriers
-people understanding what their local public institutions are planning and doing;
-barriers to acting in their local democracy.
+In just this one meeting you could see barriers to
+people understanding what their local elected councillors are planning and doing;
+barriers to acting in local democracy.
 I was impressed by a few councillors who spoke for
 the public’s right to know and direct their council.
 I think I’ll head back this month and see what else I can learn.
