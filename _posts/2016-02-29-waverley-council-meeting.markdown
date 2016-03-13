@@ -75,8 +75,9 @@ It seemed to me that there were a few causes for this:
 
   * The councillors spoke in the language of stuffy government procedure
     rather than just saying what they meant.
-    This made it hard for everyone, even the other councillors,
-    to nail down the precise point at hand.
+    This made it hard for everyone
+    to nail down the precise point at hand—even
+    the other councillors.
   * [Mayor Sally Betts]() who was running the meeting
     kept leaning over to talk to council staff while people were speaking.
     This meant that they had to constantly
