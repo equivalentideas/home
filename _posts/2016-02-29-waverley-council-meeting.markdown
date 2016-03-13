@@ -113,7 +113,7 @@ so when they call out their vote you can’t always distinguish their position.
 
 On the issue of the Bondi Pavillion redevelopment,
 Councillor Dominic Wy Kanak moved that a detailed breakdown of the costing
-and a feasibility study of the project be released.
+and a completed feasibility study of the project be released.
 In a major redevelopment of one of the area’s most significant built assets,
 wouldn’t you expect that this kind of detail of the plan
 would be available already?
