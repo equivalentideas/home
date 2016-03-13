@@ -21,11 +21,14 @@ I'm really glad I went along.
 It seems that important decisions are made in local council
 meetings–but there are also heaps of problems with them.
 
-![Bondi Pavillion]()
-
 My representatives were debating how involved local people should be in
 guiding a $40 million redevelopment of
 the area’s best known and much loved public facility, [the Bondi Pavilion]().
+
+<figure id="figure-1" class="graphic-figure central-figure">
+	<img alt="" src="/assets/2013-12-27-Bondi-Surf-Pavilion-by-Alex-Proimos-compressor.jpg" />
+	<figcaption>Bondi Pavilion, constructed 1928, as it stands today. Image taken 2013 by <a href="https://www.flickr.com/photos/proimos/11643907765/in/photolist-iJW57r-bvMLXr-34G2vk-34LzK1-34LYv3-amuMmq-dhGCpz-aRM5wP-dhGBeg-dhGBFj-amuN5A-anQCRL-aRM62r-aRM6k2-amuMQA-cUrQtL-nQ9N8u-qiVPmQ-dKzajk-dKEDsh-ama5St-foTzcq-ppe2Wb-qm9shJ-ppe3Ah-dv3kK8-qm2LU6-q4ED3b-qma7x1-q4E8yb-ppehmy-qm9z4E-q4Eo8G-ppsiyr-qma8mf-ppdFfm-qkxAaf-q4E5iS-ppsfoD-dv3n8X-ama5NK-7btPL3-cxWqqW-dv3nha-dKEytj-dv3kWM-dv3nXz-dv3mbc-fM3Djn-dv3p2a" title="Get more information about this photograph.">Alex Proimos used under <abbr title="Creative CommonsAttribution-NonCommercial 2.0 Generic">Creative Commons BY-NC 2.0 license</abbr></a>.</figcaption>
+</figure>
 
 The key issues were the amount of time locals should have to make submissions
 and what project information they should have access to.
