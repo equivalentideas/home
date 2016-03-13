@@ -25,7 +25,7 @@ meetings–but there are also heaps of problems with them.
 
 My representatives were debating how involved local people should be in
 guiding a $40 million redevelopment of
-the area’s best known and much loved public facility, [the Bondi Pavilion]().
+the area’s best known and much loved public facility, [the Bondi Pavilion](https://en.wikipedia.org/wiki/Bondi_Pavilion).
 
 <figure id="figure-1" class="graphic-figure central-figure">
 	<img alt="" src="/assets/2013-12-27-Bondi-Surf-Pavilion-by-Alex-Proimos-compressor.jpg" />
