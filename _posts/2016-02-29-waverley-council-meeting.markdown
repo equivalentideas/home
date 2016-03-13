@@ -12,7 +12,7 @@ and the second local council meeting I've ever been to.
 
 Recently I've been working to make it easier for people
 to learn about and contribute to local planning decisions through [PlanningAlerts](https://www.planningalerts.org.au).
-I’ve been speaking with local councillors around NSW to find out
+I’ve been speaking with local councillors from around NSW to find out
 how they think people can impact local planning decisions more effectively.
 So far they've all said that people should go to their local meetings.
 I wanted to see why.
