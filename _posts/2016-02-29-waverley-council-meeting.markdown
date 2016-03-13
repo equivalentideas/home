@@ -104,7 +104,7 @@ This means that how each councillor voted is not recorded in the meeting minutes
 
 This is a major problem of accountability for elected representatives
 at every level of government in Australia.
-Micaela .. recently wrote a [great post about it in Federal Parliament]().
+Micaela Ash recently wrote a [great post detailing this problem in our Federal Parliament](https://www.openaustraliafoundation.org.au/2016/02/04/they-vote-for-you-finding-the-real-facts-about-voting/).
 
 You might think that the people attending the meeting would
 be able to tell how individual councillors voted, but this wasn’t really clear.
