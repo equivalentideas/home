@@ -9,17 +9,17 @@ thumbnail: /assets/2013-12-27-Bondi-Surf-Pavilion-by-Alex-Proimos-compressor.jpg
 ---
 
 Last month I went to my [local council meeting](http://waverley.infocouncil.biz/Open/2016/02/CM_20160216_MIN_366.PDF "Waverley Council Meeting Minutes, 16 February 2016").
-It was the first meeting I'd been to since moving to Bondi three years ago,
-and the second local council meeting I've ever been to.
+It was the first meeting I’d been to since moving to Bondi three years ago,
+and the second local council meeting I’ve ever been to.
 
-Recently I've been working to make it easier for people
+Recently I’ve been working to make it easier for people
 to learn about and contribute to local planning decisions through [PlanningAlerts](https://www.planningalerts.org.au).
 I’ve been speaking with local councillors from around NSW to find out
 how they think people can impact local planning decisions more effectively.
-So far they've all said that people should go to their local meetings.
+So far they’ve all said that people should go to their local meetings.
 I wanted to see why.
 
-I'm really glad I went along.
+I’m really glad I went along.
 It seems that important decisions are made in local council
 meetings–but there are also heaps of problems with them.
 
@@ -39,7 +39,7 @@ It seemed to me they were all strongly for extending the submission time
 and wanted more information about the project.
 I had no idea about the plan before last night.
 
-I'm not familiar with them,
+I’m not familiar with them,
 but I thought Councillors [John Wakefield](http://www.waverley.nsw.gov.au/council/councillors/bondi_ward#john )
 and [Dominic (Darugland Boondi Boondi) Wy Kanak](http://www.waverley.nsw.gov.au/council/councillors/bondi_ward#dominic)
 did a good job standing up for greater public involvement in the redevelopment.
@@ -51,7 +51,7 @@ Local council meetings in Australia have a reputation
 for being ineffective and boring.
 This reputation is totally off the mark in my area.
 They debated important issues and proposals
-that will impact this area and it's people.
+that will impact this area and it’s people.
 There were some things however
 that made it hard to understand what was going on.
 
@@ -104,31 +104,31 @@ at every level of government in Australia.
 Micaela .. recently wrote a [great post about it in Federal Parliament]().
 
 You might think that the people attending the meeting would
-be able to tell how individual councillors voted, but this wasn't really clear.
+be able to tell how individual councillors voted, but this wasn’t really clear.
 The councillors sit facing away from the audience,
-so when they call out their vote you can't always distinguish their position.
+so when they call out their vote you can’t always distinguish their position.
 
 On the issue of the Bondi Pavillion redevelopment,
 Councillor Dominic Wy Kanak moved that a detailed breakdown of the costing
 and a feasibility study of the project be released.
 In a major redevelopment of one of the area’s most significant built assets,
-wouldn't you expect that this kind of detail of the plan
+wouldn’t you expect that this kind of detail of the plan
 would be available already?
 
-One of the council staff stood to explain that this wouldn't be possible.
+One of the council staff stood to explain that this wouldn’t be possible.
 Releasing such detail might result in the council
 getting a worse deal on the project.
-The explanation of why this would happen wasn't clear to me—but
-I think it's beside the point.
+The explanation of why this would happen wasn’t clear to me—but
+I think it’s beside the point.
 
-A public institution like a local council isn't like a normal business.
+A public institution like a local council isn’t like a normal business.
 It works on behalf of the public and has a bunch of special processes
 to ensure it acts in the public interest.
 These include having an elected council and holding open public meetings.
-These measure aren't cheap to run,
+These measure aren’t cheap to run,
 but are seen as a core cost of council business.
 
-Transparency in democratic institutions isn't a “nice to have”.
+Transparency in democratic institutions isn’t a “nice to have”.
 If it costs more for the public to get reasonable detail
 of the plan they need to judge,
 then surely those are basic, core costs of business.
@@ -140,4 +140,4 @@ people understanding what their local public institutions are planning and doing
 barriers to acting in their local democracy.
 I was impressed by a few councillors who spoke for
 the public’s right to know and direct their council.
-I think I'll head back this month and see what else I can learn.
+I think I’ll head back this month and see what else I can learn.
