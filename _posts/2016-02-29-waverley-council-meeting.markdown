@@ -78,7 +78,8 @@ It seemed to me that there were a few causes for this:
     This made it hard for everyone
     to nail down the precise point at hand—even
     the other councillors.
-  * [Mayor Sally Betts](), who was running the meeting,
+  * [Mayor Sally Betts](https://en.wikipedia.org/wiki/Sally_Betts),
+    who was running the meeting,
     kept leaning over to talk to council staff while people were speaking.
     This meant that they had to constantly
     reconfirm the questions and motions being raised.
