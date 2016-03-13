@@ -67,7 +67,7 @@ only to then realise they were misreading the rules.
 These interruptions made the actual debate harder to follow
 for both the audience and councillors.
 Procedure is meant to help meetings run well,
-but it seemed more like a prop for political theatre last night.
+but it seemed more like a prop for political theatre here.
 
 There was constant miscommunication
 about what was being said throughout the meeting.
