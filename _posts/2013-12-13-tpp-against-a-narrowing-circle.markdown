@@ -123,4 +123,6 @@ Everybody has a role in opposing this attack on the public interest, even someth
 
 <br />
 
-<aside class="notice">[An adapted version of this piece was published in New Matilda on December 13th 2013.](https://newmatilda.com/2013/12/13/why-you-should-be-outraged-about-tpp 'Why You Should Be Outraged About The TPP')</aside>
+<aside class="notice">
+  <a title="Why You Should Be Outraged About The TPP" href="https://newmatilda.com/2013/12/13/why-you-should-be-outraged-about-tpp">An adapted version of this piece was published in New Matilda on December 13th 2013.</a>
+</aside>
