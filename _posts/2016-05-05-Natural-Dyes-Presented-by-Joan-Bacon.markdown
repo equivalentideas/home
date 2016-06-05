@@ -15,11 +15,22 @@ thumbnail:
 
 <p>I pulled the book off the shelf because of it's interested title and design. As I flicked through, my Nana’s familiar name jumped out on the acknowledgements page. I searched through for other mentions and found this article, <cite>Natural Dyes, Presented by Joan Bacon</cite>, in the contents. I was amazed to stumble across her voice like this.</p>
 
+<figure id="figure-1" class="graphic-figure central-figure">
+	<img alt="Photograph of the cover of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_cover.jpg" />
+	<img alt="Photograph of the acknowledgements page of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_acknowledgements.jpg" />
+	<figcaption>The cover and acknowledgements page of <cite>Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)</cite>.</figcaption>
+</figure>
+
 <p>I was quite young when Nana Bacon was alive and I didn’t appreciate her skill and creativity as a craftsperson. She wove intricate, soft garments with bright colours that were exhibited and sold at galleries, including the National Gallery of Australia, and are much loved by the people who wear them. I’d like to write more and publish slides of her work in the future.</p>
 
 <p>Since she died I've become very interested in craft through sound, design and programming. I read her generous presentation as what might be blog post today: she humbly shares her experiments, ideas and techniques, excited to see what others might produce, rather than withhold her hard earned knowledge. I like to think that if we spoke today we would talk about the nature of craft and skill. I'd love to know how she learnt to be a master weaver by herself.</p>
 
 <p><em>Big</em> thanks to <a href="http://emptybook.net/">Benjamin Forster</a> and Frontyard for making the wonderful library available so I could find this.</p>
+
+<figure id="figure-2" class="graphic-figure central-figure">
+	<img alt="Photograph of Joan Bacon" src="/assets/build/1982_joan_bacon_in_wool_and_beyond_crop.jpg" />
+	<figcaption>Joan Bacon in photogrph that accompanies the article (cropped). Photographer unknown.</figcaption>
+</figure>
 </aside>
 
 ## Natural Dyes
@@ -52,7 +63,7 @@ These sample skeins were dyed with eucalypt _polyanthemos_ and you can see quite
 
 I feel this is quite an acceptable difference to have lightfast yarn. I have developed a fairly routine method now for my own use. I use only the leaves at a ratio of usually 4 to 1 dyestuff to wool. The leaves are soaked overnight in hot water, next day slowly brought to the boil, kept at a simmer for one hour. The yarn is the added and kept at a temp of 90ºC or 190ºF for 2 to 4 hours depending on the depth of colour required. Sometimes the red dye doesn’t appear to be released into the dyebath for up to 2 hours. When possible I leave the yarn to cool in the dye-bath. I then do any post-mordanting using tin, copper, or iron for a range of shades, and the chrome after treatment for lightfastness. I have found that 1/2 cup of vinegar in the last rinse helps to restore the lustre of the fleece.
 
-<figure id="figure-1" class="wide-figure graphic-figure central-figure">
+<figure id="figure-3" class="wide-figure graphic-figure central-figure">
 	<img alt="Photograph of Joan Bacon and two other women" src="/assets/build/1982_joan_bacon_in_wool_and_beyond.jpg" />
 	<figcaption>Photograph of Joan Bacon (left) that accompanies the article. Photographer unknown.</figcaption>
 </figure>
