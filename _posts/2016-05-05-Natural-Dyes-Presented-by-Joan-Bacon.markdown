@@ -16,9 +16,11 @@ thumbnail:
 <p>I pulled the book off the shelf because of it's interested title and design. As I flicked through, my Nana’s familiar name jumped out on the acknowledgements page. I searched through for other mentions and found this article, <cite>Natural Dyes, Presented by Joan Bacon</cite>, in the contents. I was amazed to stumble across her voice like this.</p>
 
 <figure id="figure-1" class="graphic-figure central-figure">
-	<img alt="Photograph of the cover of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_cover.jpg" />
-	<img alt="Photograph of the acknowledgements page of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_acknowledgements.jpg" />
-	<figcaption>The cover and acknowledgements page of <cite>Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)</cite>.</figcaption>
+  <div class="pair">
+    <img alt="Photograph of the cover of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_cover.jpg" />
+    <img alt="Photograph of the acknowledgements page of Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)" src="/assets/build/wool_and_beyond_first_australian_fibre_conference_acknowledgements.jpg" />
+  </div>
+	<figcaption>The cover and acknowledgements page of <cite>Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981</cite> (1982).</figcaption>
 </figure>
 
 <p>I was quite young when Nana Bacon was alive and I didn’t appreciate her skill and creativity as a craftsperson. She wove intricate, soft garments with bright colours that were exhibited and sold at galleries, including the National Gallery of Australia, and are much loved by the people who wear them. I’d like to write more and publish slides of her work in the future.</p>

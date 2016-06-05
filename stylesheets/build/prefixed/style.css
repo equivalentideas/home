@@ -1339,6 +1339,24 @@ video {
   }
 }
 
+@media (min-width: 40em) {
+  figure .pair {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  figure .pair img {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    width: 50%;
+  }
+}
+
 @media (min-width: 55em) {
   .site-intro,
   .home .journal-list {

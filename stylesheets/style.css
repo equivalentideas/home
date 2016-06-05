@@ -1112,6 +1112,17 @@ video {
   }
 }
 
+@media (min-width: 40em) {
+  figure .pair {
+    display: flex;
+  }
+  figure .pair img {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+  }
+}
+
 @media (min-width: 55em) {
   .site-intro,
   .home .journal-list {

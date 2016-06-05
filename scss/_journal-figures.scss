@@ -73,3 +73,15 @@
         }
     }
 }
+
+figure .pair {
+    @include breakpoint($s) {
+        display: flex;
+
+        img {
+            flex: 1;
+            height: 100%;
+            width: 50%;
+        }
+    }
+}
