@@ -13,7 +13,7 @@ thumbnail:
 
 <p>I came across it completely by chance in the library at <a href="http://frontyardprojects.org/">Frontyard</a> in Marrickville, Sydney. <a href="http://frontyardprojects.org/library">Frontyard’s library</a> was once the <a href="http://www.australiacouncil.gov.au/">Australia Council for the Arts’s</a> Research Library. In 2014 it was decommissioned and rescued by Frontyard co-founder <a href="http://emptybook.net/">Benjamin Forster</a>.</p>
 
-<p>I pulled the book off the shelf because of it's interested title and design. As I flicked through, my Nana’s familiar name jumped out on the acknowledgements page. I searched through for other mentions and found this article, <cite>Natural Dyes, Presented by Joan Bacon</cite>, in the contents. I was amazed to stumble across her voice like this.</p>
+<p>I pulled the book off the shelf because of it's interested title and design. As I flicked through, my Nana’s familiar name jumped out on the acknowledgements page. I searched through for other mentions and found this article, <cite>Natural Dyes, Presented by Joan Bacon</cite>, in the contents. This was a totally unexpected and wonderful find.</p>
 
 <figure id="figure-1" class="graphic-figure central-figure">
   <div class="pair">
