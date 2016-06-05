@@ -636,6 +636,11 @@ figcaption,
   font-style: italic;
 }
 
+.notice em,
+.notice cite {
+  font-style: normal;
+}
+
 .feed-links,
 .interface-links ul {
   color: #888888;

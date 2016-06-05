@@ -229,6 +229,11 @@ figcaption,
 
 .notice {
 	font-style: italic;
+
+  em,
+  cite {
+    font-style: normal;
+  }
 }
 
 .feed-links,
