@@ -9,6 +9,61 @@
             @include rem(margin-bottom, $scale-1);
     }
 
+    &.medium-wide-figure {
+        margin-right: -$gutter-two;
+        margin-left: -$gutter-two;
+
+        figcaption {
+            padding-right: $gutter-two;
+            padding-left: $gutter-two;
+        }
+
+        @include breakpoint($xs) {
+            margin-right: -7%;
+            margin-left: -7%;
+
+            figcaption {
+                padding-right: ($gutter-two * 2 );
+                padding-left: ($gutter-two * 2 );
+            }
+        }
+
+        @include breakpoint($s) {
+            @include rem(margin-top, $scale-2);
+            margin-right: -20%;
+            @include rem(margin-bottom, $scale-2);
+            margin-left: -20%;
+
+            figcaption {
+                padding-right: $margin-five-equal;
+                padding-left: $margin-five-equal;
+            }
+        }
+
+        @include breakpoint($m) {
+            @include rem(margin-top, $scale-3);
+            margin-right: -21%;
+            margin-left: -21%;
+
+            figcaption {
+                padding-right: ($gutter-two * 2 );
+                padding-left: ($gutter-two * 2 );
+            }
+        }
+
+        @include breakpoint($l) {
+            @include isolation-span(11, 2, 'both', $grid: 13);
+        }
+
+        @include breakpoint($xxl) {
+            @include isolation-span(9, 3, 'both', $grid: 13);
+
+            figcaption {
+                padding: 0;
+            }
+        }
+    }
+
     &.wide-figure,
     .js &.media-figure {
         margin-right: -$gutter-two;
@@ -70,6 +125,18 @@
     &.central-figure figcaption {
         @include breakpoint($xl) {
             text-align: center;
+        }
+    }
+}
+
+figure .pair {
+    @include breakpoint($s) {
+        display: flex;
+
+        img {
+            flex: 1;
+            height: 100%;
+            width: 50%;
         }
     }
 }

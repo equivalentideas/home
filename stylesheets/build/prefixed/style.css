@@ -636,6 +636,11 @@ figcaption,
   font-style: italic;
 }
 
+.notice em,
+.notice cite {
+  font-style: normal;
+}
+
 .feed-links,
 .interface-links ul {
   color: #888888;
@@ -1243,6 +1248,82 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.e-content figure.medium-wide-figure {
+  margin-right: -3.19149%;
+  margin-left: -3.19149%;
+}
+
+.e-content figure.medium-wide-figure figcaption {
+  padding-right: 3.19149%;
+  padding-left: 3.19149%;
+}
+
+@media (min-width: 30em) {
+  .e-content figure.medium-wide-figure {
+    margin-right: -7%;
+    margin-left: -7%;
+  }
+
+  .e-content figure.medium-wide-figure figcaption {
+    padding-right: 6.38298%;
+    padding-left: 6.38298%;
+  }
+}
+
+@media (min-width: 40em) {
+  .e-content figure.medium-wide-figure {
+    margin-top: 28.336px;
+    margin-top: 1.771rem;
+    margin-right: -20%;
+    margin-bottom: 28.336px;
+    margin-bottom: 1.771rem;
+    margin-left: -20%;
+  }
+
+  .e-content figure.medium-wide-figure figcaption {
+    padding-right: 14.28571%;
+    padding-left: 14.28571%;
+  }
+}
+
+@media (min-width: 47em) {
+  .e-content figure.medium-wide-figure {
+    margin-top: 38.912px;
+    margin-top: 2.432rem;
+    margin-right: -21%;
+    margin-left: -21%;
+  }
+
+  .e-content figure.medium-wide-figure figcaption {
+    padding-right: 6.38298%;
+    padding-left: 6.38298%;
+  }
+}
+
+@media (min-width: 55em) {
+  .e-content figure.medium-wide-figure {
+    width: 84.41558%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 7.79221%;
+    clear: both;
+  }
+}
+
+@media (min-width: 85em) {
+  .e-content figure.medium-wide-figure {
+    width: 68.83117%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 15.58442%;
+    clear: both;
+  }
+
+  .e-content figure.medium-wide-figure figcaption {
+    padding: 0;
+  }
+}
+
 .e-content figure.wide-figure,
 .js .e-content figure.media-figure {
   margin-right: -3.19149%;
@@ -1331,6 +1412,24 @@ video {
 @media (min-width: 60em) {
   .e-content figure.central-figure figcaption {
     text-align: center;
+  }
+}
+
+@media (min-width: 40em) {
+  figure .pair {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  figure .pair img {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    width: 50%;
   }
 }
 
