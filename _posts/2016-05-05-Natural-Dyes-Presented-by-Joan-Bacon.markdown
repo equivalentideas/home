@@ -5,7 +5,6 @@ date:   2016-06-05 19:16:00 +1100
 categories: journal
 description: "“I am going to talk to you this afternoon about my practical experiences in trying to dye yarns with eucalyptus leaves.”"
 comments: true
-thumbnail: 
 ---
 
 <aside class="notice">
