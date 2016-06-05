@@ -65,7 +65,7 @@ These sample skeins were dyed with eucalypt _polyanthemos_ and you can see quite
 
 I feel this is quite an acceptable difference to have lightfast yarn. I have developed a fairly routine method now for my own use. I use only the leaves at a ratio of usually 4 to 1 dyestuff to wool. The leaves are soaked overnight in hot water, next day slowly brought to the boil, kept at a simmer for one hour. The yarn is the added and kept at a temp of 90ºC or 190ºF for 2 to 4 hours depending on the depth of colour required. Sometimes the red dye doesn’t appear to be released into the dyebath for up to 2 hours. When possible I leave the yarn to cool in the dye-bath. I then do any post-mordanting using tin, copper, or iron for a range of shades, and the chrome after treatment for lightfastness. I have found that 1/2 cup of vinegar in the last rinse helps to restore the lustre of the fleece.
 
-<figure id="figure-3" class="wide-figure graphic-figure central-figure">
+<figure id="figure-3" class="medium-wide-figure graphic-figure central-figure">
 	<img alt="Photograph of Joan Bacon and two other women" src="/assets/build/1982_joan_bacon_in_wool_and_beyond.jpg" />
 	<figcaption>Photograph of Joan Bacon (left) that accompanies the article. Photographer unknown.</figcaption>
 </figure>
