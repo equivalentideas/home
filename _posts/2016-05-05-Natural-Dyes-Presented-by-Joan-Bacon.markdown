@@ -8,6 +8,20 @@ comments: true
 thumbnail: 
 ---
 
+<aside class="notice">
+<p>Here is a talk contributed by my grandmother Joan Bacon (Nana Bacon to me) to <em>Wool and Beyond</em>, ‘Australia’s first fibre conference’, held in Melbourne 11-23 January 1981. It was originally published as an article by the <a href="http://handweaversandspinnersguildofvictoria.org.au/">Handweavers and Spinners Guild of Victoria</a> in <a href="https://openlibrary.org/books/OL3244782M/Wool_and_beyond"><cite>Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981 (1982)</cite></a>.</p>
+
+<p>I came across it completely by chance in the library at <a href="http://frontyardprojects.org/">Frontyard</a> in Marrickville, Sydney. <a href="http://frontyardprojects.org/library">Frontyard’s library</a> was once the <a href="http://www.australiacouncil.gov.au/">Australia Council for the Arts’s</a> Research Library. In 2014 it was decommissioned and rescued by <a href="http://emptybook.net/">Benjamin Forster</a>, one of the Frontyard co-founders.</p>
+
+<p>I pulled the book off the shelf because of it's interested title and design. As I flicked through, my Nana’s familiar name jumped out on the acknowledgements page. I searched through for other mentions and found this article, <cite>Natural Dyes, Presented by Joan Bacon</cite>, in the contents. I was amazed to stumble across her voice like this.</p>
+
+<p>I was quite young when Nana Bacon was alive and I didn’t appreciate her skill and creativity as a craftsperson. She wove intricate, soft garments with bright colours that were exhibited and sold at galleries, including the National Gallery of Australia, and are much loved by the people who wear them. I’d like to write more and publish slides of her work in the future.</p>
+
+<p>Since she died I've become very interested in craft through sound, design and programming. I read her generous presentation as what might be blog post today: she humbly shares her experiments, ideas and techniques, excited to see what others might produce, rather than withhold her hard earned knowledge. I like to think that if we spoke today we would talk about the nature of craft and skill. I'd love to know how she learnt to be a master weaver by herself.</p>
+
+<p><em>Big</em> thanks to <a href="http://emptybook.net/">Benjamin Forster</a> and Frontyard for making the wonderful library available so I could find this.</p>
+</aside>
+
 ## Natural Dyes
 
 I am going to talk to you this afternoon about my practical experiences in trying to dye yarns with eucalyptus leaves.
