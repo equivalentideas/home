@@ -23,7 +23,7 @@ thumbnail:
 	<figcaption>The cover and acknowledgements page of <cite>Wool and Beyond: First Australian Fibre Conference: Melbourne January 11-23 1981</cite> (1982).</figcaption>
 </figure>
 
-<p>I was young when Nana passed away. I didn’t appreciate her skill and creativity as a craftsperson when she was alive. She wove intricate, soft garments with bright colours that were exhibited and sold at galleries, including the National Gallery of Australia, and are much loved by the people who wear them. I’d like to write more and publish slides of her work in the future.</p>
+<p>I was young when Nana passed away. I didn’t appreciate her skill and creativity as a craftsperson when she was alive. She wove intricate, soft garments with bright colours that were exhibited and sold at galleries, including the National Gallery of Australia. They are much loved by the people who wear them. I’d like to write more and publish slides of her work in the future.</p>
 
 <p>Since she died I've become very interested in craft through sound, design and programming. Now I greatly admire Nana’s weaving. I read her generous presentation as what might be blog post today: she humbly shares her experiments, ideas and techniques, excited to see what others might produce, rather than withhold her hard earned knowledge. I like to think that if we spoke today we would talk about the nature of craft and skill. I'd love to know how she learnt to be a master weaver by herself.</p>
 
