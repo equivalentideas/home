@@ -31,7 +31,7 @@ thumbnail:
 
 <figure id="figure-2" class="graphic-figure central-figure">
 	<img alt="Photograph of Joan Bacon" src="/assets/build/1982_joan_bacon_in_wool_and_beyond_crop.jpg" />
-	<figcaption>Joan Bacon in photogrph that accompanies the article (cropped). Photographer unknown.</figcaption>
+	<figcaption>Joan Bacon in the photograph that accompanies the article (cropped). Photographer unknown.</figcaption>
 </figure>
 </aside>
 
