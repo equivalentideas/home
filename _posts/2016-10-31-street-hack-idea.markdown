@@ -50,3 +50,5 @@ This is something that local councils could support and use as a way to rapidly 
 If this hack day already exists in Sydney, or you’ve got a good example to share, [I’d love to hear about it](http://equivalentideas.com/contact/). If there’s some street problem that’s been bugging you, why not pop it in this google form and maybe we can start a collection to ride out and fix one day.
 
 **[Enter your street issues](https://docs.google.com/forms/d/e/1FAIpQLSeFMPj-V6hRD2-wODCEom2gqWpNj4aDYe85z8YMG41G_H8Uog/viewform)**
+
+{% include comments.html %}

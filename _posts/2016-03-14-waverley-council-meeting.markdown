@@ -144,3 +144,5 @@ barriers to acting in local democracy.
 I was impressed by a few councillors who spoke for
 the public’s right to know and direct their council.
 I think I’ll head back this month and see what else I can learn.
+
+{% include comments.html %}

@@ -123,3 +123,5 @@ Big thanks to [Chris Nilsson](https://twitter.com/otherchirps) for [melting his 
 3. Rename each PDF with the name of the MP it belongs to. I named them using the [names on NSW Parliament’s website](http://www.parliament.nsw.gov.au/prod/parlment/members.nsf/V3ListCurrentLAMembers). These are the commonly used versions of their names, rather than what they entered on their form. For example Giovanni (John) Domenic Barilaro has the file name 'Barilaro_John.pdf'. I went last name first for the file names, so they can be easily sorted alphabetically by last name.
 
 Maybe someone can run through this process for the 2012-2013 register.
+
+{% include comments.html %}

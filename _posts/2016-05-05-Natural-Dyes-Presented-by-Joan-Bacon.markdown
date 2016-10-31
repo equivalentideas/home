@@ -68,3 +68,5 @@ I feel this is quite an acceptable difference to have lightfast yarn. I have dev
 	<img alt="Photograph of Joan Bacon and two other women" src="/assets/build/1982_joan_bacon_in_wool_and_beyond.jpg" />
 	<figcaption>Photograph of Joan Bacon (left) that accompanies the article. Photographer unknown.</figcaption>
 </figure>
+
+{% include comments.html %}

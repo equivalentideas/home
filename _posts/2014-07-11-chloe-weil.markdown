@@ -50,3 +50,5 @@ My thoughts go out to Chloe Weil's family and friends. The sparks she left for t
 * * *
 
 *Jeremy Keith has collected many [blog posts](http://adactio.com/links/tags/chloeweil) and [tweets](http://adactio.com/chloe/) for Chloe Weil and has [written about his friend](http://adactio.com/journal/7030/) on his website [adactio.com](http://adactio.com/)*
+
+{% include comments.html %}
