@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/equivalentideas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://equivalentideas.com
+  * I am equivalentideas (https://keybase.io/equivalentideas) on keybase.
+  * I have a public key ASCRtEsTIc-fZIAknASnMfiXEtN623R8LzctenDt90zoTQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016f4f5c186d81e6cc95fdc56a66d2463a6a2737594fb15fc69b21d2c1aaea39f90a",
+            "host": "keybase.io",
+            "kid": "012091b44b1321cf9f6480249c04a731f89712d37adb747c2f372d7a70edf74ce84d0a",
+            "uid": "622817ca769ccbef447d369bdaaa8600",
+            "username": "equivalentideas"
+        },
+        "service": {
+            "hostname": "equivalentideas.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486684768,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486684756,
+        "hash": "50ee3b3427964d9c5b9d2f36cde51846fd03ed2147a77eec7b77c6a366f872033f2f163445ff751e0c1b8b86a92ce024907421e5ae92f1597410399040dc94bc",
+        "seqno": 864562
+    },
+    "prev": "941b2a43ab2969354c82b2939e216c3992ec4844a8e0e8d3b61c4878d5bb690a",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkbRLEyHPn2SAJJwEpzH4lxLTett0fC83LXpw7fdM6E0Kp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNmY0ZjVjMTg2ZDgxZTZjYzk1ZmRjNTZhNjZkMjQ2M2E2YTI3Mzc1OTRmYjE1ZmM2OWIyMWQyYzFhYWVhMzlmOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTFiNDRiMTMyMWNmOWY2NDgwMjQ5YzA0YTczMWY4OTcxMmQzN2FkYjc0N2MyZjM3MmQ3YTcwZWRmNzRjZTg0ZDBhIiwidWlkIjoiNjIyODE3Y2E3NjljY2JlZjQ0N2QzNjliZGFhYTg2MDAiLCJ1c2VybmFtZSI6ImVxdWl2YWxlbnRpZGVhcyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZXF1aXZhbGVudGlkZWFzLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODY2ODQ3NjgsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NjY4NDc1NiwiaGFzaCI6IjUwZWUzYjM0Mjc5NjRkOWM1YjlkMmYzNmNkZTUxODQ2ZmQwM2VkMjE0N2E3N2VlYzdiNzdjNmEzNjZmODcyMDMzZjJmMTYzNDQ1ZmY3NTFlMGMxYjhiODZhOTJjZTAyNDkwNzQyMWU1YWU5MmYxNTk3NDEwMzk5MDQwZGM5NGJjIiwic2Vxbm8iOjg2NDU2Mn0sInByZXYiOiI5NDFiMmE0M2FiMjk2OTM1NGM4MmIyOTM5ZTIxNmMzOTkyZWM0ODQ0YThlMGU4ZDNiNjFjNDg3OGQ1YmI2OTBhIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA3pJoXOctdlxHKvEbr1IOsQT/ynYK6n1udQSm8X/W/3CPaRgNmvkRFkM7uUiOAvEMIyM2nMGtXkCOuMuDUvbmDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBrARRVIDEJ+hjJgz/V/ha3/sZjP4PSuVlY6/kQ4cGSvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/equivalentideas
+
+==================================================================
