@@ -1,4 +1,6 @@
 _site/
+.bundle/
+.ruby-version
 .DS_Store
 .sass-cache
 node_modules
