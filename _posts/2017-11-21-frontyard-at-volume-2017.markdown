@@ -48,6 +48,10 @@ The janitors came up with the idea of taking these boxes and the existing task o
 
 I emailed Talia back with our idea. Though it wasn't what she had originally proposed, she supported us by making space for a Frontyard table at _VOLUME_.
 
+The question of how to respond to these kinds of invitations has been a bit of a conundrum for the Frontyard janitors. Events are draining for people to plan, negotiate, and participate in. The compromises required to incorporate your creativity into someone else’s framework/context are often not worthwhile, and it can be hard to know if the host’s agenda will take priority over the participants and contributors until afterwards. In contrast, Frontyard aims to reduce the load on people who use it and let participants set the agenda.
+
+With our response to _VOLUME_, we allowed the energy around a pre-existing activity at Frontyard to materialise a response and plan for participating in the off-yard event. It felt relaxed rather than pressured. The stakes were low: there was no risk of any energy being wasted by proposing something, because if things didn’t work out with _VOLUME_, we could proceed with the cataloguing at Frontyard. This won’t always be possible, and the event organisers wont always be so accommodating and in sync with our thinking, but it worked well in this case.
+
 ## Preparing the cataloguing process
 
 A few days after the janitors meeting, Pip, Ben, Sally, and I had a practice day to kick-off our cataloguing. We created a Google Form for capturing the information we wanted to note down about each ephemera work to be catalogued. For each work we wanted:
