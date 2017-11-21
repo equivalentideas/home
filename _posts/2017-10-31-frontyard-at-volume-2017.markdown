@@ -64,6 +64,8 @@ I've found Google Forms to be really helpful it experimenting with data entry fo
 
 At the book fair was an issue with the uploading stage of the Google Form regularly crashing the browser of the device the cataloguer was using. This was very frustrating as the cover photo capturing was at the end of the form and it would cause the person to loose their work for this item. As the form was quite short, this frustration wasn't a blocker to people continuing to catalogue works. There may be a need to try a system that is less memory intensive on the devices in the future.
 
+A day before the bookfair, Sophea, Pip, and I met at Frontyard to collect materials for the excursion: boxes, stationary, and a pot and cups for tea. Sophea created a roster that we used to ensure that we’d have a janitor or two at the table throughout the event. Sophea created it using a Google Spreadsheet and shared it through the Frontyard Slack Channel.
+
 ## The Frontyard table
 
 <figure id="figure-3" class="graphic-figure central-figure">
