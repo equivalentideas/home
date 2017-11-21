@@ -18,7 +18,10 @@ The [_VOLUME_ website](http://vaabf.com/) describes the book fair:
 
 > The second edition of this biennial event features over 70 exhibitors from across Australia and the world, including Amsterdam, Hong Kong, South Korea, France and the United States. Alongside this international line up of publishers, artists, collectives, galleries and distributors is a free program of talks, artist-led workshops, book launches, readings and performances. 
 
-I've made this post to document what we did and some of the decisions we made because the excursion went quite well; a record of we did might be useful in the future. The excursion was successful was because of the contribution of energy from the people who participated in its organisation and activities: Sophea, Sally, Julia, Pip, Benjamin, Mel, Nuno, Isabel, Pat, Clare, Miška, and me; all the Frontyard Janitors who quickly developed the idea of Frontyard’s involvement; Talia and the team from _VOLUME_ who were extremely accomodating and supportive; and, the people presenting at and attending _VOLUME_ who joined in.
+Our excursion was a successful because of the contribution of energy from the people who participated in its organisation and activities: Sophea, Sally, Julia, Pip, Benjamin, Mel, Nuno, Isabel, Pat, Clare, Miška, and me; all the Frontyard Janitors who quickly developed the idea of Frontyard’s involvement; Talia and the team from _VOLUME_ who were extremely accomodating and supportive; and, the people presenting at and attending _VOLUME_ who joined in.
+
+I've made this post to document what we did and some of the decisions we made because the excursion went quite well; a record of we did might be useful in the future. The section on our setup and the timeline may be overly detailed for most readers.
+
 
 ## Instigating off-yard activity
 
