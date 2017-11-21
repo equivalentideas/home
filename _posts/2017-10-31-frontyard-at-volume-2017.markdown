@@ -18,9 +18,7 @@ The [_VOLUME_ website](http://vaabf.com/) describes the book fair:
 
 > The second edition of this biennial event features over 70 exhibitors from across Australia and the world, including Amsterdam, Hong Kong, South Korea, France and the United States. Alongside this international line up of publishers, artists, collectives, galleries and distributors is a free program of talks, artist-led workshops, book launches, readings and performances. 
 
-I've made this post to document what we did and some of the decisions we made because the excursion went quite well; a record of we did might be useful in the future.
-
-I really enjoyed the excursion. It was nice to spend an intense weekend with the people who meet around Frontyard and people presenting at and attending the book fair. Highlights were the stalls from the [Asia-Pacific Photobook Archive](https://photobookarchive.com/), [Onomatopee](http://www.onomatopee.net/), [Lost Rocks](http://www.apublishedevent.net/projects/lost-rocks), and Frontyard friend [Nicky Minus](https://www.nickyminus.com/).
+I've made this post to document what we did and some of the decisions we made because the excursion went quite well; a record of we did might be useful in the future. The excursion was successful was because of the contribution of energy from the people who participated in its organisation and activities: Sophea, Sally, Julia, Pip, Benjamin, Mel, Nuno, Isabel, Pat, Clare, Miška, and me; all the Frontyard Janitors who quickly developed the idea of Frontyard’s involvement; Talia and the team from _VOLUME_ who were extremely accomodating and supportive; and, the people presenting at and attending _VOLUME_ who joined in.
 
 ## Instigating off-yard activity
 
@@ -165,6 +163,8 @@ Benjamin made a book of 100 cover photos taken in the cataloguing process as par
 </figure>
 
 Julia made a book to provoke conversations for [Frontyard’s speed book project at the 2017 Hobienalle](http://hobiennale.com/frontyard.html).
+
+I really enjoyed the excursion. It was nice to spend an intense weekend with the people who meet around Frontyard and people presenting at and attending the book fair. Highlights were the stalls from the [Asia-Pacific Photobook Archive](https://photobookarchive.com/), [Onomatopee](http://www.onomatopee.net/), [Lost Rocks](http://www.apublishedevent.net/projects/lost-rocks), and Frontyard friend [Nicky Minus](https://www.nickyminus.com/).
 
 ## What's next
 
