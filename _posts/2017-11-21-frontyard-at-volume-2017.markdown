@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Frontyard Projects at VOLUME Book Fair October 13-15 2017"
+title:  "Frontyard Projects at VOLUME Book Fair 13-15 October 2017"
 date:   2017-11-21 16:08:00 +1100
 categories: journal
 description: "In mid-October 2017 some people who gather at Frontyard went on an off-yard  excursion to maintain a Frontyard table at VOLUME 2017: Another Art Book Fair at Art Space in Wolloomooloo, Sydney."
