@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Reading Marx’s Capital with David Harvey"
+title:  "Definitions"
 date:   2018-01-09 12:49:00 +1100
 categories: journal
-description: "I'm currently reading Marx’s Capital with David Harvey’s Companion book"
+description: "\"...the proper result of good definition is to transform argument over terms into disagreements about fact\""
 ---
 
 I've recently started reading [<cite>Capital, Volume 1</cite>](https://en.wikipedia.org/wiki/Capital:_Critique_of_Political_Economy), the first part of [Karl Marx](https://en.wikipedia.org/wiki/Karl_Marx)’s analysis and explanation of capitalism. I'm reading it at the same time as [David Harvey](http://davidharvey.org/)’s accompaniment book, [<cite>A Companion To Marx’s Capital</cite>](https://www.versobooks.com/books/376-a-companion-to-marx-s-capital).
@@ -46,7 +46,6 @@ It’s a familiar tactic of politicians in Australia to avoid defining key terms
 
 In my experience, at events or in projects that invoke the idea of 'open democracy' there is rarely any attempt to define 'democracy', who it will be 'open' to, and in what sense.
 I've found this particularly the case when the concept is invoked by governments. The vagueness allows them to avoid describing the real changes and who is meant to benefit concretely. Often the change is superficial and the people who benefit are already empowered by the status-quo.
-*Excuse the side-rant about the term 'democracy'*.
 
 For 'Capitalism' then, Marx breaks down this cloudy, monolithic term into segments and stages,
 helping us see where we might target changes or hacks.
